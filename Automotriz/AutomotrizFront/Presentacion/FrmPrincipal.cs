@@ -21,5 +21,12 @@ namespace AutomotrizFront
         {
 
         }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if(MessageBox.Show("¿Desea salir?","Confirmar",MessageBoxButtons.YesNo,MessageBoxIcon.Question)
+                == DialogResult.Yes)
+                this.Dispose();
+        }
     }
 }
