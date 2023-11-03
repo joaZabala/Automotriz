@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AutomotrizBack\AutomotrizBack.csproj">
+      <Project>{e64f3ab8-5192-4999-bb75-6b8945e0be20}</Project>
+      <Name>AutomotrizBack</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
