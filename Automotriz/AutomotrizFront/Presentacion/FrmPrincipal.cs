@@ -28,5 +28,10 @@ namespace AutomotrizFront
                 == DialogResult.Yes)
                 this.Dispose();
         }
+
+        private void archivoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
