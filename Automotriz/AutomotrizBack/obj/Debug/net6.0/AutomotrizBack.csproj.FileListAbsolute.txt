@@ -9,3 +9,4 @@ C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizBack\obj\Debu
 C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizBack\obj\Debug\net6.0\refint\AutomotrizBack.dll
 C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizBack\obj\Debug\net6.0\AutomotrizBack.pdb
 C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizBack\obj\Debug\net6.0\ref\AutomotrizBack.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizBack\obj\Debug\net6.0\AutomotrizBack.csproj.AssemblyReference.cache
