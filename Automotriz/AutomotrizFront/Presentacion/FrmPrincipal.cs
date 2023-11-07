@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AutomotrizFront.Presentacion;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -32,6 +33,17 @@ namespace AutomotrizFront
         private void archivoToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void nuevoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           frmAltaCliente nuevo = new frmAltaCliente();
+            nuevo.ShowDialog();
         }
     }
 }

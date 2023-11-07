@@ -9,3 +9,4 @@ C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Deb
 C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\AutomotrizFront.exe
 C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\AutomotrizFront.pdb
 C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\AutomotrizFront.Presentacion.Login.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\AutomotrizFront.Presentacion.frmAltaCliente.resources
