@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AutomotrizFront.Presentacion;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +21,12 @@ namespace AutomotrizFront
         private void reporteToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void reportePruebaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmReportePrueba frmReporte = new FrmReportePrueba();
+            frmReporte.Show();
         }
     }
 }

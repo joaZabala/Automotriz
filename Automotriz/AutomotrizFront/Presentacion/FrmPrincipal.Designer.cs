@@ -33,6 +33,7 @@
             this.reporteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.transacciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reporteToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportePruebaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -72,9 +73,18 @@
             // 
             // reporteToolStripMenuItem1
             // 
+            this.reporteToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.reportePruebaToolStripMenuItem});
             this.reporteToolStripMenuItem1.Name = "reporteToolStripMenuItem1";
             this.reporteToolStripMenuItem1.Size = new System.Drawing.Size(60, 20);
             this.reporteToolStripMenuItem1.Text = "Reporte";
+            // 
+            // reportePruebaToolStripMenuItem
+            // 
+            this.reportePruebaToolStripMenuItem.Name = "reportePruebaToolStripMenuItem";
+            this.reportePruebaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.reportePruebaToolStripMenuItem.Text = "ReportePrueba";
+            this.reportePruebaToolStripMenuItem.Click += new System.EventHandler(this.reportePruebaToolStripMenuItem_Click);
             // 
             // acercaDeToolStripMenuItem
             // 
@@ -106,6 +116,7 @@
         private System.Windows.Forms.ToolStripMenuItem transacciónToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reporteToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reportePruebaToolStripMenuItem;
     }
 }
 
