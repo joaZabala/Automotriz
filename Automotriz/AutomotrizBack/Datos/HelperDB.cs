@@ -14,7 +14,8 @@ namespace AutomotrizBack.Datos
         static HelperDB instancia;
         public HelperDB()
         {
-          conexion = new SqlConnection(@"Data Source=.\\SQLEXPRESS;Initial Catalog=AUTOMOTRIZ;Integrated Security=True");
+        conexion = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=AUTOMOTRIZ_V2;Integrated Security=True; TrustServerCertificate=True");
+
         }
 
         public static HelperDB GetInstancia()
@@ -29,9 +30,12 @@ namespace AutomotrizBack.Datos
         public DataTable Consulta(string nombreSP)
         {
             conexion.Open();
-            SqlCommand cmd = new SqlCommand(nombreSP,conexion);
-            cmd.CommandType = CommandType.StoredProcedure;
             DataTable tabla = new DataTable();
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = conexion;
+            cmd.CommandText = nombreSP;
+            cmd.CommandType = CommandType.StoredProcedure;
+
             tabla.Load(cmd.ExecuteReader());
             conexion.Close();
             return tabla;
