@@ -21,7 +21,7 @@ namespace AutomotrizBack.Datos.Implementacion
             {
                 TipoCliente t = new TipoCliente();
                 t.Id= Convert.ToInt32(row["id_tipo"].ToString());
-                t.Tipo = Convert.ToString(row["nombre"]);
+                t.Tipo = Convert.ToString(row["tipo"]);
 
                 lis.Add(t);
             }

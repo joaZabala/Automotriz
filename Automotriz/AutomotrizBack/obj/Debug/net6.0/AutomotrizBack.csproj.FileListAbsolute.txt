@@ -10,3 +10,15 @@ C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizBack\obj\Debu
 C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizBack\obj\Debug\net6.0\AutomotrizBack.pdb
 C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizBack\obj\Debug\net6.0\ref\AutomotrizBack.dll
 C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizBack\obj\Debug\net6.0\AutomotrizBack.csproj.AssemblyReference.cache
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotrizBack\bin\Debug\net6.0\AutomotrizBack.deps.json
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotrizBack\bin\Debug\net6.0\AutomotrizBack.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotrizBack\bin\Debug\net6.0\AutomotrizBack.pdb
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotrizBack\obj\Debug\net6.0\AutomotrizBack.csproj.AssemblyReference.cache
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotrizBack\obj\Debug\net6.0\AutomotrizBack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotrizBack\obj\Debug\net6.0\AutomotrizBack.AssemblyInfoInputs.cache
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotrizBack\obj\Debug\net6.0\AutomotrizBack.AssemblyInfo.cs
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotrizBack\obj\Debug\net6.0\AutomotrizBack.csproj.CoreCompileInputs.cache
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotrizBack\obj\Debug\net6.0\AutomotrizBack.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotrizBack\obj\Debug\net6.0\refint\AutomotrizBack.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotrizBack\obj\Debug\net6.0\AutomotrizBack.pdb
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotrizBack\obj\Debug\net6.0\ref\AutomotrizBack.dll
