@@ -41,17 +41,16 @@ namespace AutomotrizBack.Datos.Implementacion
         {
             bool aux = true;
             SqlConnection conexion = HelperDB.GetInstancia().GetConexion();
-            return aux;
             SqlTransaction t = null;
 
             try
             {
                 conexion.Open();
                 t = conexion.BeginTransaction();
-                SqlCommand comand = new SqlCommand("SP_INSERTAR_CLIENTE", conexion, t);
+                SqlCommand comand = new SqlCommand("SP_INSERTAR_CLIENTES", conexion, t);
                 comand.CommandType = System.Data.CommandType.StoredProcedure;
                 comand.Parameters.AddWithValue("@nombre", cliente.Nombre);
-                comand.Parameters.AddWithValue("@razon_social", cliente.RazonSocial);
+                comand.Parameters.AddWithValue("@razonSocial", cliente.RazonSocial);
                 comand.Parameters.AddWithValue("@cuil_cuit", cliente.CuilCuit);
                 comand.Parameters.AddWithValue("@id_barrio", cliente.Barrio.id_barrio);
                 comand.Parameters.AddWithValue("@direccion", cliente.Direccion);
@@ -59,7 +58,7 @@ namespace AutomotrizBack.Datos.Implementacion
 
 
                 SqlParameter parameter = new SqlParameter();
-                parameter.ParameterName = "@last_cod_cliente";
+                parameter.ParameterName = "@id";
                 parameter.SqlDbType = System.Data.SqlDbType.Int;
                 parameter.Direction = System.Data.ParameterDirection.Output;
                 comand.Parameters.Add(parameter);

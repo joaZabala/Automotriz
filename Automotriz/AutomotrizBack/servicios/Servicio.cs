@@ -13,12 +13,12 @@ namespace AutomotrizBack.servicios
     public class Servicio : IServicio
     {
         IBarrio barrio;
-        ICliente cliente;
+        ICliente Daocliente;
         ITipoCliente tipoCliente;
         public Servicio()
         {
             barrio = new barrioDao();
-            cliente = new ClienteDao();
+            Daocliente = new ClienteDao();
             tipoCliente = new TipoClienteDao();
         }
 
@@ -32,5 +32,9 @@ namespace AutomotrizBack.servicios
             return tipoCliente.GetAll();
         }
 
+        public bool NuevoCliente(Cliente cliente)
+        {
+            return Daocliente.Nuevo(cliente);
+        }
     }
 }

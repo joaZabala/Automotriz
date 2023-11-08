@@ -12,6 +12,7 @@ namespace AutomotrizBack.servicios
         List<barrio> GetBarrios();
 
         List<TipoCliente> GetTipoCliente();
-        
+
+        bool NuevoCliente(Cliente cliente);
     }
 }

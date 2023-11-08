@@ -9,9 +9,9 @@ namespace AutomotrizBack.Entidades
     public class Cliente
     {
         public int Cod { get; set; }
-        public string? Nombre { get; set; }
-        public string? RazonSocial { get; set; }
-        public string? CuilCuit { get; set; }
+        public string Nombre { get; set; }
+        public string RazonSocial { get; set; }
+        public string CuilCuit { get; set; }
         public string Direccion { get; set; }
         public TipoCliente Tipo { get; set; }
         public barrio Barrio{ get; set; }
@@ -23,9 +23,8 @@ namespace AutomotrizBack.Entidades
             Nombre = string.Empty;
             RazonSocial = string.Empty;
             CuilCuit = string.Empty;
-            Tipo = new TipoCliente();
             Direccion = string.Empty;
-            Barrio = new barrio();
+            
            
         }
         public Cliente(int cod, string nom, string razon, string cuil, barrio barrio, string direcc,TipoCliente tipo )
