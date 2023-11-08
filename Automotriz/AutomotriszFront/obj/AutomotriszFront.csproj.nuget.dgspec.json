@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotriszFront\\AutomotriszFront.csproj": {}
+    "C:\\Users\\Sofi\\Desktop\\Automotriz 2\\Automotriz\\Automotriz\\AutomotriszFront\\AutomotriszFront.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotriszFront\\AutomotriszFront.csproj": {
+    "C:\\Users\\Sofi\\Desktop\\Automotriz 2\\Automotriz\\Automotriz\\AutomotriszFront\\AutomotriszFront.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotriszFront\\AutomotriszFront.csproj",
+        "projectUniqueName": "C:\\Users\\Sofi\\Desktop\\Automotriz 2\\Automotriz\\Automotriz\\AutomotriszFront\\AutomotriszFront.csproj",
         "projectName": "AutomotriszFront",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotriszFront\\AutomotriszFront.csproj",
-        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotriszFront\\obj\\",
+        "projectPath": "C:\\Users\\Sofi\\Desktop\\Automotriz 2\\Automotriz\\Automotriz\\AutomotriszFront\\AutomotriszFront.csproj",
+        "packagesPath": "C:\\Users\\Sofi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sofi\\Desktop\\Automotriz 2\\Automotriz\\Automotriz\\AutomotriszFront\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sofi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj": {
-                "projectPath": "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj"
+              "C:\\Users\\Sofi\\Desktop\\Automotriz 2\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj": {
+                "projectPath": "C:\\Users\\Sofi\\Desktop\\Automotriz 2\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj"
               }
             }
           }
@@ -62,21 +62,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj": {
+    "C:\\Users\\Sofi\\Desktop\\Automotriz 2\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj",
+        "projectUniqueName": "C:\\Users\\Sofi\\Desktop\\Automotriz 2\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj",
         "projectName": "AutomotrizBack",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj",
-        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotrizBack\\obj\\",
+        "projectPath": "C:\\Users\\Sofi\\Desktop\\Automotriz 2\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj",
+        "packagesPath": "C:\\Users\\Sofi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sofi\\Desktop\\Automotriz 2\\Automotriz\\Automotriz\\AutomotrizBack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sofi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -123,7 +123,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
