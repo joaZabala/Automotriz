@@ -12,12 +12,23 @@ namespace AutomotrizFront.Presentacion
 {
     public partial class frmAltaCliente : Form
     {
+       
         public frmAltaCliente()
         {
             InitializeComponent();
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboPais_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmAltaCliente_Load(object sender, EventArgs e)
         {
 
         }

@@ -172,6 +172,7 @@
             this.cboPais.Name = "cboPais";
             this.cboPais.Size = new System.Drawing.Size(139, 24);
             this.cboPais.TabIndex = 17;
+            this.cboPais.SelectedIndexChanged += new System.EventHandler(this.cboPais_SelectedIndexChanged);
             // 
             // label7
             // 
@@ -224,6 +225,7 @@
             this.Controls.Add(this.txtNombre);
             this.Name = "frmAltaCliente";
             this.Text = "AltaCliente";
+            this.Load += new System.EventHandler(this.frmAltaCliente_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
