@@ -24,6 +24,8 @@ namespace AutomotrizBack.Entidades
             RazonSocial = string.Empty;
             CuilCuit = string.Empty;
             Direccion = string.Empty;
+            Barrio = new barrio();
+            Tipo = new TipoCliente();   
             
            
         }

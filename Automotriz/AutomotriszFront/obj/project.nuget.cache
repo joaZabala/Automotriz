@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kxqKFCRN+u44cFHpolh18IrImqCrAg7PcjmTx97rvPrnvlJ3cd2UFIcUWC3gbpE++Bpl9uqnRDtkS8r3wmae6A==",
+  "dgSpecHash": "+pkkqbdczdSfuxigMrajIqcDLmmgOmOpiPodPjJcTWqQVi8GGdG+rdZButywJ4AOUHKYsSQUq63Ok2QkFrGHyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotriszFront\\AutomotriszFront.csproj",
+  "projectFilePath": "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotriszFront\\AutomotrizFront.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

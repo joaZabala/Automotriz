@@ -14,5 +14,7 @@ namespace AutomotrizBack.servicios
         List<TipoCliente> GetTipoCliente();
 
         bool NuevoCliente(Cliente cliente);
+
+        List<Cliente>GetClientes();
     }
 }

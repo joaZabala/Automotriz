@@ -493,9 +493,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotriszFront\\AutomotriszFront.csproj",
-      "projectName": "AutomotriszFront",
-      "projectPath": "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotriszFront\\AutomotriszFront.csproj",
+      "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotriszFront\\AutomotrizFront.csproj",
+      "projectName": "AutomotrizFront",
+      "projectPath": "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotriszFront\\AutomotrizFront.csproj",
       "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotriszFront\\obj\\",
       "projectStyle": "PackageReference",

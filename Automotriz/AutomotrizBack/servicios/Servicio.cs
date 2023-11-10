@@ -27,6 +27,11 @@ namespace AutomotrizBack.servicios
             return barrio.get();
         }
 
+        public List<Cliente> GetClientes()
+        {
+            return Daocliente.GetAll();
+        }
+
         public List<TipoCliente> GetTipoCliente()
         {
             return tipoCliente.GetAll();

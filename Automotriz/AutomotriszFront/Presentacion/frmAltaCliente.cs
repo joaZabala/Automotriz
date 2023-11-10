@@ -119,7 +119,7 @@ namespace AutomotriszFront.Presentacion
 
         private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar))
+            if (!char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar) && !char.IsSeparator(e.KeyChar))
             {
                 MessageBox.Show("No se permiten caracteres especiales , ni numeros", "Control", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 e.Handled = true;

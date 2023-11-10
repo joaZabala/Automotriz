@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomotrizBack", "Automotri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomotrizApi", "AutomotrizApi\AutomotrizApi.csproj", "{B99E9880-7D03-41CA-9835-977A6000FEEE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomotriszFront", "AutomotriszFront\AutomotriszFront.csproj", "{AE1116C5-2D38-4B00-8359-F4B63F1BB2CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomotrizFront", "AutomotriszFront\AutomotrizFront.csproj", "{AE1116C5-2D38-4B00-8359-F4B63F1BB2CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -24,12 +24,12 @@ namespace AutomotrizBack.Datos.Implementacion
             foreach (DataRow row in dt.Rows)
             {
                 Cliente c = new Cliente();
-                c.Cod = Convert.ToInt32(row["cod_cliente"].ToString());
-                c.Nombre = row["nombre"].ToString();
+                c.Cod = int.Parse(row["cod_cliente"].ToString());
+                 c.Nombre = row["nombre"].ToString();
                 c.RazonSocial = row["razon_social"].ToString();
-                c.Tipo.Id = Convert.ToInt32(row["id_tipo_cliente"].ToString());
+                c.Tipo.Id = Convert.ToInt32( row["id_tipo_cliente"].ToString());
                 c.Barrio.id_barrio = Convert.ToInt32(row["id_barrio"].ToString());
-                c.CuilCuit = row["cuil_cuit"].ToString();
+                c.CuilCuit= row["cuil_cuit"].ToString();
                 c.Direccion = row["direccion"].ToString();
 
                 lst.Add(c);
