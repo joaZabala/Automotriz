@@ -635,11 +635,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\AutomotrizApi\\AutomotrizApi.csproj",
+      "projectUniqueName": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizApi\\AutomotrizApi.csproj",
       "projectName": "AutomotrizApi",
-      "projectPath": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\AutomotrizApi\\AutomotrizApi.csproj",
+      "projectPath": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizApi\\AutomotrizApi.csproj",
       "packagesPath": "C:\\Users\\Tinon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\AutomotrizApi\\obj\\",
+      "outputPath": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tinon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -657,8 +657,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj": {
-              "projectPath": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj"
+            "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj": {
+              "projectPath": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj"
             }
           }
         }

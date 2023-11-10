@@ -82,7 +82,7 @@
             // reportePruebaToolStripMenuItem
             // 
             this.reportePruebaToolStripMenuItem.Name = "reportePruebaToolStripMenuItem";
-            this.reportePruebaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.reportePruebaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.reportePruebaToolStripMenuItem.Text = "ReportePrueba";
             this.reportePruebaToolStripMenuItem.Click += new System.EventHandler(this.reportePruebaToolStripMenuItem_Click);
             // 
@@ -101,6 +101,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FrmPrincipal";
             this.Text = "Automotriz App";
+            this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uGNxi4XB/6JBZ5LZFOVvWxbwTAJS6pl/dhz0Th9/lhSFJQEHQhgxT9oIe8R1T/qEICBNqiluT0q3ajgQnB1u7g==",
+  "dgSpecHash": "ehltD/XM1/sid756USE7ve2b3+3uK2jGQZoCu3sowg8BXw4FusSPuDPTSKyp6GcyDATDCNMNzv0Uq+UN66tN3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\AutomotrizApi\\AutomotrizApi.csproj",
+  "projectFilePath": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizApi\\AutomotrizApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tinon\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Tinon\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

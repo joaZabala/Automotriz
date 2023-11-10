@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/t4L0s4kck0ON84F3FmfyAY3cGo65xKU80lOSDeuD1EJnztnZ41Uq2y7uNBKscqp1adaqyITvJER64WjUk5tbg==",
+  "dgSpecHash": "pQH2RttWpWWzwgP2FxfwkdfKylEnHzBK90/of37ZX1h2ANN9orRev5ctWjRQWcTZN/WPWEpr3MJsQDMuaH0bng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj",
+  "projectFilePath": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tinon\\.nuget\\packages\\microsoft.reportingservices.reportviewercontrol.webforms\\140.340.80\\microsoft.reportingservices.reportviewercontrol.webforms.140.340.80.nupkg.sha512",
     "C:\\Users\\Tinon\\.nuget\\packages\\microsoft.sqlserver.types\\14.0.314.76\\microsoft.sqlserver.types.14.0.314.76.nupkg.sha512"
