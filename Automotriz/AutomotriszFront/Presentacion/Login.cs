@@ -13,7 +13,7 @@ namespace AutomotrizFront.Presentacion
     public partial class Login : Form
     {
         string user = "solo autos";
-        string contra = "Automotriz";
+        string contra = "Autos";
         public Login()
         {
             InitializeComponent();

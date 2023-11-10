@@ -51,6 +51,7 @@
             colTipoCli = new DataGridViewTextBoxColumn();
             colAcciones = new DataGridViewButtonColumn();
             btnagregar = new Button();
+            btnAtras = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvAltaClientes).BeginInit();
             SuspendLayout();
             // 
@@ -256,11 +257,22 @@
             btnagregar.UseVisualStyleBackColor = true;
             btnagregar.Click += btnagregar_Click;
             // 
+            // btnAtras
+            // 
+            btnAtras.Location = new Point(12, 395);
+            btnAtras.Name = "btnAtras";
+            btnAtras.Size = new Size(87, 28);
+            btnAtras.TabIndex = 16;
+            btnAtras.Text = "Atras";
+            btnAtras.UseVisualStyleBackColor = true;
+            btnAtras.Click += btnAtras_Click;
+            // 
             // frmAltaCliente
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(985, 450);
+            Controls.Add(btnAtras);
             Controls.Add(btnagregar);
             Controls.Add(dgvAltaClientes);
             Controls.Add(btnCancelar);
@@ -310,5 +322,6 @@
         private DataGridViewTextBoxColumn colCuil;
         private DataGridViewTextBoxColumn colTipoCli;
         private DataGridViewButtonColumn colAcciones;
+        private Button btnAtras;
     }
 }

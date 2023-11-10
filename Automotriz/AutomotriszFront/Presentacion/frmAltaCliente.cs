@@ -1,5 +1,6 @@
 ﻿using AutomotrizBack.Entidades;
 using AutomotrizBack.servicios;
+using AutomotrizFront;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -128,11 +129,17 @@ namespace AutomotriszFront.Presentacion
 
         private void txtCuil_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsNumber(e.KeyChar)&& !char.IsControl(e.KeyChar))
+            if (!char.IsNumber(e.KeyChar) && !char.IsControl(e.KeyChar))
             {
                 MessageBox.Show("No se permiten letras , ni caracteres especiales", "Control", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 e.Handled = true;
             }
+        }
+
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            FrmPrincipal principal = new FrmPrincipal();
+            principal.Show();
         }
     }
 }

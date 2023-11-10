@@ -22,9 +22,19 @@ namespace AutomotrizBack.servicios
             tipoCliente = new TipoClienteDao();
         }
 
+        public bool DeleteCliente(int cod_cliente)
+        {
+            return Daocliente.delete(cod_cliente);
+        }
+
         public List<barrio> GetBarrios()
         {
             return barrio.get();
+        }
+
+        public List<Cliente> GetByParam(string nombre, int tipo)
+        {
+            return Daocliente.Get(nombre, tipo);
         }
 
         public List<Cliente> GetClientes()

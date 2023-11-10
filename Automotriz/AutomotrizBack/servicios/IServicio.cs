@@ -16,5 +16,9 @@ namespace AutomotrizBack.servicios
         bool NuevoCliente(Cliente cliente);
 
         List<Cliente>GetClientes();
+
+        List<Cliente> GetByParam(string nombre, int tipo);
+
+        bool DeleteCliente(int cod_cliente);
     }
 }

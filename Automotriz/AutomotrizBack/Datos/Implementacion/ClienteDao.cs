@@ -12,10 +12,64 @@ namespace AutomotrizBack.Datos.Implementacion
 {
     public class ClienteDao : ICliente
     {
-        public List<Cliente> Get(int id)
+        public bool delete(int codigo)
         {
-            throw new NotImplementedException();
+            bool aux = true;
+            SqlConnection conexion = HelperDB.GetInstancia().GetConexion();
+            SqlTransaction t = null;
+
+            try
+            {
+                conexion.Open();
+                t = conexion.BeginTransaction();
+                SqlCommand cmd = new SqlCommand("sp_eliminar_cliente", conexion, t);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@cod", codigo);
+                cmd.ExecuteNonQuery();
+                t.Commit();
+            }
+            catch
+            {
+                if (t != null) t.Rollback();
+                aux = false;
+            }
+            finally 
+            { 
+                if (conexion.State == ConnectionState.Open)
+                {
+                    conexion.Close();
+                }
+
+            }
+            return aux;
+
         }
+
+        public List<Cliente> Get(string nombre, int tipoCliente)
+        {
+            List<Parametro>Param = new List<Parametro>();
+            Param.Add(new Parametro("@NOMBRE", nombre));
+            Param.Add(new Parametro("Id_tipo_cliente",tipoCliente));
+            DataTable tabla = HelperDB.GetInstancia().ConsultaParametros("SP_CONSULTAR_CLIENTES_PARAM", Param);
+
+            List<Cliente> list = new List<Cliente>(); 
+
+            foreach (DataRow row in tabla.Rows)
+            {
+                Cliente c = new Cliente();
+                c.Cod = int.Parse(row["cod_cliente"].ToString());
+                c.Nombre = row["nombre"].ToString();
+                c.RazonSocial = row["razon_social"].ToString();
+                c.Tipo.Id = Convert.ToInt32(row["id_tipo_cliente"].ToString());
+                c.Barrio.id_barrio = Convert.ToInt32(row["id_barrio"].ToString());
+                c.CuilCuit = row["cuil_cuit"].ToString();
+                c.Direccion = row["direccion"].ToString();
+
+                list.Add(c);
+            }
+            return list;
+        }
+
 
         public List<Cliente> GetAll()
         {

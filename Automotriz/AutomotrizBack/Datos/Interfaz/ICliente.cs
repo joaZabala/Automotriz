@@ -10,7 +10,8 @@ namespace AutomotrizBack.Datos.Interfaz
     public interface ICliente
     {
         List<Cliente> GetAll();
-        List<Cliente> Get(int id);
+        List<Cliente> Get(string nombre , int tipoCliente);
         bool Nuevo(Cliente cliente);
+        bool delete(int codigo);
     }
 }

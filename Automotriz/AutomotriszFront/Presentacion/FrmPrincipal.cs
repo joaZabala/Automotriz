@@ -53,5 +53,11 @@ namespace AutomotrizFront
         {
 
         }
+
+        private void consultarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmConsulta consulta = new frmConsulta(new FabricaServicioImp());
+            consulta.ShowDialog();
+        }
     }
 }
