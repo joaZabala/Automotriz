@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AutomotrizBack.Entidades;
 
 namespace AutomotrizFront
 {
@@ -38,6 +39,17 @@ namespace AutomotrizFront
         private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
            
+        }
+
+        private void reportePruebaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmReportePrueba frmReporte = new FrmReportePrueba();
+            frmReporte.Show();
+        }
+
+        private void FrmPrincipal_Load(object sender, EventArgs e)
+        {
+            
         }
 
         private void nuevoToolStripMenuItem_Click(object sender, EventArgs e)

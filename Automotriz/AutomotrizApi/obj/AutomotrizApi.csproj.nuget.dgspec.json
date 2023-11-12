@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Biblotecas\\backup\\Programing\\Csharp\\Automotriz\\Automotriz\\AutomotrizApi\\AutomotrizApi.csproj": {}
+    "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizApi\\AutomotrizApi.csproj": {}
   },
   "projects": {
-    "D:\\Biblotecas\\backup\\Programing\\Csharp\\Automotriz\\Automotriz\\AutomotrizApi\\AutomotrizApi.csproj": {
+    "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizApi\\AutomotrizApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Biblotecas\\backup\\Programing\\Csharp\\Automotriz\\Automotriz\\AutomotrizApi\\AutomotrizApi.csproj",
+        "projectUniqueName": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizApi\\AutomotrizApi.csproj",
         "projectName": "AutomotrizApi",
-        "projectPath": "D:\\Biblotecas\\backup\\Programing\\Csharp\\Automotriz\\Automotriz\\AutomotrizApi\\AutomotrizApi.csproj",
-        "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
-        "outputPath": "D:\\Biblotecas\\backup\\Programing\\Csharp\\Automotriz\\Automotriz\\AutomotrizApi\\obj\\",
+        "projectPath": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizApi\\AutomotrizApi.csproj",
+        "packagesPath": "C:\\Users\\Tinon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tinon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Biblotecas\\backup\\Programing\\Csharp\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj": {
-                "projectPath": "D:\\Biblotecas\\backup\\Programing\\Csharp\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj"
+              "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj": {
+                "projectPath": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj"
               }
             }
           }
@@ -44,6 +45,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.ReportingServices.ReportViewerControl.WebForms": {
+              "target": "Package",
+              "version": "[140.340.80, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -68,21 +73,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Biblotecas\\backup\\Programing\\Csharp\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj": {
+    "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Biblotecas\\backup\\Programing\\Csharp\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj",
+        "projectUniqueName": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj",
         "projectName": "AutomotrizBack",
-        "projectPath": "D:\\Biblotecas\\backup\\Programing\\Csharp\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj",
-        "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
-        "outputPath": "D:\\Biblotecas\\backup\\Programing\\Csharp\\Automotriz\\Automotriz\\AutomotrizBack\\obj\\",
+        "projectPath": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj",
+        "packagesPath": "C:\\Users\\Tinon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizBack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tinon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,9 +113,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "System.Data.SqlClient": {
+            "Microsoft.ReportingServices.ReportViewerControl.WebForms": {
               "target": "Package",
-              "version": "[4.8.5, )"
+              "version": "[140.340.80, )"
             }
           },
           "imports": [
@@ -129,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

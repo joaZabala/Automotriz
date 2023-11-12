@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+    <PackageReference Include="Microsoft.ReportingServices.ReportViewerControl.WebForms" Version="140.340.80" />
   </ItemGroup>
 
 </Project>
