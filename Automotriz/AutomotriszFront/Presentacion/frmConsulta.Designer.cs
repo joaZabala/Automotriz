@@ -50,34 +50,36 @@
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(198, 109);
+            txtNombre.Location = new Point(173, 82);
+            txtNombre.Margin = new Padding(3, 2, 3, 2);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(163, 27);
+            txtNombre.Size = new Size(143, 23);
             txtNombre.TabIndex = 0;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(102, 116);
+            label1.Location = new Point(89, 87);
             label1.Name = "label1";
-            label1.Size = new Size(64, 20);
+            label1.Size = new Size(51, 15);
             label1.TabIndex = 1;
             label1.Text = "Nombre";
             // 
             // cboTipo
             // 
             cboTipo.FormattingEnabled = true;
-            cboTipo.Location = new Point(487, 109);
+            cboTipo.Location = new Point(426, 82);
+            cboTipo.Margin = new Padding(3, 2, 3, 2);
             cboTipo.Name = "cboTipo";
-            cboTipo.Size = new Size(172, 28);
+            cboTipo.Size = new Size(151, 23);
             cboTipo.TabIndex = 2;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(384, 116);
+            label2.Location = new Point(336, 87);
             label2.Name = "label2";
-            label2.Size = new Size(87, 20);
+            label2.Size = new Size(68, 15);
             label2.TabIndex = 3;
             label2.Text = "Tipo cliente";
             // 
@@ -87,12 +89,13 @@
             dgvClientes.AllowUserToDeleteRows = false;
             dgvClientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvClientes.Columns.AddRange(new DataGridViewColumn[] { ColID, colNombre, colDireccion, colRazonSocial, colCuil, colTipoCli, colAcciones });
-            dgvClientes.Location = new Point(102, 143);
+            dgvClientes.Location = new Point(89, 104);
+            dgvClientes.Margin = new Padding(3, 2, 3, 2);
             dgvClientes.Name = "dgvClientes";
             dgvClientes.ReadOnly = true;
             dgvClientes.RowHeadersWidth = 51;
             dgvClientes.RowTemplate.Height = 29;
-            dgvClientes.Size = new Size(806, 178);
+            dgvClientes.Size = new Size(705, 134);
             dgvClientes.TabIndex = 15;
             dgvClientes.CellContentClick += dgvClientes_CellContentClick;
             // 
@@ -156,9 +159,10 @@
             // 
             // btnConsultar
             // 
-            btnConsultar.Location = new Point(688, 107);
+            btnConsultar.Location = new Point(602, 80);
+            btnConsultar.Margin = new Padding(3, 2, 3, 2);
             btnConsultar.Name = "btnConsultar";
-            btnConsultar.Size = new Size(94, 29);
+            btnConsultar.Size = new Size(82, 22);
             btnConsultar.TabIndex = 16;
             btnConsultar.Text = "Consultar";
             btnConsultar.UseVisualStyleBackColor = true;
@@ -166,9 +170,10 @@
             // 
             // btnSalir
             // 
-            btnSalir.Location = new Point(802, 362);
+            btnSalir.Location = new Point(702, 272);
+            btnSalir.Margin = new Padding(3, 2, 3, 2);
             btnSalir.Name = "btnSalir";
-            btnSalir.Size = new Size(94, 29);
+            btnSalir.Size = new Size(82, 22);
             btnSalir.TabIndex = 17;
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = true;
@@ -178,10 +183,10 @@
             // 
             label3.AutoSize = true;
             label3.BorderStyle = BorderStyle.Fixed3D;
-            label3.Font = new Font("Perpetua Titling MT", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(403, 21);
+            label3.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(353, 16);
             label3.Name = "label3";
-            label3.Size = new Size(127, 30);
+            label3.Size = new Size(87, 26);
             label3.TabIndex = 18;
             label3.Text = "Clientes";
             label3.TextAlign = ContentAlignment.MiddleCenter;
@@ -189,9 +194,10 @@
             // 
             // btnEliminar
             // 
-            btnEliminar.Location = new Point(802, 107);
+            btnEliminar.Location = new Point(702, 80);
+            btnEliminar.Margin = new Padding(3, 2, 3, 2);
             btnEliminar.Name = "btnEliminar";
-            btnEliminar.Size = new Size(94, 29);
+            btnEliminar.Size = new Size(82, 22);
             btnEliminar.TabIndex = 19;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
@@ -199,9 +205,10 @@
             // 
             // btnAtras
             // 
-            btnAtras.Location = new Point(31, 362);
+            btnAtras.Location = new Point(27, 272);
+            btnAtras.Margin = new Padding(3, 2, 3, 2);
             btnAtras.Name = "btnAtras";
-            btnAtras.Size = new Size(94, 29);
+            btnAtras.Size = new Size(82, 22);
             btnAtras.TabIndex = 20;
             btnAtras.Text = "Atras";
             btnAtras.UseVisualStyleBackColor = true;
@@ -209,9 +216,9 @@
             // 
             // frmConsulta
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(970, 421);
+            ClientSize = new Size(849, 316);
             Controls.Add(btnAtras);
             Controls.Add(btnEliminar);
             Controls.Add(label3);
@@ -222,6 +229,7 @@
             Controls.Add(cboTipo);
             Controls.Add(label1);
             Controls.Add(txtNombre);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "frmConsulta";
             Text = "Consultar";
             Load += frmConsulta_Load;
