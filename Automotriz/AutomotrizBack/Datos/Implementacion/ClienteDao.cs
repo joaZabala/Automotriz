@@ -7,6 +7,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace AutomotrizBack.Datos.Implementacion
 {
@@ -33,8 +34,8 @@ namespace AutomotrizBack.Datos.Implementacion
                 if (t != null) t.Rollback();
                 aux = false;
             }
-            finally 
-            { 
+            finally
+            {
                 if (conexion.State == ConnectionState.Open)
                 {
                     conexion.Close();
@@ -47,12 +48,12 @@ namespace AutomotrizBack.Datos.Implementacion
 
         public List<Cliente> Get(string nombre, int tipoCliente)
         {
-            List<Parametro>Param = new List<Parametro>();
+            List<Parametro> Param = new List<Parametro>();
             Param.Add(new Parametro("@NOMBRE", nombre));
-            Param.Add(new Parametro("Id_tipo_cliente",tipoCliente));
+            Param.Add(new Parametro("Id_tipo_cliente", tipoCliente));
             DataTable tabla = HelperDB.GetInstancia().ConsultaParametros("SP_CONSULTAR_CLIENTES_PARAM", Param);
 
-            List<Cliente> list = new List<Cliente>(); 
+            List<Cliente> list = new List<Cliente>();
 
             foreach (DataRow row in tabla.Rows)
             {
@@ -79,11 +80,11 @@ namespace AutomotrizBack.Datos.Implementacion
             {
                 Cliente c = new Cliente();
                 c.Cod = int.Parse(row["cod_cliente"].ToString());
-                 c.Nombre = row["nombre"].ToString();
+                c.Nombre = row["nombre"].ToString();
                 c.RazonSocial = row["razon_social"].ToString();
-                c.Tipo.Id = Convert.ToInt32( row["id_tipo_cliente"].ToString());
+                c.Tipo.Id = Convert.ToInt32(row["id_tipo_cliente"].ToString());
                 c.Barrio.id_barrio = Convert.ToInt32(row["id_barrio"].ToString());
-                c.CuilCuit= row["cuil_cuit"].ToString();
+                c.CuilCuit = row["cuil_cuit"].ToString();
                 c.Direccion = row["direccion"].ToString();
 
                 lst.Add(c);
@@ -93,14 +94,14 @@ namespace AutomotrizBack.Datos.Implementacion
 
         public Cliente GetById(int id)
         {
-            List<Parametro>param= new List<Parametro>();
-            param.Add(new Parametro("@Id",id));
+            List<Parametro> param = new List<Parametro>();
+            param.Add(new Parametro("@Id", id));
             DataTable t = HelperDB.GetInstancia().ConsultaParametros("SP_CONSULTAR_CLIENTES_BY_ID", param);
 
-            Cliente cliente = null; 
+            Cliente cliente = null;
             foreach (DataRow row in t.Rows)
             {
-                cliente = new Cliente();   
+                cliente = new Cliente();
                 cliente.Cod = int.Parse(row["cod_cliente"].ToString());
                 cliente.Nombre = row["nombre"].ToString();
                 cliente.RazonSocial = row["razon_social"].ToString();
@@ -156,7 +157,47 @@ namespace AutomotrizBack.Datos.Implementacion
             }
             return aux;
         }
+
+        public bool edit(Cliente cliente)
+        {
+            SqlConnection conexion = HelperDB.GetInstancia().GetConexion();
+            SqlTransaction t = null;
+            bool aux = true;
+
+            try
+            {
+                conexion.Open();
+                t = conexion.BeginTransaction();
+                SqlCommand cmd = new SqlCommand("SP_MODIFICAR_CLIENTES", conexion, t);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@cod", cliente.Cod);
+                cmd.Parameters.AddWithValue("@nombre", cliente.Nombre);
+                cmd.Parameters.AddWithValue("@razonSocial", cliente.RazonSocial);
+                cmd.Parameters.AddWithValue("@cuil_cuit", cliente.CuilCuit);
+                cmd.Parameters.AddWithValue("@id_barrio", cliente.Barrio.id_barrio);
+                cmd.Parameters.AddWithValue("@direccion", cliente.Direccion);
+                cmd.Parameters.AddWithValue("@id_tipo_cliente", cliente.Tipo.Id);
+
+                cmd.ExecuteNonQuery();
+                t.Commit();
+            }
+            catch
+            {
+                if (t != null)
+                {
+                    t.Rollback();
+                    aux=false;
+                }
+            }
+            finally
+            {
+                if (conexion.State == ConnectionState.Open)
+                {
+                    conexion.Close();
+                }
+            }
+            return aux;
+        }
     }
 }
 
-  

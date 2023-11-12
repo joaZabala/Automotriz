@@ -14,5 +14,7 @@ namespace AutomotrizBack.Datos.Interfaz
         Cliente GetById(int id);
         bool Nuevo(Cliente cliente);
         bool delete(int codigo);
+
+        bool edit(Cliente cliente);
     }
 }

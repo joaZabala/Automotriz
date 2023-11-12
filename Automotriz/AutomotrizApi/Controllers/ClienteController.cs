@@ -13,28 +13,28 @@ namespace AutomotrizApi.Controllers
     public class ClienteController : ControllerBase
     {
 
-       ICliente dao;
+        ICliente dao;
 
         public ClienteController()
         {
-             dao = new ClienteDao();
+            dao = new ClienteDao();
         }
         // GET: api/<ClienteController>
-        [HttpGet("clientes")]
+        [HttpGet("GetAll")]
         public IActionResult Get()
         {
-            return Ok(dao.GetAll()) ;
+            return Ok(dao.GetAll());
         }
 
         // GET api/<ClienteController>/5
         [HttpGet("GetByFilters")]
-        public IActionResult Get(int tipo_cli , string name)
+        public IActionResult Get(int tipo_cli, string name)
         {
-            return Ok(dao.Get(name,tipo_cli));
+            return Ok(dao.Get(name, tipo_cli));
         }
 
         // POST api/<ClienteController>
-        [HttpPost]
+        [HttpPost("nuevoCliente")]
         public IActionResult Post(Cliente cliente)
         {
            
@@ -51,9 +51,16 @@ namespace AutomotrizApi.Controllers
 
         // PUT api/<ClienteController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public IActionResult Put(Cliente c)
         {
-
+            if (dao.edit(c))
+            {
+                return Ok("cliente modificado");
+            }
+            else
+            {
+                return BadRequest("no se pudo editar el cliente");
+            }
         }
 
         // DELETE api/<ClienteController>/5

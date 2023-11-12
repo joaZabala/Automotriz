@@ -64,8 +64,57 @@ namespace AutomotrizFront.Presentacion
             string razon = txtRazonSocial.Text;
             string cuil = txtCuil.Text;
 
+            cliente.Nombre = nom;
+            cliente.Cod = cod;
+            cliente.Barrio = b;
+            cliente.Tipo = c;
+            cliente.RazonSocial = razon;
+            cliente.CuilCuit = cuil;
+            cliente.Direccion = dirrec;
+
             dgvAltaClientes.Rows.Add(new object[] {cod,nom,barrio, dirrec,
             razon,cuil,tipo,"quitar"});
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            if (servicio.editarCliente(cliente))
+            {
+                MessageBox.Show("Cliente modificado", "informacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+
+                MessageBox.Show("No se pudo modicar el cliente", "informacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            this.Dispose();
+        }
+
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            FrmPrincipal principal = new FrmPrincipal();
+            principal.ShowDialog();
+        }
+
+
+        public void Limpiar()
+        {
+            txtCuil.Text = string.Empty;
+            txtDireccion.Text = string.Empty;
+            txtNombre.Text = string.Empty;
+            txtRazonSocial.Text = string.Empty;
+            cboBarrio.SelectedIndex = -1;
+            cboTipo.SelectedIndex = -1;
+            dgvAltaClientes.Rows.Clear();
+        }
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Limpiar();
         }
     }
 }

@@ -39,7 +39,6 @@
             colTipoCli = new DataGridViewTextBoxColumn();
             colAcciones = new DataGridViewButtonColumn();
             btnCancelar = new Button();
-            button1 = new Button();
             label6 = new Label();
             label5 = new Label();
             label4 = new Label();
@@ -52,12 +51,15 @@
             txtDireccion = new TextBox();
             txtRazonSocial = new TextBox();
             txtNombre = new TextBox();
+            btnAceptar = new Button();
+            btnAtras = new Button();
+            label7 = new Label();
             ((System.ComponentModel.ISupportInitialize)dgvAltaClientes).BeginInit();
             SuspendLayout();
             // 
             // btnagregar
             // 
-            btnagregar.Location = new Point(867, 141);
+            btnagregar.Location = new Point(904, 208);
             btnagregar.Name = "btnagregar";
             btnagregar.Size = new Size(121, 29);
             btnagregar.TabIndex = 31;
@@ -71,7 +73,7 @@
             dgvAltaClientes.AllowUserToDeleteRows = false;
             dgvAltaClientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvAltaClientes.Columns.AddRange(new DataGridViewColumn[] { colId, colNombre, colBarrio, colDireccion, colRazonSocial, colCuil, colTipoCli, colAcciones });
-            dgvAltaClientes.Location = new Point(59, 187);
+            dgvAltaClientes.Location = new Point(96, 275);
             dgvAltaClientes.Name = "dgvAltaClientes";
             dgvAltaClientes.ReadOnly = true;
             dgvAltaClientes.RowHeadersWidth = 51;
@@ -147,26 +149,18 @@
             // 
             // btnCancelar
             // 
-            btnCancelar.Location = new Point(570, 385);
+            btnCancelar.Location = new Point(607, 490);
             btnCancelar.Name = "btnCancelar";
             btnCancelar.Size = new Size(167, 29);
             btnCancelar.TabIndex = 29;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(326, 385);
-            button1.Name = "button1";
-            button1.Size = new Size(167, 29);
-            button1.TabIndex = 28;
-            button1.Text = "Aceptar";
-            button1.UseVisualStyleBackColor = true;
+            btnCancelar.Click += btnCancelar_Click;
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(682, 112);
+            label6.Location = new Point(719, 179);
             label6.Name = "label6";
             label6.Size = new Size(89, 20);
             label6.TabIndex = 27;
@@ -175,7 +169,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(444, 112);
+            label5.Location = new Point(471, 177);
             label5.Name = "label5";
             label5.Size = new Size(49, 20);
             label5.TabIndex = 26;
@@ -184,7 +178,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(190, 112);
+            label4.Location = new Point(187, 177);
             label4.Name = "label4";
             label4.Size = new Size(72, 20);
             label4.TabIndex = 25;
@@ -193,7 +187,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(691, 24);
+            label3.Location = new Point(728, 91);
             label3.Name = "label3";
             label3.Size = new Size(62, 20);
             label3.TabIndex = 24;
@@ -202,7 +196,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(422, 24);
+            label2.Location = new Point(447, 89);
             label2.Name = "label2";
             label2.Size = new Size(94, 20);
             label2.TabIndex = 23;
@@ -211,7 +205,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(190, 24);
+            label1.Location = new Point(187, 89);
             label1.Name = "label1";
             label1.Size = new Size(64, 20);
             label1.TabIndex = 22;
@@ -220,7 +214,7 @@
             // cboTipo
             // 
             cboTipo.FormattingEnabled = true;
-            cboTipo.Location = new Point(606, 143);
+            cboTipo.Location = new Point(643, 210);
             cboTipo.Name = "cboTipo";
             cboTipo.Size = new Size(238, 28);
             cboTipo.TabIndex = 21;
@@ -228,48 +222,83 @@
             // cboBarrio
             // 
             cboBarrio.FormattingEnabled = true;
-            cboBarrio.Location = new Point(358, 143);
+            cboBarrio.Location = new Point(390, 208);
             cboBarrio.Name = "cboBarrio";
             cboBarrio.Size = new Size(213, 28);
             cboBarrio.TabIndex = 20;
             // 
             // txtCuil
             // 
-            txtCuil.Location = new Point(606, 57);
+            txtCuil.Location = new Point(643, 124);
             txtCuil.Name = "txtCuil";
             txtCuil.Size = new Size(238, 27);
             txtCuil.TabIndex = 19;
             // 
             // txtDireccion
             // 
-            txtDireccion.Location = new Point(133, 141);
+            txtDireccion.Location = new Point(130, 206);
             txtDireccion.Name = "txtDireccion";
             txtDireccion.Size = new Size(196, 27);
             txtDireccion.TabIndex = 18;
             // 
             // txtRazonSocial
             // 
-            txtRazonSocial.Location = new Point(358, 57);
+            txtRazonSocial.Location = new Point(390, 122);
             txtRazonSocial.Name = "txtRazonSocial";
             txtRazonSocial.Size = new Size(213, 27);
             txtRazonSocial.TabIndex = 17;
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(133, 57);
+            txtNombre.Location = new Point(130, 122);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(196, 27);
             txtNombre.TabIndex = 16;
+            // 
+            // btnAceptar
+            // 
+            btnAceptar.Location = new Point(344, 490);
+            btnAceptar.Name = "btnAceptar";
+            btnAceptar.Size = new Size(167, 29);
+            btnAceptar.TabIndex = 32;
+            btnAceptar.Text = "Aceptar";
+            btnAceptar.UseVisualStyleBackColor = true;
+            btnAceptar.Click += btnAceptar_Click;
+            // 
+            // btnAtras
+            // 
+            btnAtras.Location = new Point(22, 501);
+            btnAtras.Name = "btnAtras";
+            btnAtras.Size = new Size(62, 29);
+            btnAtras.TabIndex = 33;
+            btnAtras.Text = "Atras";
+            btnAtras.UseVisualStyleBackColor = true;
+            btnAtras.Click += btnAtras_Click;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.BorderStyle = BorderStyle.Fixed3D;
+            label7.Font = new Font("Copperplate Gothic Light", 13.8F, FontStyle.Underline, GraphicsUnit.Point);
+            label7.Location = new Point(422, 21);
+            label7.Name = "label7";
+            label7.Size = new Size(218, 27);
+            label7.TabIndex = 34;
+            label7.Text = "Moficar Cliente";
             // 
             // FrmModificarCliente
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1062, 440);
+            BackColor = Color.LightGray;
+            BackgroundImageLayout = ImageLayout.None;
+            ClientSize = new Size(1083, 542);
+            Controls.Add(label7);
+            Controls.Add(btnAtras);
+            Controls.Add(btnAceptar);
             Controls.Add(btnagregar);
             Controls.Add(dgvAltaClientes);
             Controls.Add(btnCancelar);
-            Controls.Add(button1);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
@@ -302,7 +331,6 @@
         private DataGridViewTextBoxColumn colTipoCli;
         private DataGridViewButtonColumn colAcciones;
         private Button btnCancelar;
-        private Button button1;
         private Label label6;
         private Label label5;
         private Label label4;
@@ -317,5 +345,8 @@
         private TextBox txtNombre;
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn colId;
+        private Button btnAceptar;
+        private Button btnAtras;
+        private Label label7;
     }
 }

@@ -32,6 +32,11 @@ namespace AutomotrizBack.servicios
             return Daocliente.delete(cod_cliente);
         }
 
+        public bool editarCliente(Cliente cliente)
+        {
+            return Daocliente.edit(cliente);
+        }
+
         public List<barrio> GetBarrios()
         {
             return barrio.get();
