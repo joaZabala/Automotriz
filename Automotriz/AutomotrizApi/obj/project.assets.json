@@ -701,19 +701,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lenovo\\.nuget\\packages\\": {}
+    "C:\\Users\\Pc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotrizApi\\AutomotrizApi.csproj",
+      "projectUniqueName": "D:\\Biblotecas\\backup\\Programing\\Csharp\\Automotriz\\Automotriz\\AutomotrizApi\\AutomotrizApi.csproj",
       "projectName": "AutomotrizApi",
-      "projectPath": "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotrizApi\\AutomotrizApi.csproj",
-      "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotrizApi\\obj\\",
+      "projectPath": "D:\\Biblotecas\\backup\\Programing\\Csharp\\Automotriz\\Automotriz\\AutomotrizApi\\AutomotrizApi.csproj",
+      "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
+      "outputPath": "D:\\Biblotecas\\backup\\Programing\\Csharp\\Automotriz\\Automotriz\\AutomotrizApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -727,8 +727,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj": {
-              "projectPath": "C:\\Users\\lenovo\\Desktop\\Automotriz\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj"
+            "D:\\Biblotecas\\backup\\Programing\\Csharp\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj": {
+              "projectPath": "D:\\Biblotecas\\backup\\Programing\\Csharp\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj"
             }
           }
         }
@@ -767,7 +767,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
