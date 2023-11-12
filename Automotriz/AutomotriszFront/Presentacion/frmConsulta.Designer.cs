@@ -172,6 +172,7 @@
             btnSalir.TabIndex = 17;
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.Click += btnSalir_Click;
             // 
             // label3
             // 
@@ -198,7 +199,7 @@
             // 
             // btnAtras
             // 
-            btnAtras.Location = new Point(688, 362);
+            btnAtras.Location = new Point(31, 362);
             btnAtras.Name = "btnAtras";
             btnAtras.Size = new Size(94, 29);
             btnAtras.TabIndex = 20;

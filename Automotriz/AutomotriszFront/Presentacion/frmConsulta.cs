@@ -113,7 +113,14 @@ namespace AutomotriszFront.Presentacion
         private void btnAtras_Click(object sender, EventArgs e)
         {
             FrmPrincipal principal = new FrmPrincipal();
-           principal.Show();
+            principal.Show();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("¿Desea salir?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
+                == DialogResult.Yes)
+                this.Dispose();
         }
     }
 }

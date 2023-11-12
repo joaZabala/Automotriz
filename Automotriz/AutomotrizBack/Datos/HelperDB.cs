@@ -16,13 +16,13 @@ namespace AutomotrizBack.Datos
         static HelperDB instancia;
         public HelperDB()
         {
-        conexion = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=AUTOMOTRIZ_V2;Integrated Security=True; TrustServerCertificate=True");
-           
+            conexion = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=AUTOMOTRIZ_V2;Integrated Security=True");
+
         }
 
         public static HelperDB GetInstancia()
         {
-            if(instancia == null)
+            if (instancia == null)
             {
                 instancia = new HelperDB();
             }
@@ -43,7 +43,7 @@ namespace AutomotrizBack.Datos
             return tabla;
         }
 
-        public DataTable ConsultaParametros(string nombreSp , List<Parametro>parametros)
+        public DataTable ConsultaParametros(string nombreSp, List<Parametro> parametros)
         {
             conexion.Open();
             SqlCommand comando = new SqlCommand();

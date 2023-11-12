@@ -52,6 +52,7 @@
             colAcciones = new DataGridViewButtonColumn();
             btnagregar = new Button();
             btnAtras = new Button();
+            btnSalir = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvAltaClientes).BeginInit();
             SuspendLayout();
             // 
@@ -259,7 +260,7 @@
             // 
             // btnAtras
             // 
-            btnAtras.Location = new Point(12, 395);
+            btnAtras.Location = new Point(2, 455);
             btnAtras.Name = "btnAtras";
             btnAtras.Size = new Size(87, 28);
             btnAtras.TabIndex = 16;
@@ -267,11 +268,22 @@
             btnAtras.UseVisualStyleBackColor = true;
             btnAtras.Click += btnAtras_Click;
             // 
+            // btnSalir
+            // 
+            btnSalir.Location = new Point(880, 455);
+            btnSalir.Name = "btnSalir";
+            btnSalir.Size = new Size(87, 28);
+            btnSalir.TabIndex = 17;
+            btnSalir.Text = "Salir";
+            btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.Click += btnSalir_Click;
+            // 
             // frmAltaCliente
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(985, 450);
+            ClientSize = new Size(979, 495);
+            Controls.Add(btnSalir);
             Controls.Add(btnAtras);
             Controls.Add(btnagregar);
             Controls.Add(dgvAltaClientes);
@@ -323,5 +335,6 @@
         private DataGridViewTextBoxColumn colTipoCli;
         private DataGridViewButtonColumn colAcciones;
         private Button btnAtras;
+        private Button btnSalir;
     }
 }

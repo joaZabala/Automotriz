@@ -27,10 +27,10 @@ namespace AutomotrizApi.Controllers
         }
 
         // GET api/<ClienteController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet("GetByFilters")]
+        public IActionResult Get(int tipo_cli , string name)
         {
-            return "value";
+            return Ok(dao.Get(name,tipo_cli));
         }
 
         // POST api/<ClienteController>
@@ -53,12 +53,26 @@ namespace AutomotrizApi.Controllers
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
+
         }
 
         // DELETE api/<ClienteController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete("Delete")]
+        public IActionResult Delete(int id)
         {
+            if(dao.delete(id))
+            {
+                return Ok("cliente eliminado correctamente");
+            }
+
+            if(dao.delete(id)==false)
+            {
+                return BadRequest("no se pudo elliminar el cliente");
+            }
+            else
+            {
+                return StatusCode(500, "cliente no borrado");
+            }
         }
     }
 }
