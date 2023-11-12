@@ -91,6 +91,27 @@ namespace AutomotrizBack.Datos.Implementacion
             return lst;
         }
 
+        public Cliente GetById(int id)
+        {
+            List<Parametro>param= new List<Parametro>();
+            param.Add(new Parametro("@Id",id));
+            DataTable t = HelperDB.GetInstancia().ConsultaParametros("SP_CONSULTAR_CLIENTES_BY_ID", param);
+
+            Cliente cliente = null; 
+            foreach (DataRow row in t.Rows)
+            {
+                cliente = new Cliente();   
+                cliente.Cod = int.Parse(row["cod_cliente"].ToString());
+                cliente.Nombre = row["nombre"].ToString();
+                cliente.RazonSocial = row["razon_social"].ToString();
+                cliente.Tipo.Id = Convert.ToInt32(row["id_tipo_cliente"].ToString());
+                cliente.Barrio.id_barrio = Convert.ToInt32(row["id_barrio"].ToString());
+                cliente.CuilCuit = row["cuil_cuit"].ToString();
+                cliente.Direccion = row["direccion"].ToString();
+            }
+            return cliente;
+        }
+
         public bool Nuevo(Cliente cliente)
         {
             bool aux = true;

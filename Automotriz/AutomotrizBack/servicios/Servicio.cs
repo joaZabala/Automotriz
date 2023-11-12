@@ -22,6 +22,11 @@ namespace AutomotrizBack.servicios
             tipoCliente = new TipoClienteDao();
         }
 
+        public Cliente ClienteById(int id)
+        {
+            return Daocliente.GetById(id);
+        }
+
         public bool DeleteCliente(int cod_cliente)
         {
             return Daocliente.delete(cod_cliente);

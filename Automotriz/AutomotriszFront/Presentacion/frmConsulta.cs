@@ -2,6 +2,7 @@
 using AutomotrizBack.Entidades;
 using AutomotrizBack.servicios;
 using AutomotrizFront;
+using AutomotrizFront.Presentacion;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,6 +19,7 @@ namespace AutomotriszFront.Presentacion
     {
         IServicio servicio;
         List<Cliente> clientes;
+        int Codigo = 0;
         public frmConsulta(FabricaServicioImp factory)
         {
             InitializeComponent();
@@ -68,16 +70,24 @@ namespace AutomotriszFront.Presentacion
             foreach (Cliente c in clientes)
             {
                 dgvClientes.Rows.Add(new object[] { c.Cod,c.Nombre,c.Direccion,c.RazonSocial
-                ,c.CuilCuit,tipo_nom,"quitar"});
+                ,c.CuilCuit,tipo_nom,"Editar"});
             }
 
         }
 
         private void dgvClientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            string nombre = dgvClientes.CurrentRow.Cells[1].Value.ToString();
             if (dgvClientes.CurrentCell.ColumnIndex == 6)
             {
-                dgvClientes.Rows.RemoveAt(dgvClientes.CurrentRow.Index);
+                if(MessageBox.Show("Desea editar el cliente "+"' "+ nombre+"'?","Question",
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    Codigo = Convert.ToInt32( dgvClientes.CurrentRow.Cells[0].Value.ToString());
+
+                  FrmModificarCliente modificar = new FrmModificarCliente(Codigo, new FabricaServicioImp());
+                    modificar.ShowDialog(); 
+                }
             }
 
         }

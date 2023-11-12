@@ -9,6 +9,7 @@ namespace AutomotrizBack.servicios
 {
     public interface IServicio
     {
+        Cliente ClienteById(int id);
         List<barrio> GetBarrios();
 
         List<TipoCliente> GetTipoCliente();
