@@ -8,8 +8,8 @@ Trabajo Grupal de la asignatura Programacion II
 ***
 - [Caracteristicas](#Características)
 - [Estructura del Projecto](#estructura-del-proyecto)
-- [Dependencias](#-Dependencias)
-- [Instalar](#-Instalación)
+- [Dependencias](#Dependencias)
+- [Instalar](#Instalación)
 - [Area de Control](#Area-de-Control)
 - [Integración de Api](#Integración-de-Api)
 - [Base de Datos](#Base-de-datos)
