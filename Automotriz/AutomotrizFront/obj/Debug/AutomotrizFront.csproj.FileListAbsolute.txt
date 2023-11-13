@@ -1,0 +1,12 @@
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\AutomotrizFront.exe.config
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\AutomotrizFront.exe
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\AutomotrizFront.pdb
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\AutomotrizFront.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\AutomotrizFront.FrmPrincipal.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\AutomotrizFront.Properties.Resources.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\AutomotrizFront.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\AutomotrizFront.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\AutomotrizFront.exe
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\AutomotrizFront.pdb
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\AutomotrizFront.Presentacion.Login.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\AutomotrizFront.Presentacion.frmAltaCliente.resources
