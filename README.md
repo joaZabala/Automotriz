@@ -84,7 +84,7 @@ cosas que faltan y cosas completas
 explicacion de como la APi funciona y como esta integrada
 ## Base de datos
 ---
-la base de datos que usamos es la siguiete:
+la base de datos que usamos es la siguiete: https://drive.google.com/file/d/1xUxFIivYS9ZqBCspCpBKAKstCrIGlTbT/view?usp=sharing
 - 
 la parte de la base de datos que usamos es la siguiente:
 ![parte de la base util](https://files.catbox.moe/rib3cc.png)
