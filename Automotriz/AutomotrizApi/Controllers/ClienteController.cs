@@ -50,7 +50,7 @@ namespace AutomotrizApi.Controllers
         }
 
         // PUT api/<ClienteController>/5
-        [HttpPut("{id}")]
+        [HttpPut("moficacion")]
         public IActionResult Put(Cliente c)
         {
             if (dao.edit(c))
@@ -64,7 +64,7 @@ namespace AutomotrizApi.Controllers
         }
 
         // DELETE api/<ClienteController>/5
-        [HttpDelete("Delete")]
+     /*   [HttpDelete("Delete")]
         public IActionResult Delete(int id)
         {
             if(dao.delete(id))
@@ -80,6 +80,6 @@ namespace AutomotrizApi.Controllers
             {
                 return StatusCode(500, "cliente no borrado");
             }
-        }
+        }*/
     }
 }

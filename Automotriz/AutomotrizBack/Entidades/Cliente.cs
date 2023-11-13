@@ -16,6 +16,7 @@ namespace AutomotrizBack.Entidades
         public TipoCliente Tipo { get; set; }
         public barrio Barrio{ get; set; }
 
+        public List<Contacto> Contactos { get; set; }
 
         public Cliente()
         {
@@ -25,11 +26,13 @@ namespace AutomotrizBack.Entidades
             CuilCuit = string.Empty;
             Direccion = string.Empty;
             Barrio = new barrio();
-            Tipo = new TipoCliente();   
+            Tipo = new TipoCliente(); 
+            Contactos = new List<Contacto>();
+            
             
            
         }
-        public Cliente(int cod, string nom, string razon, string cuil, barrio barrio, string direcc,TipoCliente tipo )
+        public Cliente(int cod, string nom, string razon, string cuil, barrio barrio, string direcc,TipoCliente tipo,List<Contacto>contactos )
         {
             Cod = cod;
             Nombre = nom;
@@ -38,6 +41,16 @@ namespace AutomotrizBack.Entidades
             Barrio = barrio;
             Direccion = direcc;
             Tipo = tipo;
+            Contactos = contactos;
+        }
+        public void QuitarContacto(int index)
+        {
+            Contactos.RemoveAt(index);
+        }
+
+        public void AgregarContacto( Contacto contacto)
+        {
+            Contactos.Add(contacto);
         }
     }
 }

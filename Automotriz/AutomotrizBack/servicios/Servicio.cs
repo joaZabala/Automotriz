@@ -15,11 +15,13 @@ namespace AutomotrizBack.servicios
         IBarrio barrio;
         ICliente Daocliente;
         ITipoCliente tipoCliente;
+        ITipoContacto TipoContacto;
         public Servicio()
         {
             barrio = new barrioDao();
             Daocliente = new ClienteDao();
             tipoCliente = new TipoClienteDao();
+            TipoContacto = new TipoContactosDao();
         }
 
         public Cliente ClienteById(int id)
@@ -27,10 +29,10 @@ namespace AutomotrizBack.servicios
             return Daocliente.GetById(id);
         }
 
-        public bool DeleteCliente(int cod_cliente)
+      /*  public bool DeleteCliente(int cod_cliente)
         {
-            return Daocliente.delete(cod_cliente);
-        }
+           return Daocliente.delete(cod_cliente);
+        }*/
 
         public bool editarCliente(Cliente cliente)
         {
@@ -61,5 +63,12 @@ namespace AutomotrizBack.servicios
         {
             return Daocliente.Nuevo(cliente);
         }
+
+        public List<TipoContacto> tiposContac()
+        {
+            return TipoContacto.GetTipos();
+        }
+
+        
     }
 }

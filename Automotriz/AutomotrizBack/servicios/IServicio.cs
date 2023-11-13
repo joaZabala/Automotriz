@@ -20,7 +20,9 @@ namespace AutomotrizBack.servicios
 
         List<Cliente> GetByParam(string nombre, int tipo);
 
-        bool DeleteCliente(int cod_cliente);
+     //   bool DeleteCliente(int cod_cliente);
         bool editarCliente(Cliente cliente);
+
+        List<TipoContacto> tiposContac();
     }
 }

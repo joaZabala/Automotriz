@@ -13,8 +13,7 @@ namespace AutomotrizBack.Datos.Interfaz
         List<Cliente> Get(string nombre , int tipoCliente);
         Cliente GetById(int id);
         bool Nuevo(Cliente cliente);
-        bool delete(int codigo);
-
+     //   bool delete(int id);    
         bool edit(Cliente cliente);
     }
 }

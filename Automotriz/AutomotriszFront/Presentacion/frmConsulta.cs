@@ -103,7 +103,7 @@ namespace AutomotriszFront.Presentacion
         }
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            string nombre = dgvClientes.CurrentRow.Cells[1].Value.ToString();
+           /* string nombre = dgvClientes.CurrentRow.Cells[1].Value.ToString();
             int nro = Convert.ToInt32(dgvClientes.CurrentRow.Cells[0].Value.ToString());
 
             if (MessageBox.Show("Esta seguro  que quiere borra para siempre el cliente " +
@@ -117,7 +117,7 @@ namespace AutomotriszFront.Presentacion
                 {
                     MessageBox.Show("no se pudo borrar el cliente", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-            }
+            }*/
         }
 
         private void btnAtras_Click(object sender, EventArgs e)

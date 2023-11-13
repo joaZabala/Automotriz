@@ -13,38 +13,38 @@ namespace AutomotrizBack.Datos.Implementacion
 {
     public class ClienteDao : ICliente
     {
-        public bool delete(int codigo)
-        {
-            bool aux = true;
-            SqlConnection conexion = HelperDB.GetInstancia().GetConexion();
-            SqlTransaction t = null;
+        //public bool delete(int codigo)
+        //{
+        //    bool aux = true;
+        //    SqlConnection conexion = HelperDB.GetInstancia().GetConexion();
+        //    SqlTransaction t = null;
 
-            try
-            {
-                conexion.Open();
-                t = conexion.BeginTransaction();
-                SqlCommand cmd = new SqlCommand("sp_eliminar_cliente", conexion, t);
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@cod", codigo);
-                cmd.ExecuteNonQuery();
-                t.Commit();
-            }
-            catch
-            {
-                if (t != null) t.Rollback();
-                aux = false;
-            }
-            finally
-            {
-                if (conexion.State == ConnectionState.Open)
-                {
-                    conexion.Close();
-                }
+        //   try
+        //   {
+        //        conexion.Open();
+        //        t = conexion.BeginTransaction();
+        //        SqlCommand cmd = new SqlCommand("sp_eliminar_cliente", conexion, t);
+        //        cmd.CommandType = CommandType.StoredProcedure;
+        //        cmd.Parameters.AddWithValue("@cod", codigo);
+        //        cmd.ExecuteNonQuery();
+        //        t.Commit();
+        //   }
+        //   catch
+        // //   {
+        //        if (t != null) t.Rollback();
+        //        aux = false;
+        // //   }
+        // //   finally
+        // //   {
+        //        if (conexion.State == ConnectionState.Open)
+        //        {
+        //            conexion.Close();
+        //        }
 
-            }
-            return aux;
+        //   // }
+        //    return aux;
 
-        }
+        //  }
 
         public List<Cliente> Get(string nombre, int tipoCliente)
         {
@@ -140,13 +140,35 @@ namespace AutomotrizBack.Datos.Implementacion
                 comand.Parameters.Add(parameter);
 
                 comand.ExecuteNonQuery();
+
+                int codigo = (int)parameter.Value;
+
+                foreach (Contacto c in cliente.Contactos)
+                {
+                    SqlCommand cmd = new SqlCommand("INSERTAR_CONTACTOS", conexion, t);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@descripcion", c.Descripcion);
+                    cmd.Parameters.AddWithValue("@id_tipo_contacto", c.tipo_contacto.cod);
+                    cmd.Parameters.AddWithValue("@cod_cliente", codigo);
+
+                    SqlParameter p = new SqlParameter();
+                    p.ParameterName = "@COD";
+                    p.SqlDbType = SqlDbType.Int;
+                    p.Direction = ParameterDirection.Output;
+                    cmd.Parameters.Add(p);
+
+                    cmd.ExecuteNonQuery();
+                }
+
                 t.Commit();
             }
             catch
             {
                 if (t != null)
+                {
                     t.Rollback();
-                aux = false;
+                    aux = false;
+                }
             }
             finally
             {
@@ -186,7 +208,7 @@ namespace AutomotrizBack.Datos.Implementacion
                 if (t != null)
                 {
                     t.Rollback();
-                    aux=false;
+                    aux = false;
                 }
             }
             finally

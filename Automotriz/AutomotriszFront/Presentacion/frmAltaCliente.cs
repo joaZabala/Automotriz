@@ -17,6 +17,7 @@ namespace AutomotriszFront.Presentacion
     {
         IServicio Servicio;
         Cliente ClienteNvo;
+        
         public frmAltaCliente(FabricaServicioImp factory)
         {
             InitializeComponent();
@@ -28,6 +29,15 @@ namespace AutomotriszFront.Presentacion
         {
             CargarComboBarrio();
             CargarTiposCliente();
+            CargarTipoContacto();
+            
+        }
+
+        private void CargarTipoContacto()
+        {
+            cboTipoContacto.DataSource = Servicio.tiposContac();
+            cboTipoContacto.DisplayMember = "Descripcion";
+            cboTipoContacto.ValueMember = "cod";
         }
 
         private void CargarTiposCliente()
@@ -61,12 +71,19 @@ namespace AutomotriszFront.Presentacion
 
             TipoCliente cliente = (TipoCliente)cboTipo.SelectedItem;
             barrio obarrio = (barrio)cboBarrio.SelectedItem;
+            TipoContacto Tcontac = (TipoContacto)cboTipoContacto.SelectedItem;
 
+            Contacto c = new Contacto();
+            c.Descripcion=txtContacto.Text;
+            c.tipo_contacto = Tcontac;
+            List<Contacto> lst = new List<Contacto>();
+            
             string nombre = txtNombre.Text;
             string direccion = txtDireccion.Text;
             string razon = txtRazonSocial.Text;
             string cuil = txtCuil.Text;
 
+            ClienteNvo.Contactos.Add(c);
             ClienteNvo.RazonSocial = razon;
             ClienteNvo.Nombre = nombre;
             ClienteNvo.CuilCuit = cuil;
@@ -74,7 +91,7 @@ namespace AutomotriszFront.Presentacion
             ClienteNvo.Barrio = obarrio;
             ClienteNvo.Tipo = cliente;
 
-            dgvAltaClientes.Rows.Add(new object[] { nombre, obarrio.Nombre, direccion, razon, cuil, cliente.Tipo, "borrar" });
+            dgvAltaClientes.Rows.Add(new object[] { nombre, obarrio.Nombre, direccion, razon, cuil, cliente.Tipo,c.Descripcion, "borrar" });
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -112,7 +129,7 @@ namespace AutomotriszFront.Presentacion
 
         private void dgvAltaClientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (dgvAltaClientes.CurrentCell.ColumnIndex == 6)
+            if (dgvAltaClientes.CurrentCell.ColumnIndex == 7)
             {
                 dgvAltaClientes.Rows.RemoveAt(dgvAltaClientes.CurrentRow.Index);
             }
