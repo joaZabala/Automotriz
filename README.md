@@ -67,7 +67,7 @@ cosas que faltan y cosas completas
 		- [ ] contactos
 		- [x] productos
 		- [x] facturas
-		- [ ] detalles facturas
+		- [x] detalles facturas
 		- [ ] ordenes
 		- [ ] detalle ordenes
 - Front end
