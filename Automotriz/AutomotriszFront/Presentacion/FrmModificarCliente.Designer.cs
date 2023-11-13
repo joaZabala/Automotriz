@@ -80,6 +80,7 @@
             dgvAltaClientes.RowTemplate.Height = 29;
             dgvAltaClientes.Size = new Size(929, 178);
             dgvAltaClientes.TabIndex = 30;
+            dgvAltaClientes.CellContentClick += dgvAltaClientes_CellContentClick;
             // 
             // colId
             // 

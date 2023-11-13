@@ -16,7 +16,7 @@ namespace AutomotrizBack.Datos
         static HelperDB instancia;
         public HelperDB()
         {
-            conexion = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=AUTOMOTRIZ_V2;Integrated Security=True");
+            conexion = new SqlConnection(@"Data Source=.\SQLEXPRESS;Initial Catalog=AUTOMOTRIZ_V2;Integrated Security=True;TrustServerCertificate=True") ;
 
         }
 

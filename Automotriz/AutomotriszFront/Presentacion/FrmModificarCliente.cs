@@ -83,16 +83,23 @@ namespace AutomotrizFront.Presentacion
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            if (servicio.editarCliente(cliente))
-            {
-                MessageBox.Show("Cliente modificado", "informacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else
-            {
 
-                MessageBox.Show("No se pudo modicar el cliente", "informacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (dgvAltaClientes.Rows.Count > 0)
+            {
+                if (servicio.editarCliente(cliente))
+                {
+                    MessageBox.Show("Cliente modificado", "informacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+
+                    MessageBox.Show("No se pudo modicar el cliente", "informacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                this.Dispose();
             }
-            this.Dispose();
+            MessageBox.Show("Debe agregar la modificacion del cliente a la grilla", "Información", MessageBoxButtons.OK
+                , MessageBoxIcon.Information);
+
         }
 
         private void btnAtras_Click(object sender, EventArgs e)
@@ -115,6 +122,14 @@ namespace AutomotrizFront.Presentacion
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             Limpiar();
+        }
+
+        private void dgvAltaClientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (dgvAltaClientes.CurrentCell.ColumnIndex == 7) 
+            {
+                dgvAltaClientes.Rows.RemoveAt(dgvAltaClientes.CurrentRow.Index);
+            }
         }
     }
 }
