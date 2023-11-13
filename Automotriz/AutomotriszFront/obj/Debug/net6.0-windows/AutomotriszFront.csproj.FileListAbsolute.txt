@@ -1,0 +1,76 @@
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\AutomotriszFront.exe
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\AutomotriszFront.deps.json
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\AutomotriszFront.runtimeconfig.json
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\AutomotriszFront.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\AutomotriszFront.pdb
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\refint\AutomotriszFront.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.pdb
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.genruntimeconfig.cache
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\ref\AutomotriszFront.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\AutomotrizBack.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\AutomotrizBack.pdb
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.csproj.CopyComplete
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.Presentacion.frmConsulta.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotrizFront.FrmPrincipal.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.Login.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.Presentacion.frmAltaCliente.resources
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\AutomotriszFront.exe
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\AutomotriszFront.deps.json
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\AutomotriszFront.runtimeconfig.json
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\AutomotriszFront.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\AutomotriszFront.pdb
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\AutomotrizBack.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\AutomotrizBack.pdb
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.csproj.AssemblyReference.cache
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.Presentacion.frmAltaCliente.resources
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.Presentacion.frmConsulta.resources
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotrizFront.FrmPrincipal.resources
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.Login.resources
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.csproj.GenerateResource.cache
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.AssemblyInfoInputs.cache
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.AssemblyInfo.cs
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.csproj.CoreCompileInputs.cache
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.csproj.CopyComplete
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\refint\AutomotriszFront.dll
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.pdb
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotriszFront.genruntimeconfig.cache
+C:\Users\Sofi\Desktop\Automotriz 2\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\ref\AutomotriszFront.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
