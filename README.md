@@ -14,7 +14,7 @@ Trabajo Grupal de la asignatura Programacion II
 - [Integración de Api]()
 - [Base de Datos]()
 - [Integrantes]()
-- [Licencia](## License)
+- [Licencia](##License)
 ***
 ## Características
 ---
