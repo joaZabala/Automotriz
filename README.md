@@ -1,6 +1,3 @@
----
-tags:
----
 # UTN grupo 4: Automotriz
 ---
 Trabajo Grupal de la asignatura Programacion II
