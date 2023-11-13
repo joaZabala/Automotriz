@@ -73,7 +73,7 @@ cosas que faltan y cosas completas
 - Front end
 	- [x] form clientes
 	- [x] form productos
-	- [ ] form facturas
+	- [x] form facturas
 	- [ ] form ordenes
 	- [ ] reportes
 ## Integración de Api
