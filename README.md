@@ -61,18 +61,18 @@ cosas que faltan y cosas completas
 		- [x] stock reduce cuando se inserta factura
 - BackEnd
 	- [ ] Api
-	- [ ] DB Helper
+	- [x] DB Helper
 	- [ ] clases
-		- [ ] clientes
+		- [x] clientes
 		- [ ] contactos
-		- [ ] productos
-		- [ ] facturas
+		- [x] productos
+		- [x] facturas
 		- [ ] detalles facturas
 		- [ ] ordenes
 		- [ ] detalle ordenes
 - Front end
-	- [ ] form clientes
-	- [ ] form productos
+	- [x] form clientes
+	- [x] form productos
 	- [ ] form facturas
 	- [ ] form ordenes
 	- [ ] reportes
