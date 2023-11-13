@@ -1,7 +1,7 @@
 ---
 tags:
 ---
-# UTN grupo XX: Automotriz
+# UTN grupo 4: Automotriz
 ---
 Trabajo Grupal de la asignatura Programacion II
 ## Tabla de Contenidos
