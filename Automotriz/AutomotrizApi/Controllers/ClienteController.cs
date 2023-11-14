@@ -70,15 +70,15 @@ namespace AutomotrizApi.Controllers
         }
 
         // DELETE api/<ClienteController>/5
-     /*   [HttpDelete("Delete")]
+       [HttpDelete("Delete")]
         public IActionResult Delete(int id)
         {
-            if(dao.delete(id))
+            if(servicio.BajaCliente(id))
             {
                 return Ok("cliente eliminado correctamente");
             }
 
-            if(dao.delete(id)==false)
+            if(servicio.BajaCliente(id)==false)
             {
                 return BadRequest("no se pudo elliminar el cliente");
             }
@@ -86,6 +86,6 @@ namespace AutomotrizApi.Controllers
             {
                 return StatusCode(500, "cliente no borrado");
             }
-        }*/
+        }
     }
 }

@@ -15,7 +15,7 @@ namespace AutomotrizFront.Presentacion
     public partial class FrmModificarCliente : Form
     {
         IServicio servicio;
-        Cliente cliente = null;
+        AutomotrizBack.Entidades.Cliente cliente;
         public FrmModificarCliente(int codigo, FabricaServicioImp factory)
         {
             InitializeComponent();
