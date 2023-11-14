@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AutomotrizBack.Datos.Interfaz.Producto
 {
-    internal interface ITipoMaterial
+    public interface ITipoMaterial
     {
         List<Tipo_material> GetAll();
     }

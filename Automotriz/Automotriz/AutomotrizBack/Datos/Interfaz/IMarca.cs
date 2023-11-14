@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AutomotrizBack.Datos.Interfaz.Producto
 {
-    internal interface IMarca
+    public interface IMarca
     {
         List<Marcas> GetAll();
     }

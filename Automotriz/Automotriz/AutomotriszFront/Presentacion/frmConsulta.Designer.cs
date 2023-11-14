@@ -45,6 +45,7 @@
             label3 = new Label();
             btnEliminar = new Button();
             btnAtras = new Button();
+            Acciones = new DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)dgvClientes).BeginInit();
             SuspendLayout();
             // 
@@ -88,7 +89,7 @@
             dgvClientes.AllowUserToAddRows = false;
             dgvClientes.AllowUserToDeleteRows = false;
             dgvClientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvClientes.Columns.AddRange(new DataGridViewColumn[] { ColID, colNombre, colDireccion, colRazonSocial, colCuil, colTipoCli, colAcciones });
+            dgvClientes.Columns.AddRange(new DataGridViewColumn[] { ColID, colNombre, colDireccion, colRazonSocial, colCuil, colTipoCli, colAcciones, Acciones });
             dgvClientes.Location = new Point(79, 119);
             dgvClientes.Margin = new Padding(3, 2, 3, 2);
             dgvClientes.Name = "dgvClientes";
@@ -214,6 +215,12 @@
             btnAtras.UseVisualStyleBackColor = true;
             btnAtras.Click += btnAtras_Click;
             // 
+            // Acciones
+            // 
+            Acciones.HeaderText = "Column1";
+            Acciones.Name = "Acciones";
+            Acciones.ReadOnly = true;
+            // 
             // frmConsulta
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -258,5 +265,6 @@
         private DataGridViewTextBoxColumn colTipoCli;
         private DataGridViewButtonColumn colAcciones;
         private Button btnAtras;
+        private DataGridViewButtonColumn Acciones;
     }
 }

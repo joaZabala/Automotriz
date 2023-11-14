@@ -16,6 +16,7 @@ namespace AutomotrizFront.Presentacion.Producto
     {
         IServicio servicio;
         List<ProductoAuto> producto;
+        int id_producto = 0; 
 
         public frmConsultarProd(FabricaServicioImp factory)
         {
@@ -113,7 +114,7 @@ namespace AutomotrizFront.Presentacion.Producto
             foreach (ProductoAuto p in productos)
             {
                 dvgProductos.Rows.Add(new object[] { p.Id, p.Productos, tipo_producto, p.NumSerie, p.Precio, p.FechaFab, p.VidaUtil,
-            p.Peso, p.IdUnidadPeso.Descripcion, p.Largo, p.Ancho, p.Alto,  p.IdUnidadMedida.descripcion, tipo_material, p.IdPais.pais, marca,"quitar" });
+            p.Peso, p.IdUnidadPeso.Descripcion, p.Largo, p.Ancho, p.Alto,  p.IdUnidadMedida.descripcion, tipo_material, p.IdPais.pais, marca,"Editar" });
             }
 
         }
@@ -139,10 +140,20 @@ namespace AutomotrizFront.Presentacion.Producto
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (dvgProductos.CurrentCell.ColumnIndex == 15)
+            string producto = dvgProductos.CurrentRow.Cells[1].Value.ToString();
+            if (dvgProductos.CurrentCell.ColumnIndex == 16)
             {
-                dvgProductos.Rows.RemoveAt(dvgProductos.CurrentRow.Index);
+                if (MessageBox.Show("Desea editar el producto " + "' " + producto + "'?", "Question",
+                 MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    id_producto = Convert.ToInt32(dvgProductos.CurrentRow.Cells[0].Value.ToString());
+
+                    frmModificarProducto modificar = new frmModificarProducto(id_producto, new FabricaServicioImp());
+                    modificar.ShowDialog();
+                }
             }
+            
+            
         }
     }
 }

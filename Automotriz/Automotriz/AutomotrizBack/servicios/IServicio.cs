@@ -10,6 +10,7 @@ namespace AutomotrizBack.servicios
 {
     public interface IServicio
     {
+        ProductoAuto ProductoId(int id_producto);
         List<barrio> GetBarrios();
 
         List<TipoCliente> GetTipoCliente();

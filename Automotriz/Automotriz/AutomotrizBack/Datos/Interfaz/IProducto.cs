@@ -7,7 +7,7 @@ using AutomotrizBack.Entidades;
 
 namespace AutomotrizBack.Datos.Interfaz.Productos
 {
-    internal interface IProducto
+    public interface IProducto
     {
         List<ProductoAuto> GetAll();
         List<ProductoAuto> Get(string Nombre, int tipoProducto, int material, int marca);

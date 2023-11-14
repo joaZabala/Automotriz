@@ -58,6 +58,7 @@
             tipodemateriales = new DataGridViewTextBoxColumn();
             IdPais = new DataGridViewTextBoxColumn();
             marca = new DataGridViewTextBoxColumn();
+            Acciones = new DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)dvgProductos).BeginInit();
             SuspendLayout();
             // 
@@ -186,7 +187,7 @@
             dvgProductos.AllowUserToAddRows = false;
             dvgProductos.AllowUserToDeleteRows = false;
             dvgProductos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dvgProductos.Columns.AddRange(new DataGridViewColumn[] { ID, Productos, Tipo_Producto, Num_Serie, Precio, fecha_fab, Vida_util, Peso, Unidad_peso, Largo, Ancho, Alto, IdUnidadMedida, tipodemateriales, IdPais, marca });
+            dvgProductos.Columns.AddRange(new DataGridViewColumn[] { ID, Productos, Tipo_Producto, Num_Serie, Precio, fecha_fab, Vida_util, Peso, Unidad_peso, Largo, Ancho, Alto, IdUnidadMedida, tipodemateriales, IdPais, marca, Acciones });
             dvgProductos.Location = new Point(60, 191);
             dvgProductos.Name = "dvgProductos";
             dvgProductos.ReadOnly = true;
@@ -291,6 +292,12 @@
             marca.Name = "marca";
             marca.ReadOnly = true;
             // 
+            // Acciones
+            // 
+            Acciones.HeaderText = "Column1";
+            Acciones.Name = "Acciones";
+            Acciones.ReadOnly = true;
+            // 
             // frmConsultarProd
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -357,5 +364,6 @@
         private DataGridViewTextBoxColumn IdPais;
         private DataGridViewTextBoxColumn marca;
         private DataGridViewTextBoxColumn Quitar;
+        private DataGridViewButtonColumn Acciones;
     }
 }

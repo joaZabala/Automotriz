@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sofi\\Desktop\\Automotriz Sofii\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj",
+      "projectUniqueName": "C:\\Users\\Sofi\\Desktop\\Automotriz Sofii con todo\\Automotriz\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj",
       "projectName": "AutomotrizBack",
-      "projectPath": "C:\\Users\\Sofi\\Desktop\\Automotriz Sofii\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj",
+      "projectPath": "C:\\Users\\Sofi\\Desktop\\Automotriz Sofii con todo\\Automotriz\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj",
       "packagesPath": "C:\\Users\\Sofi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sofi\\Desktop\\Automotriz Sofii\\Automotriz\\Automotriz\\AutomotrizBack\\obj\\",
+      "outputPath": "C:\\Users\\Sofi\\Desktop\\Automotriz Sofii con todo\\Automotriz\\Automotriz\\Automotriz\\AutomotrizBack\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sofi\\AppData\\Roaming\\NuGet\\NuGet.Config",

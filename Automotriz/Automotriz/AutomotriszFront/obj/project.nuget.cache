@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M6DRRRET1GcoQffmsfo4FHraEjlNj/kHpOElgABbiNiQq8ZSJjuaP6ps3WlD+B3QSxs7DoMOcqSVywVwM+FBOA==",
+  "dgSpecHash": "Zj25E7a/74Y2FHI7FUDqMm0VnXO84SxqZm5Ly/8HKPmJzXz/SLSmA6BSUnViwrNQeL59M9pksacTE8CL4rqj+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sofi\\Desktop\\Automotriz Sofii\\Automotriz\\Automotriz\\AutomotriszFront\\AutomotrizFront.csproj",
+  "projectFilePath": "C:\\Users\\Sofi\\Desktop\\Automotriz Sofii con todo\\Automotriz\\Automotriz\\Automotriz\\AutomotriszFront\\AutomotrizFront.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sofi\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Sofi\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
