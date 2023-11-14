@@ -1,6 +1,6 @@
-CREATE DATABASE AUTOMOTRIZ_V3_8
+CREATE DATABASE AUTOMOTRIZ_V4
 GO
-USE AUTOMOTRIZ_V3_8
+USE AUTOMOTRIZ_V4
 GO
 CREATE TABLE PAISES(
 id_pais int,
@@ -131,7 +131,6 @@ descripcion varchar(75),
 CONSTRAINT PK_TIPO_MOVIMIENTOS PRIMARY KEY (id)
 )
 
-
 CREATE TABLE STOCK(
 id int,
 id_producto int,
@@ -156,6 +155,7 @@ REFERENCES STOCK (ID),
 CONSTRAINT FK_UBICACIONES_TIPO_UBICACION FOREIGN KEY (ID_TIPO_UBICACION)
 REFERENCES TIPO_UBICACION (ID)
 )
+
 CREATE TABLE HISTORIAL_PRECIOS(
 id int,
 id_producto int,
@@ -228,13 +228,11 @@ REFERENCES ORDEN_PEDIDOS (id_orden),
 CONSTRAINT FK_DETALLE_PEDIDOS_PRODUCTOS FOREIGN KEY (id_producto)
 REFERENCES PRODUCTOS (id_producto)
 )
-
 CREATE TABLE TIPO_FACTURA(
 id int,
 descripcion varchar(50),
 CONSTRAINT PK_TIPO_FACTURAS PRIMARY KEY (id)
 )
-
 CREATE TABLE FACTURAS(
 nro_factura int IDENTITY(1,1),
 fecha date,
@@ -294,7 +292,6 @@ CONSTRAINT FK_CONTACTOS_CLIENTES FOREIGN KEY (cod_cliente)
 REFERENCES CLIENTES (cod_cliente)
 )
 GO
-
 ----------------------------------------PAISES--------------------------------------------
 insert into PAISES 
 values (1,'Argentina'),
@@ -308,17 +305,17 @@ INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (1, 'Buenos Air
 INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (2, 'Catamarca', 1);
 INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (3, 'Chaco', 1);
 INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (4, 'Chubut', 1);
-INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (5, 'C√≥rdoba', 1);
+INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (5, 'CÛrdoba', 1);
 INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (6, 'Corrientes', 1);
-INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (7, 'Entre R√≠os', 1);
+INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (7, 'Entre RÌos', 1);
 INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (8, 'Formosa', 1);
 INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (9, 'Jujuy', 1);
 INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (10, 'La Pampa', 1);
 INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (11, 'La Rioja', 1);
 INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (12, 'Mendoza', 1);
 INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (13, 'Misiones', 1);
-INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (14, 'Neuqu√©n', 1);
-INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (15, 'R√≠o Negro', 1);
+INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (14, 'NeuquÈn', 1);
+INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (15, 'RÌo Negro', 1);
 INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (16, 'Salta', 1);
 INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (17, 'San Juan', 1);
 INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (18, 'San Luis', 1);
@@ -326,10 +323,10 @@ INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (19, 'Santa Cru
 INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (20, 'Santa Fe', 1);
 INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (21, 'Santiago del Estero', 1);
 INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (22, 'Tierra del Fuego', 1);
-INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (23, 'Tucum√°n', 1);
+INSERT INTO PROVINCIAS (id_provincia, provincia, id_pais) values (23, 'Tucum·n', 1);
 
 --------------------------LOCALIDADES-----------------------------------------------------------
-INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Vicente L√≥pez', 1, 1);
+INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Vicente LÛpez', 1, 1);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Tigre', 1, 2);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('La Plata', 1, 3);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Capital Federal', 1, 4);
@@ -340,15 +337,15 @@ INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('San Fer
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Machagai', 3, 9);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Puerto Tirol', 3, 10);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Resistencia', 3, 11);
-INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Las Bre√±as', 3, 12);
+INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Las BreÒas', 3, 12);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('El Hoyo', 4, 13);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Trelew', 4, 14);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Rada Tilly', 4, 15);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Comodoro Rivadavia', 4, 16);
-INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('C√≥rdoba Capital', 5, 17);
+INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('CÛrdoba Capital', 5, 17);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Rio Cuarto', 5, 18);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('San Francisco', 5, 19);
-INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Villa Mar√≠a', 5, 20);
+INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Villa MarÌa', 5, 20);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Corrientes Capital', 6, 21);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Curuzu Cuatia', 6, 22);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Goya', 6, 23);
@@ -381,8 +378,8 @@ INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Posadas
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Garupa', 13, 50);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Tobuna', 13, 51);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Puerto Piray', 13, 52);
-INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('San Mart√≠n de los Andes', 14, 53);
-INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Neuqu√©n Capital', 14, 54);
+INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('San MartÌn de los Andes', 14, 53);
+INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('NeuquÈn Capital', 14, 54);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Junin de los Andes', 14, 55);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Villa La Angostura', 14, 56);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Viedma', 15, 57);
@@ -410,20 +407,20 @@ INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Santa F
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Rufino', 20, 79);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Firmat', 20, 80);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Sgo. del Estero Capital', 21, 81);
-INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('A√±atuya', 21, 82);
+INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('AÒatuya', 21, 82);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Termas del Rio Hondo', 21, 83);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Pinto', 21, 84);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Ushuaia', 22, 85);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Tolhuin', 22, 86);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Rio Grande', 22, 87);
-INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('San Miguel de Tucum√°n', 23, 88);
+INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('San Miguel de Tucum·n', 23, 88);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Famailla', 23, 89);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('El Mollar', 23, 90);
 INSERT INTO LOCALIDADES (localidad, id_provincia, id_localidad) VALUES ('Tafi del Valle', 23, 91);
 
 ------------------------------------BARRIOS-------------------------------------------------------
 INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (1, 'Los Pinos', 1);
-INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (2, 'San Mart√≠n', 1);
+INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (2, 'San MartÌn', 1);
 INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (3, 'La Cascada', 2);
 INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (4, 'El Rosedal', 2);
 INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (5, 'Las Acacias', 3);
@@ -441,7 +438,7 @@ INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (16, 'La Pradera', 
 INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (17, 'Villa San Roque', 9);
 INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (18, 'Santa Rosa', 9);
 INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (19, 'Los Cerezos', 10);
-INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (20, 'San Jos√©', 10);
+INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (20, 'San JosÈ', 10);
 INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (21, 'Los Tilos', 11);
 INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (22, 'Villa Hermosa', 11);
 INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (23, 'La Florida', 12);
@@ -458,11 +455,11 @@ INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (33, 'Las Palmeras'
 INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (34, 'Villa Nueva', 17);
 INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (35, 'El Bosque', 18);
 INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (36, 'San Pedro', 18);
-INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (37, 'Los P√°jaros', 19);
+INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (37, 'Los P·jaros', 19);
 INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (38, 'Villa Juana', 19);
 INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (39, 'Las Lomas', 20);
 INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (40, 'San Rafael', 20);
-INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (41, 'Villa Mar√≠a', 21);
+INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (41, 'Villa MarÌa', 21);
 INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (42, 'Santa Clara', 21);
 INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (43, 'Los Cipreses', 22);
 INSERT INTO BARRIOS (id_barrio, barrio, id_localidad) VALUES (44, 'San Francisco', 22);
@@ -486,7 +483,7 @@ VALUES
     (2, 'Puertas'),
     (3, 'Ventanas'),
     (4, 'Asientos'),
-    (5, 'Neum√°ticos'),
+    (5, 'Neum·ticos'),
     (6, 'Parachoques'),
     (7, 'Espejos'),
     (8, 'Radios'),
@@ -501,29 +498,29 @@ INSERT INTO TIPO_UNIDADES_PESO (id, descripcion) VALUES (4, 'Onzas');
 INSERT INTO TIPO_UNIDADES_PESO (id, descripcion) VALUES (5, 'Toneladas');
 
 ---------------------TIPOS_UNIDADES_MEDIDAS-----------------
-INSERT INTO TIPO_UNIDADES_MEDIDA (id, descripcion) VALUES (1, 'Cent√≠metros');
+INSERT INTO TIPO_UNIDADES_MEDIDA (id, descripcion) VALUES (1, 'CentÌmetros');
 INSERT INTO TIPO_UNIDADES_MEDIDA (id, descripcion) VALUES (2, 'Metros');
-INSERT INTO TIPO_UNIDADES_MEDIDA (id, descripcion) VALUES (3, 'Kil√≥metros');
+INSERT INTO TIPO_UNIDADES_MEDIDA (id, descripcion) VALUES (3, 'KilÛmetros');
 INSERT INTO TIPO_UNIDADES_MEDIDA (id, descripcion) VALUES (4, 'Pulgadas');
 INSERT INTO TIPO_UNIDADES_MEDIDA (id, descripcion) VALUES (5, 'Pies');
 INSERT INTO TIPO_UNIDADES_MEDIDA (id, descripcion) VALUES (6, 'Yardas');
 
 ---------------------------------------TIPO_UBICACIONES--------------------------------
 INSERT INTO TIPO_UBICACION (id, ubicacion) VALUES (1, 'Mostrador');
-INSERT INTO TIPO_UBICACION (id, ubicacion) VALUES (2, 'Dep√≥sito Principal');
-INSERT INTO TIPO_UBICACION (id, ubicacion) VALUES (3, 'Dep√≥sito Reserva');
-INSERT INTO TIPO_UBICACION (id, ubicacion) VALUES (4, 'Sala de Exposici√≥n');
+INSERT INTO TIPO_UBICACION (id, ubicacion) VALUES (2, 'DepÛsito Principal');
+INSERT INTO TIPO_UBICACION (id, ubicacion) VALUES (3, 'DepÛsito Reserva');
+INSERT INTO TIPO_UBICACION (id, ubicacion) VALUES (4, 'Sala de ExposiciÛn');
 INSERT INTO TIPO_UBICACION (id, ubicacion) VALUES (5, 'Oficina de Ventas');
-INSERT INTO TIPO_UBICACION (id, ubicacion) VALUES (6, '√Årea de Almacenamiento');
+INSERT INTO TIPO_UBICACION (id, ubicacion) VALUES (6, '¡rea de Almacenamiento');
 INSERT INTO TIPO_UBICACION (id, ubicacion) VALUES (7, 'Zona de Carga y Descarga');
-INSERT INTO TIPO_UBICACION (id, ubicacion) VALUES (8, '√Årea de Producci√≥n');
-INSERT INTO TIPO_UBICACION (id, ubicacion) VALUES (9, '√Årea de Embalaje');
-INSERT INTO TIPO_UBICACION (id, ubicacion) VALUES (10, '√Årea de Env√≠o');
+INSERT INTO TIPO_UBICACION (id, ubicacion) VALUES (8, '¡rea de ProducciÛn');
+INSERT INTO TIPO_UBICACION (id, ubicacion) VALUES (9, '¡rea de Embalaje');
+INSERT INTO TIPO_UBICACION (id, ubicacion) VALUES (10, '¡rea de EnvÌo');
 
 ----------------------TIPOS_MATERIALES----------------------
 INSERT INTO TIPO_MATERIALES (id, descripcion) VALUES (1, 'Acero');
 INSERT INTO TIPO_MATERIALES (id, descripcion) VALUES (2, 'Aluminio');
-INSERT INTO TIPO_MATERIALES (id, descripcion) VALUES (3, 'Pl√°stico');
+INSERT INTO TIPO_MATERIALES (id, descripcion) VALUES (3, 'Pl·stico');
 INSERT INTO TIPO_MATERIALES (id, descripcion) VALUES (4, 'Fibra de vidrio');
 INSERT INTO TIPO_MATERIALES (id, descripcion) VALUES (5, 'Titanio');
 INSERT INTO TIPO_MATERIALES (id, descripcion) VALUES (6, 'Caucho');
@@ -546,11 +543,11 @@ INSERT INTO MARCAS (id, marca) VALUES (12, 'NGK');
 INSERT INTO TIPO_MOVIMIENTOS (id, descripcion) VALUES (1, 'Ingreso de Stock');
 INSERT INTO TIPO_MOVIMIENTOS (id, descripcion) VALUES (2, 'Salida de Stock');
 INSERT INTO TIPO_MOVIMIENTOS (id, descripcion) VALUES (3, 'Venta');
-INSERT INTO TIPO_MOVIMIENTOS (id, descripcion) VALUES (4, 'Devoluci√≥n');
+INSERT INTO TIPO_MOVIMIENTOS (id, descripcion) VALUES (4, 'DevoluciÛn');
 INSERT INTO TIPO_MOVIMIENTOS (id, descripcion) VALUES (5, 'Transferencia entre Ubicaciones');
 
 ----------------------TIPO_AUTOPLANES------------------------------------
-INSERT INTO TIPO_AUTOPLANES (id, descripcion) VALUES (1, 'AutoPlan Com√∫n');
+INSERT INTO TIPO_AUTOPLANES (id, descripcion) VALUES (1, 'AutoPlan Com˙n');
 INSERT INTO TIPO_AUTOPLANES (id, descripcion) VALUES (2, 'AutoPlan Deluxe');
 INSERT INTO TIPO_AUTOPLANES (id, descripcion) VALUES (3, 'AutoPlan Bussines');
 INSERT INTO TIPO_AUTOPLANES (id, descripcion) VALUES (4, 'AutoPlan Premium');
@@ -563,82 +560,82 @@ INSERT INTO TIPO_AUTOPLANES (id, descripcion) VALUES (6, 'AutoPlan Personalizado
 INSERT INTO TIPO_FACTURA (id, descripcion) VALUES (1, 'Factura A');
 INSERT INTO TIPO_FACTURA (id, descripcion) VALUES (2, 'Factura B');
 INSERT INTO TIPO_FACTURA (id, descripcion) VALUES (3, 'Factura C');
-INSERT INTO TIPO_FACTURA (id, descripcion) VALUES (4, 'Factura de Exportaci√≥n');
+INSERT INTO TIPO_FACTURA (id, descripcion) VALUES (4, 'Factura de ExportaciÛn');
 
 ----------------------------FORMAS_PAGOS--------------------------------------------------------
 INSERT INTO FORMA_PAGOS (id_forma, descripcion) VALUES (1, 'Efectivo');
-INSERT INTO FORMA_PAGOS (id_forma, descripcion) VALUES (2, 'Tarjeta de Cr√©dito');
-INSERT INTO FORMA_PAGOS (id_forma, descripcion) VALUES (3, 'Tarjeta de D√©bito');
+INSERT INTO FORMA_PAGOS (id_forma, descripcion) VALUES (2, 'Tarjeta de CrÈdito');
+INSERT INTO FORMA_PAGOS (id_forma, descripcion) VALUES (3, 'Tarjeta de DÈbito');
 INSERT INTO FORMA_PAGOS (id_forma, descripcion) VALUES (4, 'Transferencia Bancaria');
 INSERT INTO FORMA_PAGOS (id_forma, descripcion) VALUES (5, 'Cheque');
 INSERT INTO FORMA_PAGOS (id_forma, descripcion) VALUES (6, 'Financiamiento');
 
 ------------------------------------------CLIENTES-------------------------------------------------
 INSERT INTO CLIENTES ( nombre, razon_social, cuil_cuit, id_barrio, direccion, id_tipo_cliente)
-VALUES ( 'Juan P√©rez', NULL, '20-12345678-9', 1, 'Calle 123', 1);
+VALUES ( 'Juan PÈrez', NULL, '20-12345678-9', 1, 'Calle 123', 1);
 INSERT INTO CLIENTES ( nombre, razon_social, cuil_cuit, id_barrio, direccion, id_tipo_cliente)
-VALUES ( 'Mar√≠a L√≥pez', NULL, '27-98765432-0', 2, 'Avenida Central', 2);
+VALUES ( 'MarÌa LÛpez', NULL, '27-98765432-0', 2, 'Avenida Central', 2);
 INSERT INTO CLIENTES ( nombre, razon_social, cuil_cuit, id_barrio, direccion, id_tipo_cliente)
-VALUES ( 'Pedro G√≥mez', 'G√≥mez S.A.', '30-87654321-2', 3, 'Calle Principal', 2);
+VALUES ( 'Pedro GÛmez', 'GÛmez S.A.', '30-87654321-2', 3, 'Calle Principal', 2);
 INSERT INTO CLIENTES ( nombre, razon_social, cuil_cuit, id_barrio, direccion, id_tipo_cliente)
-VALUES ( 'Laura Rodr√≠guez', 'Rodr√≠guez Autos', '23-56789123-1', 4, 'Avenida Norte', 3);
+VALUES ( 'Laura RodrÌguez', 'RodrÌguez Autos', '23-56789123-1', 4, 'Avenida Norte', 3);
 INSERT INTO CLIENTES ( nombre, razon_social, cuil_cuit, id_barrio, direccion, id_tipo_cliente)
-VALUES ( 'Carlos Mart√≠nez', 'Mart√≠nez Autom√≥viles', '24-12378945-6', 5, 'Calle Sur', 3);
+VALUES ( 'Carlos MartÌnez', 'MartÌnez AutomÛviles', '24-12378945-6', 5, 'Calle Sur', 3);
 INSERT INTO CLIENTES ( nombre, razon_social, cuil_cuit, id_barrio, direccion, id_tipo_cliente)
-VALUES ( 'Ana S√°nchez', NULL, '20-65431278-3', 6, 'Avenida Este', 1);
+VALUES ( 'Ana S·nchez', NULL, '20-65431278-3', 6, 'Avenida Este', 1);
 INSERT INTO CLIENTES ( nombre, razon_social, cuil_cuit, id_barrio, direccion, id_tipo_cliente)
-VALUES ( 'Luis Gonz√°lez', 'Gonz√°lez Autopartes', '27-98765432-0', 7, 'Calle 456', 4);
+VALUES ( 'Luis Gonz·lez', 'Gonz·lez Autopartes', '27-98765432-0', 7, 'Calle 456', 4);
 INSERT INTO CLIENTES ( nombre, razon_social, cuil_cuit, id_barrio, direccion, id_tipo_cliente)
-VALUES ( 'Marta Fern√°ndez', NULL, '20-87654321-2', 8, 'Avenida Oeste', 1);
+VALUES ( 'Marta Fern·ndez', NULL, '20-87654321-2', 8, 'Avenida Oeste', 1);
 INSERT INTO CLIENTES ( nombre, razon_social, cuil_cuit, id_barrio, direccion, id_tipo_cliente)
-VALUES ( 'Roberto P√©rez', 'P√©rez Empresas', '23-45678912-5', 9, 'Calle 789', 2);
+VALUES ( 'Roberto PÈrez', 'PÈrez Empresas', '23-45678912-5', 9, 'Calle 789', 2);
 INSERT INTO CLIENTES ( nombre, razon_social, cuil_cuit, id_barrio, direccion, id_tipo_cliente)
-VALUES ( 'Luc√≠a Jim√©nez', 'Jim√©nez Autom√≥viles', '24-12378945-6', 10, 'Avenida Principal', 3);
+VALUES ( 'LucÌa JimÈnez', 'JimÈnez AutomÛviles', '24-12378945-6', 10, 'Avenida Principal', 3);
 INSERT INTO CLIENTES ( nombre, razon_social, cuil_cuit, id_barrio, direccion, id_tipo_cliente)
-VALUES ( 'Diego L√≥pez', NULL, '20-65431278-3', 11, 'Calle 101', 1);
+VALUES ( 'Diego LÛpez', NULL, '20-65431278-3', 11, 'Calle 101', 1);
 INSERT INTO CLIENTES ( nombre, razon_social, cuil_cuit, id_barrio, direccion, id_tipo_cliente)
-VALUES ( 'Carmen Rodr√≠guez', NULL, '27-98765432-0', 12, 'Avenida Central', 1);
+VALUES ( 'Carmen RodrÌguez', NULL, '27-98765432-0', 12, 'Avenida Central', 1);
 INSERT INTO CLIENTES ( nombre, razon_social, cuil_cuit, id_barrio, direccion, id_tipo_cliente)
-VALUES ( 'Jorge P√©rez', 'P√©rez Autopartes', '30-87654321-2', 13, 'Calle 202', 4);
+VALUES ( 'Jorge PÈrez', 'PÈrez Autopartes', '30-87654321-2', 13, 'Calle 202', 4);
 INSERT INTO CLIENTES ( nombre, razon_social, cuil_cuit, id_barrio, direccion, id_tipo_cliente)
-VALUES ( 'Liliana G√≥mez', 'G√≥mez Empresas', '23-56789123-1', 14, 'Avenida Este', 2);
+VALUES ( 'Liliana GÛmez', 'GÛmez Empresas', '23-56789123-1', 14, 'Avenida Este', 2);
 INSERT INTO CLIENTES ( nombre, razon_social, cuil_cuit, id_barrio, direccion, id_tipo_cliente)
-VALUES ( 'Fernando S√°nchez', 'S√°nchez Autos', '24-12378945-6', 15, 'Calle 303', 2);
+VALUES ( 'Fernando S·nchez', 'S·nchez Autos', '24-12378945-6', 15, 'Calle 303', 2);
 INSERT INTO CLIENTES ( nombre, razon_social, cuil_cuit, id_barrio, direccion, id_tipo_cliente)
-VALUES ('Silvia Mart√≠nez', NULL, '20-65431278-3', 16, 'Avenida Norte', 1);
+VALUES ('Silvia MartÌnez', NULL, '20-65431278-3', 16, 'Avenida Norte', 1);
 INSERT INTO CLIENTES ( nombre, razon_social, cuil_cuit, id_barrio, direccion, id_tipo_cliente)
-VALUES ( 'Gustavo Gonz√°lez', 'Gonz√°lez Empresas', '27-98765432-0', 17, 'Calle 404', 2);
+VALUES ( 'Gustavo Gonz·lez', 'Gonz·lez Empresas', '27-98765432-0', 17, 'Calle 404', 2);
 INSERT INTO CLIENTES ( nombre, razon_social, cuil_cuit, id_barrio, direccion, id_tipo_cliente)
-VALUES ( 'Marcela L√≥pez', 'L√≥pez Autos', '30-87654321-2', 18, 'Avenida Sur', 2);
+VALUES ( 'Marcela LÛpez', 'LÛpez Autos', '30-87654321-2', 18, 'Avenida Sur', 2);
 INSERT INTO CLIENTES ( nombre, razon_social, cuil_cuit, id_barrio, direccion, id_tipo_cliente)
-VALUES ( 'Ricardo P√©rez', NULL, '23-56789123-1', 19, 'Calle 505', 1);
+VALUES ( 'Ricardo PÈrez', NULL, '23-56789123-1', 19, 'Calle 505', 1);
 INSERT INTO CLIENTES ( nombre, razon_social, cuil_cuit, id_barrio, direccion, id_tipo_cliente)
-VALUES ( 'Natalia Jim√©nez', 'Jim√©nez Autopartes', '24-12378945-6', 20, 'Avenida 606', 4);
+VALUES ( 'Natalia JimÈnez', 'JimÈnez Autopartes', '24-12378945-6', 20, 'Avenida 606', 4);
 
 -----------------------------------PRODUCTOS---------------------------------------------------------------------------
 
 INSERT INTO PRODUCTOS (producto, id_tipo_producto, num_serie, precio, fecha_fabricacion, vida_util, peso, id_unidad_peso, largo, ancho, alto, id_unidad_medida, id_tipo_material, id_pais, id_marca)
 VALUES
-( 'Autom√≥vil Sed√°n', 1, 123456, 15000.50, '1995-04-15', 12, 1500.75, 1, 4.5, 1.8, 1.4, 2, 1, 1, 1),
+( 'AutomÛvil Sed·n', 1, 123456, 15000.50, '1995-04-15', 12, 1500.75, 1, 4.5, 1.8, 1.4, 2, 1, 1, 1),
 ( 'Puerta de Madera', 2, 987654, 45.75, '2020-10-20', 3, 10.25, 1, 1.2, 0.2, 2.0, 1, 3, 4, 4),
 ( 'Ventana de Aluminio', 3, 543210, 35.20, '2018-07-12', 4, 7.5, 1, 1.0, 0.8, 0.1, 1, 2, 3, 2),
 ( 'Puerta super buena', 4, 456789, 120.00, '2019-03-25', 2, 25.5, 1, 0.8, 0.6, 0.1, 1, 1, 1, 3),
-( 'Neum√°tico Deportivo', 5, 112233, 95.50, '2022-01-05', 1, 10.8, 1, 0.7, 0.7, 0.7, 1, 6, 5, 6),
+( 'Neum·tico Deportivo', 5, 112233, 95.50, '2022-01-05', 1, 10.8, 1, 0.7, 0.7, 0.7, 1, 6, 5, 6),
 ( 'Parachoques Frontal', 6, 44555, 75.80, '2021-08-10', 2, 15.2, 1, 1.5, 0.3, 0.4, 1, 1, 2, 7),
 ( 'Espejo Retrovisor', 7, 67890, 20.25, '2020-12-30', 3, 5.0, 1, 0.8, 0.2, 0.2, 1, 2, 5, 3),
 ( 'Radio Multimedia', 8, 123123, 85.99, '2023-01-30', 0, 2.5, 1, 0.2, 0.2, 0.05, 1, 3, 4, 8),
 ( 'Airbag Frontal', 9, 789012, 49.50, '2019-11-20', 3, 2.0, 1, 0.5, 0.5, 0.1, 1, 4, 2, 9),
 ( 'Faros LED', 10, 555555, 120.75, '2021-04-02', 2, 1.8, 1, 0.3, 0.3, 0.1, 1, 1, 5, 12),
-( 'Autom√≥vil Mercedes-Benz Clase C', 1, 1234590, 50000, '2023-01-01', 10, 1000, 1, 500, 200, 100, 2, 1, 1, 1),
-( 'Puerta delantera izquierda de un autom√≥vil Ford Focus', 2, 234901, 2000, '2021-01-01', 5, 50, 1, 100, 50, 20, 2, 1, 2, 2),
-( 'Ventana delantera derecha de un autom√≥vil Toyota Corolla', 3, 3459012, 1000, '2020-01-01', 3, 20, 1, 50, 25, 15, 2, 1, 3, 3),
-( 'Asiento del conductor de un autom√≥vil Volkswagen Golf', 4, 45690123, 3000, '2019-01-01', 2, 50, 1, 100, 50, 20, 2, 1, 4, 4),
-( 'Neum√°tico delantero izquierdo de un autom√≥vil Chevrolet Silverado', 5, 56781234, 500, '2018-01-01', 1, 20, 1, 50, 25, 15, 2, 1, 5, 5),
-( 'Parachoques trasero de un autom√≥vil Honda Civic', 6, 67892345, 1000, '2017-01-01', 5, 50, 1, 100, 50, 20, 2, 1, 3, 6),
-( 'Espejo retrovisor lateral derecho de un autom√≥vil BMW Serie 3', 7, 7893456, 2000, '2016-01-01', 3, 20, 1, 50, 25, 15, 2, 1, 3, 7),
-( 'Radio AM/FM de un autom√≥vil Ford Fiesta', 8, 8901567, 1500, '2015-01-01', 2, 50, 1, 100, 50, 20, 2, 1, 3, 8),
-( 'Airbag del conductor de un autom√≥vil Toyota Yaris', 9, 9015678, 500, '2014-01-01', 1, 20, 1, 50, 25, 15, 2, 1, 2, 9),
-( 'Faros delanteros de un autom√≥vil Volkswagen Tiguan', 10, 0126789, 1000, '2013-01-01', 5, 50, 1, 100, 50, 20, 2, 1, 1, 10),
+( 'AutomÛvil Mercedes-Benz Clase C', 1, 1234590, 50000, '2023-01-01', 10, 1000, 1, 500, 200, 100, 2, 1, 1, 1),
+( 'Puerta delantera izquierda de un automÛvil Ford Focus', 2, 234901, 2000, '2021-01-01', 5, 50, 1, 100, 50, 20, 2, 1, 2, 2),
+( 'Ventana delantera derecha de un automÛvil Toyota Corolla', 3, 3459012, 1000, '2020-01-01', 3, 20, 1, 50, 25, 15, 2, 1, 3, 3),
+( 'Asiento del conductor de un automÛvil Volkswagen Golf', 4, 45690123, 3000, '2019-01-01', 2, 50, 1, 100, 50, 20, 2, 1, 4, 4),
+( 'Neum·tico delantero izquierdo de un automÛvil Chevrolet Silverado', 5, 56781234, 500, '2018-01-01', 1, 20, 1, 50, 25, 15, 2, 1, 5, 5),
+( 'Parachoques trasero de un automÛvil Honda Civic', 6, 67892345, 1000, '2017-01-01', 5, 50, 1, 100, 50, 20, 2, 1, 3, 6),
+( 'Espejo retrovisor lateral derecho de un automÛvil BMW Serie 3', 7, 7893456, 2000, '2016-01-01', 3, 20, 1, 50, 25, 15, 2, 1, 3, 7),
+( 'Radio AM/FM de un automÛvil Ford Fiesta', 8, 8901567, 1500, '2015-01-01', 2, 50, 1, 100, 50, 20, 2, 1, 3, 8),
+( 'Airbag del conductor de un automÛvil Toyota Yaris', 9, 9015678, 500, '2014-01-01', 1, 20, 1, 50, 25, 15, 2, 1, 2, 9),
+( 'Faros delanteros de un automÛvil Volkswagen Tiguan', 10, 0126789, 1000, '2013-01-01', 5, 50, 1, 100, 50, 20, 2, 1, 1, 10),
 ( 'InventoCar A', 1, 1234589, 25000.00, '2000-05-15', 12, 1400.50, 1, 450.0, 180.0, 150.0, 2, 1, 4, 1),
 ( 'FuturoAuto B', 1, 9874321, 30000.00, '2015-08-22', 13, 1600.75, 1, 470.0, 185.0, 155.0, 2, 2, 3, 2),
 ( 'NextGenCar C', 1, 5891234, 35000.00, '2010-03-10', 11, 1550.25, 1, 460.0, 190.0, 160.0, 2, 3, 5, 3),
@@ -745,7 +742,7 @@ INSERT INTO AUTOPLANES (id_autoplan, descripcion, fecha_inicio, fecha_hasta, id_
 (2, 'AutoPlan Estrella', '2023-02-01', '2025-01-31', 2),
 (3, 'AutoPlan Verano', '2023-03-01', '2026-02-28', 3),
 (4, 'AutoPlan Invierno', '2023-04-01', '2027-03-31', 4),
-(5, 'AutoPlan Oto√±o', '2023-05-01', '2028-04-30', 5),
+(5, 'AutoPlan OtoÒo', '2023-05-01', '2028-04-30', 5),
 (6, 'AutoPlan Primavera', '2023-06-01', '2024-05-31', 6),
 (7, 'AutoPlan Descuento', '2023-07-01', '2024-06-30', 1),
 (8, 'AutoPlan Pobre', '2023-08-01', '2025-07-31', 2),
@@ -771,21 +768,21 @@ INSERT INTO DETALLE_AUTOPLANES (id_detalle, id_autoplan, cant_cuotas, intereses,
 
  -----------------------------------------ORDEN PEDIDOS-----------------------------------------------------------------------------------------
 INSERT INTO ORDEN_PEDIDOS ( fecha_creacion, especificaciones) VALUES
-( '2021-05-15', 'Especificaci√≥n 1'),
+( '2021-05-15', 'EspecificaciÛn 1'),
 ( '2021-07-20', NULL),
-( '2021-09-10', 'Especificaci√≥n 2'),
+( '2021-09-10', 'EspecificaciÛn 2'),
 ( '2021-11-05', NULL),
-( '2022-02-15', 'Especificaci√≥n 3'),
+( '2022-02-15', 'EspecificaciÛn 3'),
 ( '2022-04-30', NULL),
-( '2022-06-18', 'Especificaci√≥n 4'),
+( '2022-06-18', 'EspecificaciÛn 4'),
 ( '2022-08-22', NULL),
-( '2022-10-11', 'Especificaci√≥n 5'),
+( '2022-10-11', 'EspecificaciÛn 5'),
 ( '2022-12-25', NULL),
-( '2023-02-28', 'Especificaci√≥n 6'),
+( '2023-02-28', 'EspecificaciÛn 6'),
 ( '2023-04-17', NULL),
-( '2023-06-09', 'Especificaci√≥n 7'),
+( '2023-06-09', 'EspecificaciÛn 7'),
 ( '2023-08-12', NULL),
-( '2023-10-05', 'Especificaci√≥n 8');
+( '2023-10-05', 'EspecificaciÛn 8');
 
 -------------------------------------DETALLE_PEDIDOS--------------------------------------------------
 INSERT INTO DETALLE_PEDIDOS( fecha_entrega, id_orden_pedido, id_producto, cantidad, precio)
@@ -904,16 +901,16 @@ VALUES
 
 -------------------------------------TIPO_CONTACTO---------------------------------------------------
 INSERT INTO TIPO_CONTACTOS (id, descripcion) VALUES (1, 'Email');
-INSERT INTO TIPO_CONTACTOS (id, descripcion) VALUES (2, 'Tel√©fono');
+INSERT INTO TIPO_CONTACTOS (id, descripcion) VALUES (2, 'TelÈfono');
 INSERT INTO TIPO_CONTACTOS (id, descripcion) VALUES (3, 'WhatsApp');
 INSERT INTO TIPO_CONTACTOS (id, descripcion) VALUES (4, 'Instagram');
 INSERT INTO TIPO_CONTACTOS (id, descripcion) VALUES (5, 'Facebook');
 INSERT INTO TIPO_CONTACTOS (id, descripcion) VALUES (6, 'Twitter');
 INSERT INTO TIPO_CONTACTOS (id, descripcion) VALUES (7, 'LinkedIn');
-INSERT INTO TIPO_CONTACTOS (id, descripcion) VALUES (8, 'Direcci√≥n');
+INSERT INTO TIPO_CONTACTOS (id, descripcion) VALUES (8, 'DirecciÛn');
 INSERT INTO TIPO_CONTACTOS (id, descripcion) VALUES (9, 'Sitio web');
 INSERT INTO TIPO_CONTACTOS (id, descripcion) VALUES (10, 'Skype');
-INSERT INTO TIPO_CONTACTOS (id, descripcion) VALUES (11, 'Tel√©fono m√≥vil');
+INSERT INTO TIPO_CONTACTOS (id, descripcion) VALUES (11, 'TelÈfono mÛvil');
 INSERT INTO TIPO_CONTACTOS (id, descripcion) VALUES (12, 'Fax');
 
 -------------------------------------CONTACTOS--------------------------------------------------
@@ -927,7 +924,7 @@ INSERT INTO CONTACTOS ( descripcion, id_tipo_contacto, cod_cliente) VALUES
 ( '/facebook_contacto7', 5, 7),
 ( '@twitter_contacto8', 6, 8),
 ( 'linkedin.com/in/contacto9', 7, 9),
-( '123 Main St, Ciudad, Pa√≠s', 8, 10),
+( '123 Main St, Ciudad, PaÌs', 8, 10),
 ( 'www.sitiowebcontacto11.com', 9, 11),
 ( 'skype_contacto12', 10, 12),
 ( '+7891234567', 3, 13),
@@ -941,7 +938,7 @@ INSERT INTO CONTACTOS ( descripcion, id_tipo_contacto, cod_cliente) VALUES
 ( '/facebook_contacto21', 5, 1),
 ( 'www.sitiowebcontacto22.com', 9, 2),
 ( 'linkedin.com/in/contacto23', 7, 3),
-( '125 Main St, Ciudad, Pa√≠s', 8, 4),
+( '125 Main St, Ciudad, PaÌs', 8, 4),
 ( 'skype_contacto25', 10, 5),
 ( '+2345678901', 3, 6),
 ( 'contacto27@email.com', 1, 7),
@@ -954,7 +951,7 @@ INSERT INTO CONTACTOS ( descripcion, id_tipo_contacto, cod_cliente) VALUES
 ( '/facebook_contacto34', 5, 14),
 ( 'www.sitiowebcontacto35.com', 9, 15),
 ( 'linkedin.com/in/contacto36', 7, 16),
-( '127 Main St, Ciudad, Pa√≠s', 8, 17),
+( '127 Main St, Ciudad, PaÌs', 8, 17),
 ( 'skype_contacto38', 10, 18),
 ( '+4567890123', 3, 19),
 ( 'contacto40@email.com', 1, 20);
@@ -980,49 +977,96 @@ INSERT INTO AUTOPLANES_CLIENTES (id, cod_cliente, id_autoplan) VALUES (17, 17, 5
 INSERT INTO AUTOPLANES_CLIENTES (id, cod_cliente, id_autoplan) VALUES (18, 18, 6);
 INSERT INTO AUTOPLANES_CLIENTES (id, cod_cliente, id_autoplan) VALUES (19, 19, 7);
 INSERT INTO AUTOPLANES_CLIENTES (id, cod_cliente, id_autoplan) VALUES (20, 20, 8);
-
 go
+alter table clientes
+add Fecha_Baja datetime
+go
+
+---- Consultas simples ----
 create procedure SP_CONSULTAR_PRODUCTOS
 AS
 BEGIN
-SELECT*FROM PRODUCTOS
+	SELECT*FROM PRODUCTOS
 END
 go
 create procedure SP_CONSULTAR_CLIENTES
 AS
 BEGIN
-SELECT*FROM clientes
+	SELECT*FROM clientes
 END
 go
 create procedure SP_CONSULTAR_TIPO_CLIENTES
 AS
 BEGIN
-SELECT*FROM TIPO_CLIENTES
-order by id_tipo ;
+	SELECT*FROM TIPO_CLIENTES
+	order by id_tipo ;
 END
 go
 create procedure SP_CONSULTAR_barrios
 AS
 BEGIN
-SELECT*FROM BARRIOS
+	SELECT*FROM BARRIOS
 END
 go
 create procedure SP_CONSULTAR_paises
 AS
 BEGIN
-SELECT*FROM PAISES
+	SELECT*FROM PAISES
 END
 go
 create procedure SP_CONSULTAR_localidades
 AS
 BEGIN
-SELECT*FROM LOCALIDADES
+	SELECT*FROM LOCALIDADES
 END
-
-
-------
 go
---
+CREATE PROCEDURE SP_TIPOS_CONTACTOS
+AS 
+	SELECT*FROM TIPO_CONTACTOS
+go
+create procedure Sp_consultar_tipoProducto
+as
+begin
+	select *
+	from TIPO_PRODUCTOS
+END
+go
+CREATE PROCEDURE SP_CONSULTAR_MARCAS
+AS 
+BEGIN
+	SELECT *
+	FROM MARCAS
+END
+go
+CREATE PROCEDURE SP_CONSULTAR_TIPOMATERIAL
+AS
+BEGIN
+	SELECT *
+	FROM TIPO_MATERIALES
+END
+go
+create procedure Sp_consultar_tipoPeso
+as
+begin
+	select *
+	from TIPO_UNIDADES_PESO
+END
+go
+create procedure Sp_consultar_tipoMedida
+as
+begin
+	select *
+	from TIPO_UNIDADES_MEDIDA
+END
+go
+CREATE PROCEDURE SP_CONSULTAR_TIPO_FACTURAS
+AS
+BEGIN
+	SELECT * FROM TIPO_FACTURA
+END
+go
+
+-------------- CLIENTES -----------------
  CREATE PROCEDURE sp_insertar_clientes 
 @nombre varchar(75),
 @razonSocial varchar(75),
@@ -1035,11 +1079,10 @@ as
 begin
     INSERT INTO CLIENTES ( nombre, razon_social, cuil_cuit, id_barrio, direccion, id_tipo_cliente)
     VALUES ( @nombre, @razonSocial, @cuil_cuit, @id_barrio, @direccion, @id_tipo_cliente);
-	 -- Obtener el √∫ltimo cod_cliente insertado
+	 -- Obtener el ˙ltimo cod_cliente insertado
     SET @id= SCOPE_IDENTITY()
 end
-go
---
+
 go
  create PROCEDURE SP_CONSULTAR_CLIENTES_PARAM
 @NOMBRE VARCHAR(50) ,
@@ -1048,38 +1091,74 @@ AS
 BEGIN
     SELECT *
 	FROM CLIENTES c
-	join BARRIOS b on b.id_barrio =c.id_barrio
     WHERE nombre LIKE '%'+ @NOMBRE+'%' AND 
         id_tipo_cliente = @ID_TIPO_CLIENTE
+		and c.fecha_baja is null
     
 END
 go
-CREATE PROCEDURE SP_ELIMINAR_CLIENTE
-@COD INT
+	CREATE PROCEDURE SP_ELIMINAR_CLIENTE
+	@COD INT
 AS
 BEGIN
   DELETE CLIENTES WHERE cod_cliente = @COD
 END
 go
-CREATE PROCEDURE SP_TIPOS_CONTACTOS
-AS 
-SELECT*FROM TIPO_CONTACTOS
+CREATE PROCEDURE SP_BAJA_CLIENTES
+@COD INT
+AS
+BEGIN
+  UPDATE CLIENTES
+  SET FECHA_BAJA = GETDATE()
+  WHERE COD_CLIENTE = @COD
+END
 go
-CREATE PROCEDURE INSERTAR_CONTACTOS
+
+
+create PROCEDURE SP_MODIFICAR_CLIENTES
+@COD INT,
+@nombre varchar(75) = null,
+@razonSocial varchar(75)= null,
+@cuil_cuit varchar(75)= null,
+@id_barrio int = null,
+@direccion varchar(100) = null,
+@id_tipo_cliente int = null
+AS
+BEGIN 
+   UPDATE CLIENTES
+   SET NOMBRE = @NOMBRE,
+        RAZON_SOCIAL=@RAZONSOCIAL,
+		cuil_cuit= @CUIL_CUIT,
+		id_barrio = @ID_BARRIO,
+		direccion=@DIRECCION, 
+		id_tipo_cliente=@ID_TIPO_CLIENTE
+   WHERE COD_CLIENTE = @COD
+END
+
+go
+
+CREATE PROCEDURE SP_INSERTAR_CONTACTOS
 @COD INT output,
 @DESCRIPCION VARCHAR(50),
 @ID_TIPO_CONTACTO INT,
 @COD_CLIENTE INT
 AS
 BEGIN
-INSERT INTO CONTACTOS(descripcion,id_tipo_contacto,cod_cliente)
-VALUES(@DESCRIPCION,@ID_TIPO_CONTACTO,@COD_CLIENTE)
-SET @COD = SCOPE_IDENTITY()
+	INSERT INTO CONTACTOS(descripcion,id_tipo_contacto,cod_cliente)
+	VALUES(@DESCRIPCION,@ID_TIPO_CONTACTO,@COD_CLIENTE)
+	SET @COD = SCOPE_IDENTITY()
 END
 go
---lauti--
+create procedure sp_consultar_contacto_By_Id
+@id int
+as 
+select*
+ from CONTACTOS 
+ where cod_cliente = @id
+go
+------------- PRODUCTOS ---------------
 CREATE PROCEDURE SP_INSERTAR_PRODUCTOS
-@id_producto int, @producto varchar(100),
+@producto varchar(100),
 @id_tipo_producto int, @num_serie int,
 @precio double precision, @fecha_fabricacion date,
 @vida_util int, @peso double precision,
@@ -1090,47 +1169,54 @@ CREATE PROCEDURE SP_INSERTAR_PRODUCTOS
 
 AS 
 BEGIN 
-INSERT INTO PRODUCTOS(id_producto,producto,
-id_tipo_producto, num_serie,precio,
-fecha_fabricacion,vida_util,peso,
-id_unidad_peso,largo,ancho,alto,
-id_unidad_medida,id_tipo_material,
-id_pais, id_marca)
-VALUES(@id_producto,@producto,
-@id_tipo_producto,@num_serie,@precio,
-@fecha_fabricacion,@vida_util,
-@peso,@id_unidad_peso,@largo,
-@ancho,@alto,@id_unidad_medida,
-@id_tipo_material,@id_pais,@id_marca)
-
+	INSERT INTO PRODUCTOS(producto,
+	id_tipo_producto, num_serie,precio,
+	fecha_fabricacion,vida_util,peso,
+	id_unidad_peso,largo,ancho,alto,
+	id_unidad_medida,id_tipo_material,
+	id_pais, id_marca)
+	VALUES(@producto,
+	@id_tipo_producto,@num_serie,@precio,
+	@fecha_fabricacion,@vida_util,
+	@peso,@id_unidad_peso,@largo,
+	@ancho,@alto,@id_unidad_medida,
+	@id_tipo_material,@id_pais,@id_marca)
 END
 go
-
-
--- sofi's
-
-create procedure Sp_consultar_tipoProducto
-as
-begin
-select *
-from TIPO_PRODUCTOS
-END
-go
-CREATE PROCEDURE SP_CONSULTAR_MARCAS
-AS 
-BEGIN
-SELECT *
-FROM MARCAS
-END
-go
-CREATE PROCEDURE SP_CONSULTAR_TIPOMATERIAL
+create PROCEDURE sp_eliminarProducto
+    @ProductoID INT
 AS
 BEGIN
-SELECT *
-FROM TIPO_MATERIALES
+    
+    IF EXISTS (SELECT 1 FROM PRODUCTOS WHERE id_producto = @ProductoID)
+    BEGIN
+        
+        DELETE FROM PRODUCTOS WHERE id_producto = @ProductoID;
+    END
 END
-
---mine
+go
+create PROCEDURE sp_ConsultarProductos_param
+    @NombreProducto VARCHAR(100),
+    @Marca INT,
+    @TipoProductoID INT,
+    @TipoMaterialID INT
+AS
+BEGIN
+    SELECT
+         P.*, TP.descripcion, TM.descripcion, M.marca
+    FROM
+        PRODUCTOS P
+        INNER JOIN MARCAS M ON P.id_marca = M.id
+        INNER JOIN TIPO_PRODUCTOS TP ON P.id_tipo_producto = TP.id
+        INNER JOIN TIPO_MATERIALES TM ON P.id_tipo_material = TM.id
+    WHERE
+        P.producto LIKE '%' + @NombreProducto + '%' 
+        AND P.id_marca = @Marca
+        AND P.id_tipo_producto = @TipoProductoID
+        AND P.id_tipo_material = @TipoMaterialID 
+END
+GO
+----------   FACTURAS   ------------------
 create procedure sp_insertar_factura
 @cliente int,
 @tipo_facturas int,
@@ -1151,12 +1237,11 @@ create procedure sp_insertar_detalle_f
 @cantidad int
 as
 begin
-	
 	insert into DETALLE_FACTURAS (nro_factura,cod_producto,pre_unitario,cantidad)
 	values (@factura,@producto,@precio,@cantidad);
-
 end
 go
+--------- ORDENES ------------
 create procedure sp_insert_orden
 @detalles varchar(150),
 @orden int output --para sacar el id de orden de pedidos
@@ -1180,6 +1265,7 @@ begin
 	values(@fecha,@orden,@producto,@cantidad,@precio); 
 end
 go
+----------- TRIGGER   --------------------
 create trigger t_reduccion_de_stock
 on detalle_facturas
 for insert
@@ -1195,26 +1281,3 @@ begin
 	set cantidad_total = cantidad_total - @cantidad
 	where id_producto = @producto
 end
-go
-
-create procedure Sp_consultar_tipoPeso
-as
-begin
-select *
-from TIPO_UNIDADES_PESO
-END
-go
-create procedure Sp_consultar_tipoMedida
-as
-begin
-select *
-from TIPO_UNIDADES_MEDIDA
-END
-go
-
----
-CREATE PROCEDURE SP_CONSULTAR_TIPO_FACTURAS
-AS
-BEGIN
-	SELECT * FROM TIPO_FACTURA
-END
