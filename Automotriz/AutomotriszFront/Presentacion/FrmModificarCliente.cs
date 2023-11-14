@@ -28,12 +28,19 @@ namespace AutomotrizFront.Presentacion
         {
             CargarTipos();
             CargarBarrios();
+            CargarTipoContacto();
             txtCuil.Text = cliente.CuilCuit;
             txtNombre.Text = cliente.Nombre;
             txtRazonSocial.Text = cliente.RazonSocial.ToString();
             txtDireccion.Text = cliente.Direccion;
             cboBarrio.SelectedIndex = cliente.Barrio.id_barrio - 1;
             cboTipo.SelectedIndex = cliente.Tipo.Id - 1;
+        }
+        private void CargarTipoContacto()
+        {
+            cboTipoContacto.DataSource = servicio.tiposContac();
+            cboTipoContacto.DisplayMember = "Descripcion";
+            cboTipoContacto.ValueMember = "cod";
         }
 
         private void CargarBarrios()
@@ -55,6 +62,11 @@ namespace AutomotrizFront.Presentacion
         {
             TipoCliente c = (TipoCliente)cboTipo.SelectedItem;
             barrio b = (barrio)cboBarrio.SelectedItem;
+            TipoContacto Tcontac = (TipoContacto)cboTipoContacto.SelectedItem;
+
+            Contacto contac = new Contacto();
+            contac.Descripcion = txtContacto.Text;
+            contac.tipo_contacto = Tcontac;
 
             string nom = txtNombre.Text;
             int cod = cliente.Cod;
@@ -71,9 +83,10 @@ namespace AutomotrizFront.Presentacion
             cliente.RazonSocial = razon;
             cliente.CuilCuit = cuil;
             cliente.Direccion = dirrec;
+            cliente.AgregarContacto(contac);
 
             dgvAltaClientes.Rows.Add(new object[] {cod,nom,barrio, dirrec,
-            razon,cuil,tipo,"quitar"});
+            razon,cuil,tipo,contac.Descripcion,"quitar"});
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -126,7 +139,7 @@ namespace AutomotrizFront.Presentacion
 
         private void dgvAltaClientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (dgvAltaClientes.CurrentCell.ColumnIndex == 7) 
+            if (dgvAltaClientes.CurrentCell.ColumnIndex == 8)
             {
                 dgvAltaClientes.Rows.RemoveAt(dgvAltaClientes.CurrentRow.Index);
             }

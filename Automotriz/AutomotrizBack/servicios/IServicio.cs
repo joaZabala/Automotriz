@@ -24,5 +24,7 @@ namespace AutomotrizBack.servicios
         bool editarCliente(Cliente cliente);
 
         List<TipoContacto> tiposContac();
+
+        List<Contacto> ContactosBYId(int id);
     }
 }

@@ -46,7 +46,7 @@ namespace AutomotrizBack.Datos.Implementacion
 
         //  }
 
-        public List<Cliente> Get(string nombre, int tipoCliente)
+        public List<Cliente> GetBYFilters(string nombre, int tipoCliente)
         {
             List<Parametro> Param = new List<Parametro>();
             Param.Add(new Parametro("@NOMBRE", nombre));
