@@ -197,3 +197,6 @@ D:\Biblotecas\backup\Programing\Csharp\Automotriz\Automotriz\AutomotrizFront\bin
 D:\Biblotecas\backup\Programing\Csharp\Automotriz\Automotriz\AutomotrizFront\bin\Debug\zh-HANS\Microsoft.ReportViewer.WinForms.resources.dll
 D:\Biblotecas\backup\Programing\Csharp\Automotriz\Automotriz\AutomotrizFront\bin\Debug\zh-HANT\Microsoft.ReportViewer.WinForms.resources.dll
 D:\Biblotecas\backup\Programing\Csharp\Automotriz\Automotriz\AutomotrizFront\obj\Debug\AutomotrizFront.csproj.CopyComplete
+D:\Biblotecas\backup\Programing\Csharp\Automotriz\Automotriz\AutomotrizFront\bin\Debug\AutomotrizBack.dll
+D:\Biblotecas\backup\Programing\Csharp\Automotriz\Automotriz\AutomotrizFront\bin\Debug\AutomotrizBack.pdb
+D:\Biblotecas\backup\Programing\Csharp\Automotriz\Automotriz\AutomotrizFront\obj\Debug\AutomotrizFront.Presentacion.Login.resources
