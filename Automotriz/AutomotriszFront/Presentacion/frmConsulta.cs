@@ -20,7 +20,7 @@ namespace AutomotriszFront.Presentacion
         IServicio servicio;
         List<Cliente> clientes;
         int Codigo = 0;
-        
+
         public frmConsulta(FabricaServicioImp factory)
         {
             InitializeComponent();
@@ -61,15 +61,17 @@ namespace AutomotriszFront.Presentacion
 
             clientes = servicio.GetByParam(nombre, id_tipo); //lista de clientes ,segun parametros
 
+            MessageBox.Show($"Nombre: {nombre}, ID Tipo: {id_tipo}, Clientes Count: {clientes.Count}");
+
             foreach (Cliente c in clientes)
             {
                 c.Contactos = servicio.ContactosBYId(c.Cod);
 
                 foreach (Contacto contacto in c.Contactos)
-                { 
+                {
                     dgvClientes.Rows.Add(new object[] { c.Cod,c.Nombre,c.Direccion,c.RazonSocial
-                ,c.CuilCuit,tipo_nom,contacto.Descripcion,"Editar" });
-                }
+                   ,c.CuilCuit,tipo_nom,contacto.Descripcion,"Editar" });
+                }  
 
             }
 
@@ -78,7 +80,7 @@ namespace AutomotriszFront.Presentacion
         private void dgvClientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             string nombre = dgvClientes.CurrentRow.Cells[1].Value.ToString();
-            if (dgvClientes.CurrentCell.ColumnIndex == 8)
+            if (dgvClientes.CurrentCell.ColumnIndex == 7)
             {
                 if (MessageBox.Show("Desea editar el cliente " + "' " + nombre + "'?", "Question",
                     MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
@@ -87,6 +89,8 @@ namespace AutomotriszFront.Presentacion
 
                     FrmModificarCliente modificar = new FrmModificarCliente(Codigo, new FabricaServicioImp());
                     modificar.ShowDialog();
+
+                    dgvClientes.Rows.Clear();
                 }
             }
 
@@ -103,21 +107,21 @@ namespace AutomotriszFront.Presentacion
         }
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            /* string nombre = dgvClientes.CurrentRow.Cells[1].Value.ToString();
+            string nombre = dgvClientes.CurrentRow.Cells[1].Value.ToString();
              int nro = Convert.ToInt32(dgvClientes.CurrentRow.Cells[0].Value.ToString());
 
-             if (MessageBox.Show("Esta seguro  que quiere borra para siempre el cliente " +
+             if (MessageBox.Show("Esta seguro  que quiere dar de baja a " +
                  nombre + "?", "Información", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
              {
-                 if (servicio.DeleteCliente(nro))
+                 if (servicio.BajaCliente(nro))
                  {
-                     MessageBox.Show("Cliente " + nro + " borrado", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                     MessageBox.Show("Cliente " + nro + " dado de baja", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
                  }
                  else
                  {
-                     MessageBox.Show("no se pudo borrar el cliente", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                     MessageBox.Show("no se pudo dar de baja al cliente ", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
                  }
-             }*/
+             }
         }
 
         private void btnAtras_Click(object sender, EventArgs e)

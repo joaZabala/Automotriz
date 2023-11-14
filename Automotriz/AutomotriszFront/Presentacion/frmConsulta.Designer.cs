@@ -33,20 +33,19 @@
             cboTipo = new ComboBox();
             label2 = new Label();
             dgvClientes = new DataGridView();
-            btnConsultar = new Button();
-            btnSalir = new Button();
-            label3 = new Label();
-            btnEliminar = new Button();
-            btnAtras = new Button();
             ColID = new DataGridViewTextBoxColumn();
             colNombre = new DataGridViewTextBoxColumn();
             colDireccion = new DataGridViewTextBoxColumn();
             colRazonSocial = new DataGridViewTextBoxColumn();
             colCuil = new DataGridViewTextBoxColumn();
             colTipoCli = new DataGridViewTextBoxColumn();
-            colTipoContact = new DataGridViewTextBoxColumn();
             colContacto = new DataGridViewTextBoxColumn();
             colAcciones = new DataGridViewButtonColumn();
+            btnConsultar = new Button();
+            btnSalir = new Button();
+            label3 = new Label();
+            btnEliminar = new Button();
+            btnAtras = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvClientes).BeginInit();
             SuspendLayout();
             // 
@@ -88,68 +87,15 @@
             dgvClientes.AllowUserToAddRows = false;
             dgvClientes.AllowUserToDeleteRows = false;
             dgvClientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvClientes.Columns.AddRange(new DataGridViewColumn[] { ColID, colNombre, colDireccion, colRazonSocial, colCuil, colTipoCli, colTipoContact, colContacto, colAcciones });
-            dgvClientes.Location = new Point(38, 154);
+            dgvClientes.Columns.AddRange(new DataGridViewColumn[] { ColID, colNombre, colDireccion, colRazonSocial, colCuil, colTipoCli, colContacto, colAcciones });
+            dgvClientes.Location = new Point(129, 155);
             dgvClientes.Name = "dgvClientes";
             dgvClientes.ReadOnly = true;
             dgvClientes.RowHeadersWidth = 51;
             dgvClientes.RowTemplate.Height = 29;
-            dgvClientes.Size = new Size(1060, 202);
+            dgvClientes.Size = new Size(930, 202);
             dgvClientes.TabIndex = 15;
             dgvClientes.CellContentClick += dgvClientes_CellContentClick;
-            // 
-            // btnConsultar
-            // 
-            btnConsultar.Location = new Point(861, 106);
-            btnConsultar.Name = "btnConsultar";
-            btnConsultar.Size = new Size(94, 29);
-            btnConsultar.TabIndex = 16;
-            btnConsultar.Text = "Consultar";
-            btnConsultar.UseVisualStyleBackColor = true;
-            btnConsultar.Click += btnConsultar_Click;
-            // 
-            // btnSalir
-            // 
-            btnSalir.Location = new Point(1017, 409);
-            btnSalir.Name = "btnSalir";
-            btnSalir.Size = new Size(94, 29);
-            btnSalir.TabIndex = 17;
-            btnSalir.Text = "Salir";
-            btnSalir.UseVisualStyleBackColor = true;
-            btnSalir.Click += btnSalir_Click;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.BorderStyle = BorderStyle.Fixed3D;
-            label3.Font = new Font("Perpetua Titling MT", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(428, 20);
-            label3.Name = "label3";
-            label3.Size = new Size(127, 30);
-            label3.TabIndex = 18;
-            label3.Text = "Clientes";
-            label3.TextAlign = ContentAlignment.MiddleCenter;
-            label3.Click += label3_Click;
-            // 
-            // btnEliminar
-            // 
-            btnEliminar.Location = new Point(978, 105);
-            btnEliminar.Name = "btnEliminar";
-            btnEliminar.Size = new Size(94, 29);
-            btnEliminar.TabIndex = 19;
-            btnEliminar.Text = "Eliminar";
-            btnEliminar.UseVisualStyleBackColor = true;
-            btnEliminar.Click += btnEliminar_Click;
-            // 
-            // btnAtras
-            // 
-            btnAtras.Location = new Point(38, 396);
-            btnAtras.Name = "btnAtras";
-            btnAtras.Size = new Size(94, 29);
-            btnAtras.TabIndex = 20;
-            btnAtras.Text = "Atras";
-            btnAtras.UseVisualStyleBackColor = true;
-            btnAtras.Click += btnAtras_Click;
             // 
             // ColID
             // 
@@ -200,14 +146,6 @@
             colTipoCli.ReadOnly = true;
             colTipoCli.Width = 125;
             // 
-            // colTipoContact
-            // 
-            colTipoContact.HeaderText = "Tipo contacto";
-            colTipoContact.MinimumWidth = 6;
-            colTipoContact.Name = "colTipoContact";
-            colTipoContact.ReadOnly = true;
-            colTipoContact.Width = 125;
-            // 
             // colContacto
             // 
             colContacto.HeaderText = "Contacto";
@@ -224,6 +162,59 @@
             colAcciones.ReadOnly = true;
             colAcciones.Text = "";
             colAcciones.Width = 125;
+            // 
+            // btnConsultar
+            // 
+            btnConsultar.Location = new Point(861, 106);
+            btnConsultar.Name = "btnConsultar";
+            btnConsultar.Size = new Size(94, 29);
+            btnConsultar.TabIndex = 16;
+            btnConsultar.Text = "Consultar";
+            btnConsultar.UseVisualStyleBackColor = true;
+            btnConsultar.Click += btnConsultar_Click;
+            // 
+            // btnSalir
+            // 
+            btnSalir.Location = new Point(1017, 409);
+            btnSalir.Name = "btnSalir";
+            btnSalir.Size = new Size(94, 29);
+            btnSalir.TabIndex = 17;
+            btnSalir.Text = "Salir";
+            btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.Click += btnSalir_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BorderStyle = BorderStyle.Fixed3D;
+            label3.Font = new Font("Perpetua Titling MT", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(508, 24);
+            label3.Name = "label3";
+            label3.Size = new Size(127, 30);
+            label3.TabIndex = 18;
+            label3.Text = "Clientes";
+            label3.TextAlign = ContentAlignment.MiddleCenter;
+            label3.Click += label3_Click;
+            // 
+            // btnEliminar
+            // 
+            btnEliminar.Location = new Point(978, 105);
+            btnEliminar.Name = "btnEliminar";
+            btnEliminar.Size = new Size(94, 29);
+            btnEliminar.TabIndex = 19;
+            btnEliminar.Text = "Eliminar";
+            btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click;
+            // 
+            // btnAtras
+            // 
+            btnAtras.Location = new Point(38, 396);
+            btnAtras.Name = "btnAtras";
+            btnAtras.Size = new Size(94, 29);
+            btnAtras.TabIndex = 20;
+            btnAtras.Text = "Atras";
+            btnAtras.UseVisualStyleBackColor = true;
+            btnAtras.Click += btnAtras_Click;
             // 
             // frmConsulta
             // 
@@ -267,7 +258,6 @@
         private DataGridViewTextBoxColumn colRazonSocial;
         private DataGridViewTextBoxColumn colCuil;
         private DataGridViewTextBoxColumn colTipoCli;
-        private DataGridViewTextBoxColumn colTipoContact;
         private DataGridViewTextBoxColumn colContacto;
         private DataGridViewButtonColumn colAcciones;
     }

@@ -22,7 +22,6 @@ namespace AutomotrizFront.Presentacion
             servicio = factory.CrearServicio();
             cliente = servicio.ClienteById(codigo);
 
-
         }
         private void FrmModificarCliente_Load(object sender, EventArgs e)
         {
@@ -85,7 +84,7 @@ namespace AutomotrizFront.Presentacion
             cliente.Direccion = dirrec;
             cliente.AgregarContacto(contac);
 
-            dgvAltaClientes.Rows.Add(new object[] {cod,nom,barrio, dirrec,
+            dgvAltaClientes.Rows.Add(new object[] {cod,nom,dirrec,
             razon,cuil,tipo,contac.Descripcion,"quitar"});
         }
 
@@ -108,10 +107,9 @@ namespace AutomotrizFront.Presentacion
 
                     MessageBox.Show("No se pudo modicar el cliente", "informacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
+
                 this.Dispose();
             }
-            MessageBox.Show("Debe agregar la modificacion del cliente a la grilla", "Información", MessageBoxButtons.OK
-                , MessageBoxIcon.Information);
 
         }
 
@@ -139,7 +137,7 @@ namespace AutomotrizFront.Presentacion
 
         private void dgvAltaClientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (dgvAltaClientes.CurrentCell.ColumnIndex == 8)
+            if (dgvAltaClientes.CurrentCell.ColumnIndex == 7)
             {
                 dgvAltaClientes.Rows.RemoveAt(dgvAltaClientes.CurrentRow.Index);
             }

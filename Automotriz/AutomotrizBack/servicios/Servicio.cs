@@ -26,6 +26,11 @@ namespace AutomotrizBack.servicios
             contacDao = new ContactoDao();
         }
 
+        public bool BajaCliente(int cod_cliente)
+        {
+            return Daocliente.Baja(cod_cliente);
+        }
+
         public Cliente ClienteById(int id)
         {
             return Daocliente.GetById(id);
@@ -35,11 +40,6 @@ namespace AutomotrizBack.servicios
         {
             return contacDao.GetById(id);
         }
-
-        /*  public bool DeleteCliente(int cod_cliente)
-          {
-             return Daocliente.delete(cod_cliente);
-          }*/
 
         public bool editarCliente(Cliente cliente)
         {

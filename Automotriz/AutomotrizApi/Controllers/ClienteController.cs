@@ -1,4 +1,5 @@
-﻿using AutomotrizBack.Datos.Implementacion;
+﻿using AutomotrizBack.Datos;
+using AutomotrizBack.Datos.Implementacion;
 using AutomotrizBack.Datos.Interfaz;
 using AutomotrizBack.Entidades;
 using AutomotrizBack.servicios;
@@ -13,47 +14,52 @@ namespace AutomotrizApi.Controllers
     public class ClienteController : ControllerBase
     {
 
-        ICliente dao;
+        IServicio servicio;
 
         public ClienteController()
         {
-            dao = new ClienteDao();
+            servicio=new FabricaServicioImp().CrearServicio();
         }
+
         // GET: api/<ClienteController>
         [HttpGet("GetAll")]
         public IActionResult Get()
         {
-            return Ok(dao.GetAll());
+            return Ok(servicio.GetClientes());
         }
+
 
         // GET api/<ClienteController>/5
         [HttpGet("GetByFilters")]
         public IActionResult Get(int tipo_cli, string name)
         {
-            return Ok(dao.Get(name, tipo_cli));
+            if(tipo_cli == null || name == null)
+            {
+                return BadRequest("debe ingresar los campos de consulta");
+            }
+            return Ok(servicio.GetByParam(name,tipo_cli));
         }
 
         // POST api/<ClienteController>
         [HttpPost("nuevoCliente")]
         public IActionResult Post(Cliente cliente)
         {
-           
-                if (cliente == null)
-                {
-                    return BadRequest("Se esperaba un cliente");
-                }
-                if (dao.Nuevo(cliente))
-                    return Ok("Cliente registrado");
-                else
-                    return StatusCode(500, "No se pudo registrar cliente");
-          
+            if (cliente == null)
+            {
+                return BadRequest("Se esperaba un cliente");
+            }
+            if (servicio.NuevoCliente(cliente))
+                return Ok("Cliente registrado");
+            else
+                return StatusCode(500, "No se pudo registrar cliente");
+
         }
 
         // PUT api/<ClienteController>/5
         [HttpPut("moficacion")]
         public IActionResult Put(Cliente c)
         {
-            if (dao.edit(c))
+            if (servicio.editarCliente(c))
             {
                 return Ok("cliente modificado");
             }

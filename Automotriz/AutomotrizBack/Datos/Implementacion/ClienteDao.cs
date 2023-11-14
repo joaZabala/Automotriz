@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
@@ -13,38 +14,6 @@ namespace AutomotrizBack.Datos.Implementacion
 {
     public class ClienteDao : ICliente
     {
-        //public bool delete(int codigo)
-        //{
-        //    bool aux = true;
-        //    SqlConnection conexion = HelperDB.GetInstancia().GetConexion();
-        //    SqlTransaction t = null;
-
-        //   try
-        //   {
-        //        conexion.Open();
-        //        t = conexion.BeginTransaction();
-        //        SqlCommand cmd = new SqlCommand("sp_eliminar_cliente", conexion, t);
-        //        cmd.CommandType = CommandType.StoredProcedure;
-        //        cmd.Parameters.AddWithValue("@cod", codigo);
-        //        cmd.ExecuteNonQuery();
-        //        t.Commit();
-        //   }
-        //   catch
-        // //   {
-        //        if (t != null) t.Rollback();
-        //        aux = false;
-        // //   }
-        // //   finally
-        // //   {
-        //        if (conexion.State == ConnectionState.Open)
-        //        {
-        //            conexion.Close();
-        //        }
-
-        //   // }
-        //    return aux;
-
-        //  }
 
         public List<Cliente> GetBYFilters(string nombre, int tipoCliente)
         {
@@ -201,6 +170,18 @@ namespace AutomotrizBack.Datos.Implementacion
                 cmd.Parameters.AddWithValue("@id_tipo_cliente", cliente.Tipo.Id);
 
                 cmd.ExecuteNonQuery();
+
+                foreach (Contacto c in cliente.Contactos)
+                {
+                    SqlCommand comando = new SqlCommand("sp_modificar_contacto", conexion, t);
+                    comando.CommandType = CommandType.StoredProcedure;
+                    comando.Parameters.AddWithValue("@descripcion", c.Descripcion);
+                    comando.Parameters.AddWithValue("@id_tipo_contacto", c.tipo_contacto.cod);
+
+                    comando.Parameters.AddWithValue("@cod_cliente", cliente.Cod);
+
+                    comando.ExecuteNonQuery();
+                }
                 t.Commit();
             }
             catch
@@ -220,6 +201,41 @@ namespace AutomotrizBack.Datos.Implementacion
             }
             return aux;
         }
+
+        public bool Baja(int id)
+        {
+            SqlConnection con = HelperDB.GetInstancia().GetConexion();
+            SqlTransaction t = null;
+            bool aux = true;
+            try
+            {
+                con.Open();
+                t = con.BeginTransaction();
+
+                SqlCommand cmd = new SqlCommand("SP_BAJA_CLIENTES", con, t);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@cod", id);
+                cmd.ExecuteNonQuery();
+                t.Commit();
+            }
+            catch
+            {
+                if (t != null)
+                {
+                    t.Rollback();
+                    aux = false;
+                }
+            }
+            finally
+            {
+                if (con.State == ConnectionState.Open)
+                {
+                    con.Close();
+                }
+            }
+            return aux;
+        }
     }
 }
+
 
