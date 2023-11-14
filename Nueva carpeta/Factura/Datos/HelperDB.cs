@@ -17,7 +17,7 @@ namespace Factura
         static HelperDB instancia;
         private HelperDB()
         {
-            conexion = new SqlConnection(@"Data Source=DESKTOP-H5O1V1P\SQLEXPRESS;Initial Catalog=autotest2;Integrated Security=True") ;
+            conexion = new SqlConnection(@"Data Source=DESKTOP-4MKSC1R;Initial Catalog=AUTOMOTRIZ_V4;Integrated Security=True") ;
 
         }
 

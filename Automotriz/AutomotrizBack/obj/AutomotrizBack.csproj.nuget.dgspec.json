@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj": {}
+    "D:\\Biblotecas\\backup\\Programing\\Csharp\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj": {
+    "D:\\Biblotecas\\backup\\Programing\\Csharp\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj",
+        "projectUniqueName": "D:\\Biblotecas\\backup\\Programing\\Csharp\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj",
         "projectName": "AutomotrizBack",
-        "projectPath": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj",
-        "packagesPath": "C:\\Users\\Tinon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tinon\\OneDrive\\Escritorio\\TP PROG\\Automotriz\\Automotriz\\AutomotrizBack\\obj\\",
+        "projectPath": "D:\\Biblotecas\\backup\\Programing\\Csharp\\Automotriz\\Automotriz\\AutomotrizBack\\AutomotrizBack.csproj",
+        "packagesPath": "C:\\Users\\Pc\\.nuget\\packages\\",
+        "outputPath": "D:\\Biblotecas\\backup\\Programing\\Csharp\\Automotriz\\Automotriz\\AutomotrizBack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tinon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
