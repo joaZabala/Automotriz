@@ -205,20 +205,13 @@ create procedure sp_insertar_detalle_f
 @factura int,
 @producto int,
 @precio float,
-@cantidad int,
-@p_cod int output
+@cantidad int
 as
 begin
-	if (@cantidad> (select cantidad_total from STOCK s where s.id_producto = @producto)) -- si cantidad es mayor que el stock, salta error
-		begin
-			raiserror('la cantidad es mayor que el stock actual en la empresa, haga una orden de pedido',-1,-1)
-			set @p_cod = @producto
-		end
-	else --si no hay error se procede con la insersion
-		begin
+	
 			insert into DETALLE_FACTURAS (nro_factura,cod_producto,pre_unitario,cantidad)
 			values (@factura,@producto,@precio,@cantidad);
-		end
+
 end
 go
 create procedure sp_insert_orden
