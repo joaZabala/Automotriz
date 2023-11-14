@@ -88,43 +88,91 @@ la parte de la base de datos que usamos es la siguiente:
 ### SP usados
 
 ```
+---- Consultas simples ----
 create procedure SP_CONSULTAR_PRODUCTOS
 AS
 BEGIN
-SELECT*FROM PRODUCTOS
+	SELECT*FROM PRODUCTOS
 END
 go
 create procedure SP_CONSULTAR_CLIENTES
 AS
 BEGIN
-SELECT*FROM clientes
+	SELECT*FROM clientes
 END
 go
 create procedure SP_CONSULTAR_TIPO_CLIENTES
 AS
 BEGIN
-SELECT*FROM TIPO_CLIENTES
-order by id_tipo ;
+	SELECT*FROM TIPO_CLIENTES
+	order by id_tipo ;
 END
 go
 create procedure SP_CONSULTAR_barrios
 AS
 BEGIN
-SELECT*FROM BARRIOS
+	SELECT*FROM BARRIOS
 END
 go
 create procedure SP_CONSULTAR_paises
 AS
 BEGIN
-SELECT*FROM PAISES
+	SELECT*FROM PAISES
 END
 go
 create procedure SP_CONSULTAR_localidades
 AS
 BEGIN
-SELECT*FROM LOCALIDADES
+	SELECT*FROM LOCALIDADES
 END
 go
+CREATE PROCEDURE SP_TIPOS_CONTACTOS
+AS 
+	SELECT*FROM TIPO_CONTACTOS
+go
+create procedure Sp_consultar_tipoProducto
+as
+begin
+	select *
+	from TIPO_PRODUCTOS
+END
+go
+CREATE PROCEDURE SP_CONSULTAR_MARCAS
+AS 
+BEGIN
+	SELECT *
+	FROM MARCAS
+END
+go
+CREATE PROCEDURE SP_CONSULTAR_TIPOMATERIAL
+AS
+BEGIN
+	SELECT *
+	FROM TIPO_MATERIALES
+END
+go
+create procedure Sp_consultar_tipoPeso
+as
+begin
+	select *
+	from TIPO_UNIDADES_PESO
+END
+go
+create procedure Sp_consultar_tipoMedida
+as
+begin
+	select *
+	from TIPO_UNIDADES_MEDIDA
+END
+go
+CREATE PROCEDURE SP_CONSULTAR_TIPO_FACTURAS
+AS
+BEGIN
+	SELECT * FROM TIPO_FACTURA
+END
+go
+
+-------------- CLIENTES -----------------
  CREATE PROCEDURE sp_insertar_clientes 
 @nombre varchar(75),
 @razonSocial varchar(75),
@@ -140,6 +188,7 @@ begin
 	 -- Obtener el último cod_cliente insertado
     SET @id= SCOPE_IDENTITY()
 end
+
 go
  create PROCEDURE SP_CONSULTAR_CLIENTES_PARAM
 @NOMBRE VARCHAR(50) ,
@@ -148,21 +197,74 @@ AS
 BEGIN
     SELECT *
 	FROM CLIENTES c
-	join BARRIOS b on b.id_barrio =c.id_barrio
     WHERE nombre LIKE '%'+ @NOMBRE+'%' AND 
         id_tipo_cliente = @ID_TIPO_CLIENTE
+		and c.fecha_baja is null
     
 END
 go
-CREATE PROCEDURE SP_ELIMINAR_CLIENTE
-@COD INT
+	CREATE PROCEDURE SP_ELIMINAR_CLIENTE
+	@COD INT
 AS
 BEGIN
   DELETE CLIENTES WHERE cod_cliente = @COD
 END
 go
+CREATE PROCEDURE SP_BAJA_CLIENTES
+@COD INT
+AS
+BEGIN
+  UPDATE CLIENTES
+  SET FECHA_BAJA = GETDATE()
+  WHERE COD_CLIENTE = @COD
+END
+go
+
+
+create PROCEDURE SP_MODIFICAR_CLIENTES
+@COD INT,
+@nombre varchar(75) = null,
+@razonSocial varchar(75)= null,
+@cuil_cuit varchar(75)= null,
+@id_barrio int = null,
+@direccion varchar(100) = null,
+@id_tipo_cliente int = null
+AS
+BEGIN 
+   UPDATE CLIENTES
+   SET NOMBRE = @NOMBRE,
+        RAZON_SOCIAL=@RAZONSOCIAL,
+		cuil_cuit= @CUIL_CUIT,
+		id_barrio = @ID_BARRIO,
+		direccion=@DIRECCION, 
+		id_tipo_cliente=@ID_TIPO_CLIENTE
+   WHERE COD_CLIENTE = @COD
+END
+
+go
+
+CREATE PROCEDURE SP_INSERTAR_CONTACTOS
+@COD INT output,
+@DESCRIPCION VARCHAR(50),
+@ID_TIPO_CONTACTO INT,
+@COD_CLIENTE INT
+AS
+BEGIN
+	INSERT INTO CONTACTOS(descripcion,id_tipo_contacto,cod_cliente)
+	VALUES(@DESCRIPCION,@ID_TIPO_CONTACTO,@COD_CLIENTE)
+	SET @COD = SCOPE_IDENTITY()
+END
+go
+create procedure sp_consultar_contacto_By_Id
+@id int
+as 
+select*
+ from CONTACTOS 
+ where cod_cliente = @id
+go
+------------- PRODUCTOS ---------------
 CREATE PROCEDURE SP_INSERTAR_PRODUCTOS
-@id_producto int, @producto varchar(100),
+@producto varchar(100),
 @id_tipo_producto int, @num_serie int,
 @precio double precision, @fecha_fabricacion date,
 @vida_util int, @peso double precision,
@@ -173,21 +275,54 @@ CREATE PROCEDURE SP_INSERTAR_PRODUCTOS
 
 AS 
 BEGIN 
-INSERT INTO PRODUCTOS(id_producto,producto,
-id_tipo_producto, num_serie,precio,
-fecha_fabricacion,vida_util,peso,
-id_unidad_peso,largo,ancho,alto,
-id_unidad_medida,id_tipo_material,
-id_pais, id_marca)
-VALUES(@id_producto,@producto,
-@id_tipo_producto,@num_serie,@precio,
-@fecha_fabricacion,@vida_util,
-@peso,@id_unidad_peso,@largo,
-@ancho,@alto,@id_unidad_medida,
-@id_tipo_material,@id_pais,@id_marca)
-
+	INSERT INTO PRODUCTOS(producto,
+	id_tipo_producto, num_serie,precio,
+	fecha_fabricacion,vida_util,peso,
+	id_unidad_peso,largo,ancho,alto,
+	id_unidad_medida,id_tipo_material,
+	id_pais, id_marca)
+	VALUES(@producto,
+	@id_tipo_producto,@num_serie,@precio,
+	@fecha_fabricacion,@vida_util,
+	@peso,@id_unidad_peso,@largo,
+	@ancho,@alto,@id_unidad_medida,
+	@id_tipo_material,@id_pais,@id_marca)
 END
 go
+create PROCEDURE sp_eliminarProducto
+    @ProductoID INT
+AS
+BEGIN
+    
+    IF EXISTS (SELECT 1 FROM PRODUCTOS WHERE id_producto = @ProductoID)
+    BEGIN
+        
+        DELETE FROM PRODUCTOS WHERE id_producto = @ProductoID;
+    END
+END
+go
+create PROCEDURE sp_ConsultarProductos_param
+    @NombreProducto VARCHAR(100),
+    @Marca INT,
+    @TipoProductoID INT,
+    @TipoMaterialID INT
+AS
+BEGIN
+    SELECT
+         P.*, TP.descripcion, TM.descripcion, M.marca
+    FROM
+        PRODUCTOS P
+        INNER JOIN MARCAS M ON P.id_marca = M.id
+        INNER JOIN TIPO_PRODUCTOS TP ON P.id_tipo_producto = TP.id
+        INNER JOIN TIPO_MATERIALES TM ON P.id_tipo_material = TM.id
+    WHERE
+        P.producto LIKE '%' + @NombreProducto + '%' 
+        AND P.id_marca = @Marca
+        AND P.id_tipo_producto = @TipoProductoID
+        AND P.id_tipo_material = @TipoMaterialID 
+END
+GO
+----------   FACTURAS   ------------------
 create procedure sp_insertar_factura
 @cliente int,
 @tipo_facturas int,
@@ -208,12 +343,11 @@ create procedure sp_insertar_detalle_f
 @cantidad int
 as
 begin
-	
-			insert into DETALLE_FACTURAS (nro_factura,cod_producto,pre_unitario,cantidad)
-			values (@factura,@producto,@precio,@cantidad);
-
+	insert into DETALLE_FACTURAS (nro_factura,cod_producto,pre_unitario,cantidad)
+	values (@factura,@producto,@precio,@cantidad);
 end
 go
+--------- ORDENES ------------
 create procedure sp_insert_orden
 @detalles varchar(150),
 @orden int output --para sacar el id de orden de pedidos
@@ -237,6 +371,7 @@ begin
 	values(@fecha,@orden,@producto,@cantidad,@precio); 
 end
 go
+----------- TRIGGER   --------------------
 create trigger t_reduccion_de_stock
 on detalle_facturas
 for insert
@@ -252,63 +387,6 @@ begin
 	set cantidad_total = cantidad_total - @cantidad
 	where id_producto = @producto
 end
-go
-CREATE PROCEDURE INSERTAR_CONTACTOS
-@COD INT output,
-@DESCRIPCION VARCHAR(50),
-@ID_TIPO_CONTACTO INT,
-@COD_CLIENTE INT
-AS
-BEGIN
-INSERT INTO CONTACTOS(descripcion,id_tipo_contacto,cod_cliente)
-VALUES(@DESCRIPCION,@ID_TIPO_CONTACTO,@COD_CLIENTE)
-SET @COD = SCOPE_IDENTITY()
-END
-go
-create procedure Sp_consultar_tipoPeso
-as
-begin
-select *
-from TIPO_UNIDADES_PESO
-END
-go
-create procedure Sp_consultar_tipoMedida
-as
-begin
-select *
-from TIPO_UNIDADES_MEDIDA
-END
-go
-create procedure Sp_consultar_tipoProducto
-as
-begin
-select *
-from TIPO_PRODUCTOS
-END
-go
-CREATE PROCEDURE SP_CONSULTAR_MARCAS
-AS 
-BEGIN
-SELECT *
-FROM MARCAS
-END
-go
-CREATE PROCEDURE SP_CONSULTAR_TIPOMATERIAL
-AS
-BEGIN
-SELECT *
-FROM TIPO_MATERIALES
-END
-go
-CREATE PROCEDURE SP_TIPOS_CONTACTOS
-AS 
-SELECT*FROM TIPO_CONTACTOS
-go
-CREATE PROCEDURE SP_CONSULTAR_TIPO_FACTURAS
-AS
-BEGIN
-	SELECT * FROM TIPO_FACTURA
-END
 ```
 ## Integrantes
 ---
