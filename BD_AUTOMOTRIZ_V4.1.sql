@@ -1,6 +1,6 @@
-CREATE DATABASE AUTOMOTRIZ_V4
+CREATE DATABASE AUTOMOTRIZ_V4_1
 GO
-USE AUTOMOTRIZ_V4
+USE AUTOMOTRIZ_V4_1
 GO
 CREATE TABLE PAISES(
 id_pais int,
@@ -98,14 +98,14 @@ id_producto int IDENTITY(1,1),
 producto varchar(100),
 id_tipo_producto int,
 num_serie int,
-precio double precision,
+precio decimal(10,2),
 fecha_fabricacion date,
 vida_util int,
-peso double precision,
+peso decimal(10,2),
 id_unidad_peso int,
-largo double precision,
-ancho double precision,
-alto double precision,
+largo decimal(10,2),
+ancho decimal(10,2),
+alto decimal(10,2),
 id_unidad_medida int,
 id_tipo_material int,
 id_pais int,
@@ -159,7 +159,7 @@ REFERENCES TIPO_UBICACION (ID)
 CREATE TABLE HISTORIAL_PRECIOS(
 id int,
 id_producto int,
-precio double precision,
+precio decimal(10,2),
 fechaDesde date,
 fechaHasta date,
 CONSTRAINT PK_HISTORIAL_PRECIOS PRIMARY KEY(id),
@@ -199,7 +199,7 @@ CREATE TABLE DETALLE_AUTOPLANES(
 id_detalle int,
 id_autoplan int,
 cant_cuotas int,
-intereses double precision,
+intereses decimal(10,2),
 id_producto int,
 CONSTRAINT PK_DETALLE_AUTOPLANES PRIMARY KEY (id_detalle),
 CONSTRAINT FK_DETALLE_AUTOPLANES_AUTOPLANES FOREIGN KEY (id_autoplan)
@@ -221,7 +221,7 @@ fecha_entrega date,
 id_orden_pedido int,
 id_producto int,
 cantidad int,
-precio double precision,
+precio decimal(10,2),
 CONSTRAINT PK_DETALLE_PEDIDOS PRIMARY KEY (id_detalle),
 CONSTRAINT FK_DETALLES_PEDIDOS_PRDEN_PEDIDOS FOREIGN KEY (id_orden_pedido)
 REFERENCES ORDEN_PEDIDOS (id_orden),
@@ -256,7 +256,7 @@ CREATE TABLE FACTURAS_X_FORMA_PAGOS(
 id int,
 id_forma int,
 nro_factura int,
-descuento double precision,
+descuento decimal(10,2),
 CONSTRAINT PK_FACTURAS_X_FORMA_PAGOS PRIMARY KEY (id),
 CONSTRAINT FK_FACTURAS_X_FORMA_PAGOS_FORMA_PAGOS FOREIGN KEY (id_forma)
 REFERENCES FORMA_PAGOS (id_forma),
@@ -267,7 +267,7 @@ CREATE TABLE DETALLE_FACTURAS(
 id_detalle int IDENTITY(1,1),
 nro_factura int,
 cod_producto int,
-pre_unitario double precision,
+pre_unitario decimal(10,2),
 cantidad int,
 CONSTRAINT PK_DETALLE_FACTURAS PRIMARY KEY (id_detalle),
 CONSTRAINT FK_DETALLE_FACTURAS_FACTURAS FOREIGN KEY (nro_factura)
@@ -1160,10 +1160,10 @@ go
 CREATE PROCEDURE SP_INSERTAR_PRODUCTOS
 @producto varchar(100),
 @id_tipo_producto int, @num_serie int,
-@precio double precision, @fecha_fabricacion date,
-@vida_util int, @peso double precision,
-@id_unidad_peso int, @largo double precision,
-@ancho double precision,@alto double precision,
+@precio decimal(10,2), @fecha_fabricacion date,
+@vida_util int, @peso decimal(10,2),
+@id_unidad_peso int, @largo decimal(10,2),
+@ancho decimal(10,2),@alto decimal(10,2),
 @id_unidad_medida int, @id_tipo_material int,
 @id_pais int, @id_marca int
 
@@ -1233,7 +1233,7 @@ go
 create procedure sp_insertar_detalle_f
 @factura int,
 @producto int,
-@precio float,
+@precio decimal(10,2),
 @cantidad int
 as
 begin
@@ -1258,7 +1258,7 @@ create procedure sp_insert_detalle_o
 @fecha date,-- fecha pactada a la entrega
 @producto int,
 @cantidad int,
-@precio float
+@precio decimal(10,2)
 as
 begin
 	insert into DETALLE_PEDIDOS(fecha_entrega,id_orden_pedido,id_producto,cantidad,precio)
