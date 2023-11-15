@@ -64,7 +64,7 @@ cosas que faltan y cosas completas
 	- [x] DB Helper
 	- [ ] clases
 		- [x] clientes
-		- [ ] contactos
+		- [x] contactos
 		- [x] productos
 		- [x] facturas
 		- [x] detalles facturas
@@ -74,7 +74,7 @@ cosas que faltan y cosas completas
 	- [x] form clientes
 	- [x] form productos
 	- [x] form facturas
-	- [ ] form ordenes
+	- [x] form ordenes
 	- [ ] reportes
 ## Integración de Api
 ---
