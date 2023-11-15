@@ -62,6 +62,18 @@ namespace AutomotrizApi.Controllers
                 return StatusCode(500, "producto no borrado");
             }
         }
+        [HttpPut("modificacion")]
+        public IActionResult Put(ProductoAuto p)
+        {
+            if (dao.ModificarProducto(p))
+            {
+                return Ok("Producto modificado");
+            }
+            else
+            {
+                return BadRequest("no se pudo modificar el producto");
+            }
+        }
     }
 
 }
