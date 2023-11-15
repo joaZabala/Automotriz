@@ -1,6 +1,6 @@
-CREATE DATABASE AUTOMOTRIZ_V4_4
+CREATE DATABASE AUTOMOTRIZ_V4_5
 GO
-USE AUTOMOTRIZ_V4_4
+USE AUTOMOTRIZ_V4_5
 GO
 CREATE TABLE PAISES(
 id_pais int,
@@ -1328,6 +1328,19 @@ as
 begin
 	insert into DETALLE_FACTURAS (nro_factura,cod_producto,pre_unitario,cantidad)
 	values (@factura,@producto,@precio,@cantidad);
+end
+go
+CREATE PROCEDURE SP_VER_FACTURAS
+@fec_desde datetime,
+@fec_hasta datetime
+AS
+BEGIN
+	SELECT f.nro_factura,
+			f.fecha,
+			c.nombre
+	FROM FACTURAS f
+	JOIN CLIENTES c on c.cod_cliente = f.cod_cliente
+	WHERE f.fecha between @fec_desde and @fec_hasta
 end
 go
 --------- ORDENES ------------
