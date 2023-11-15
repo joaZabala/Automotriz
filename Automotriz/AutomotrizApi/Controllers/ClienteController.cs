@@ -28,6 +28,53 @@ namespace AutomotrizApi.Controllers
             return Ok(servicio.GetClientes());
         }
 
+        [HttpGet("/TipoContacto")]
+        public IActionResult GetTipoContacto()
+        {
+            List<TipoContacto> lst = null;
+            try
+            {
+                lst = servicio.tiposContac();
+                return Ok(lst);
+
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Error interno! Intente luego");
+            }
+        }
+
+        [HttpGet("/TipoCliente")]
+        public IActionResult GetTipoCliente()
+        {
+            List<TipoCliente> lst = null;
+            try
+            {
+                lst = servicio.GetTipoCliente();
+                return Ok(lst);
+
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Error interno! Intente luego");
+            }
+        }
+
+        [HttpGet("/Barrio")]
+        public IActionResult GetBarrio()
+        {
+            List<barrio> lst = null;
+            try
+            {
+                lst = servicio.GetBarrios();
+                return Ok(lst);
+
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Error interno! Intente luego");
+            }
+        }
 
         // GET api/<ClienteController>/5
         [HttpGet("GetByFilters")]

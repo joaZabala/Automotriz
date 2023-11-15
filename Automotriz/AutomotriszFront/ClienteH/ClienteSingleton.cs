@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AutomotrizFront.Cliente
+namespace AutomotrizFront.ClienteH
 {
     internal class ClienteSingleton
     {

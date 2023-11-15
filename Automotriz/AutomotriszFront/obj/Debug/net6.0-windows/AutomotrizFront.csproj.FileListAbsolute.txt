@@ -29,3 +29,4 @@ C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\De
 C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\ref\AutomotrizFront.dll
 C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.FrmModificarCliente.resources
 C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Debug\net6.0-windows\AutomotrizFront.Properties.Resources.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\AutomotriszFront\bin\Debug\net6.0-windows\Newtonsoft.Json.dll

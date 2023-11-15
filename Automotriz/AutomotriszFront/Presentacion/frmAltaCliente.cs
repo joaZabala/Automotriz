@@ -1,6 +1,8 @@
 ﻿using AutomotrizBack.Entidades;
 using AutomotrizBack.servicios;
 using AutomotrizFront;
+using AutomotrizFront.ClienteH;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -33,23 +35,37 @@ namespace AutomotriszFront.Presentacion
             
         }
 
-        private void CargarTipoContacto()
+        private async void CargarTipoContacto()
         {
-            cboTipoContacto.DataSource = Servicio.tiposContac();
+            string url = "https://localhost:7189/TipoContacto";
+            var result = await ClienteSingleton.GetInstancia().GetAsync(url);
+            var lst = JsonConvert.DeserializeObject<List<TipoContacto>>(result);
+
+            cboTipoContacto.DataSource = lst;
             cboTipoContacto.DisplayMember = "Descripcion";
             cboTipoContacto.ValueMember = "cod";
         }
 
-        private void CargarTiposCliente()
+       private async void CargarTiposCliente()
         {
-            cboTipo.DataSource = Servicio.GetTipoCliente();
+            string url = "https://localhost:7189/TipoCliente";
+            var result = await ClienteSingleton.GetInstancia().GetAsync(url);
+            var lst = JsonConvert.DeserializeObject<List<TipoCliente>>(result);
+
+            cboTipo.DataSource = lst;
             cboTipo.DisplayMember = "Tipo";
-            cboTipo.ValueMember = "id";
+            cboTipo.ValueMember = "Id";
         }
 
-        public void CargarComboBarrio()
+
+
+        public async void CargarComboBarrio()
         {
-            cboBarrio.DataSource = Servicio.GetBarrios();
+            string url = "https://localhost:7189/Barrio";
+            var result = await ClienteSingleton.GetInstancia().GetAsync(url);
+            var lst = JsonConvert.DeserializeObject<List<barrio>>(result);
+
+            cboBarrio.DataSource = lst;
             cboBarrio.DisplayMember = "Nombre";
             cboBarrio.ValueMember = "id_barrio";
         }
@@ -93,7 +109,7 @@ namespace AutomotriszFront.Presentacion
 
             dgvAltaClientes.Rows.Add(new object[] { nombre, obarrio.Nombre, direccion, razon, cuil, cliente.Tipo,c.Descripcion, "borrar" });
         }
-        private void button1_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
             if (dgvAltaClientes.Rows.Count == 0)
             {
@@ -101,19 +117,27 @@ namespace AutomotriszFront.Presentacion
                 return;
             }
 
-            GrabarCliente();
+           await GrabarCliente();
         }
 
-        private void GrabarCliente()
+        private async Task GrabarCliente()
         {
-            if (Servicio.NuevoCliente(ClienteNvo) == true)
+            
+           string bodyContent = JsonConvert.SerializeObject(ClienteNvo);
+
+            string url = "https://localhost:7189/api/Cliente/nuevoCliente";
+            var result = await ClienteSingleton.GetInstancia().PostAsync(url, bodyContent);
+
+            if (result.Equals("Cliente registrado"))
             {
-                MessageBox.Show("Cliente registrado", "Informacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Cliente registrado ","Informacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                MessageBox.Show("Cliente NO registrado", "Informacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Cliente No registrado", "Informacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+
+            
 
         }
 
