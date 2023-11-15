@@ -1343,6 +1343,18 @@ BEGIN
 	WHERE f.fecha between @fec_desde and @fec_hasta
 end
 go
+create PROCEDURE SP_VER_DETALLE_FACTURA
+@nro_factura int
+AS
+BEGIN
+	SELECT	p.producto,
+			d.pre_unitario,
+			d.cantidad
+	FROM DETALLE_FACTURAS d
+	JOIN PRODUCTOS p on p.id_producto = d.cod_producto
+	WHERE d.nro_factura = @nro_factura
+end
+go
 --------- ORDENES ------------
 create procedure sp_insert_orden
 @detalles varchar(150),
