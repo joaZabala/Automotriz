@@ -1156,6 +1156,25 @@ select*
  from CONTACTOS 
  where cod_cliente = @id
 go
+CREATE PROCEDURE sp_modificar_contacto
+ @descripcion varchar(100),
+ @id_tipo_contacto int,
+ @cod_cliente int
+ AS
+ BEGIN
+	UPDATE CONTACTOS
+	SET descripcion = @descripcion,
+		id_tipo_contacto = @id_tipo_contacto
+	WHERE cod_cliente = @cod_cliente
+end
+go
+create procedure SP_CONSULTAR_CLIENTES_BY_ID
+@id int
+as 
+select*
+ from CLIENTES 
+ where cod_cliente = @id
+go
 ------------- PRODUCTOS ---------------
 CREATE PROCEDURE SP_INSERTAR_PRODUCTOS
 @producto varchar(100),

@@ -262,6 +262,25 @@ select*
  from CONTACTOS 
  where cod_cliente = @id
 go
+CREATE PROCEDURE sp_modificar_contacto
+ @descripcion varchar(100),
+ @id_tipo_contacto int,
+ @cod_cliente int
+ AS
+ BEGIN
+	UPDATE CONTACTOS
+	SET descripcion = @descripcion,
+		id_tipo_contacto = @id_tipo_contacto
+	WHERE cod_cliente = @cod_cliente
+end
+go
+create procedure SP_CONSULTAR_CLIENTES_BY_ID
+@id int
+as 
+select*
+ from CLIENTES 
+ where cod_cliente = @id
+go
 ------------- PRODUCTOS ---------------
 CREATE PROCEDURE SP_INSERTAR_PRODUCTOS
 @producto varchar(100),
@@ -302,19 +321,37 @@ BEGIN
 END
 go
 create PROCEDURE sp_ConsultarProductos_param
-    @NombreProducto VARCHAR(100),
+@NombreProducto VARCHAR(100),
     @Marca INT,
     @TipoProductoID INT,
     @TipoMaterialID INT
 AS
 BEGIN
     SELECT
-         P.*, TP.descripcion, TM.descripcion, M.marca
+         p.id_producto,
+		 p.producto,
+		 TP.descripcion,
+		 p.num_serie,
+		 p.precio,
+		 p.fecha_fabricacion,
+		 p.vida_util,
+		 p.peso,
+		 TUP.descripcion 'unidadPeso',
+		 p.largo,
+		 p.ancho,
+		 p.alto,
+		 TUM.descripcion 'unidadMedida',
+		 TM.descripcion 'TipoMaterial',
+		 PP.pais,
+		 M.marca
     FROM
         PRODUCTOS P
         INNER JOIN MARCAS M ON P.id_marca = M.id
         INNER JOIN TIPO_PRODUCTOS TP ON P.id_tipo_producto = TP.id
         INNER JOIN TIPO_MATERIALES TM ON P.id_tipo_material = TM.id
+		INNER JOIN TIPO_UNIDADES_PESO TUP ON TUP.id = P.id_unidad_peso
+		INNER JOIN TIPO_UNIDADES_MEDIDA TUM ON TUM.id = P.id_unidad_medida
+		INNER JOIN PAISES PP ON PP.id_pais = P.id_pais
     WHERE
         P.producto LIKE '%' + @NombreProducto + '%' 
         AND P.id_marca = @Marca
@@ -322,6 +359,58 @@ BEGIN
         AND P.id_tipo_material = @TipoMaterialID 
 END
 GO
+create procedure SP_MODIFICAR_PRODUCTO
+@id_producto int,
+@producto varchar(100),
+@id_tipo_producto int,
+@num_serie int,
+@precio double precision,
+@fecha_fabricacion date,
+@vida_util int, 
+@peso double precision,
+@id_unidad_peso int,
+@largo double precision,
+@ancho double precision,
+@alto double precision,
+@id_unidad_medida int,
+@id_tipo_material int,
+@id_pais int,
+@id_marca int
+AS 
+BEGIN
+Update PRODUCTOS
+SET 
+producto = @producto,
+id_tipo_producto = @id_tipo_producto,
+num_serie = @num_serie,
+precio = @precio,
+fecha_fabricacion = @fecha_fabricacion,
+vida_util = @vida_util,
+peso = @peso,
+id_unidad_peso = @id_unidad_peso,
+largo = @largo,
+ancho = @ancho,
+alto = @alto,
+id_unidad_medida =  @id_unidad_medida,
+id_tipo_material =@id_tipo_material,
+id_pais = @id_pais,
+id_marca =@id_marca
+WHERE id_producto = @id_producto
+end
+go
+create procedure SP_CONSULTAR_PRODUCTOS_ID
+@id  int
+as
+begin
+Select  P.*, TP.descripcion, TM.descripcion, M.marca
+    FROM
+        PRODUCTOS P
+        INNER JOIN MARCAS M ON P.id_marca = M.id
+        INNER JOIN TIPO_PRODUCTOS TP ON P.id_tipo_producto = TP.id
+        INNER JOIN TIPO_MATERIALES TM ON P.id_tipo_material = TM.id
+    WHERE @id = id_producto
+end
+go
 ----------   FACTURAS   ------------------
 create procedure sp_insertar_factura
 @cliente int,
@@ -347,6 +436,7 @@ begin
 	values (@factura,@producto,@precio,@cantidad);
 end
 go
+
 --------- ORDENES ------------
 create procedure sp_insert_orden
 @detalles varchar(150),
