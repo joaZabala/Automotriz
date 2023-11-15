@@ -12,14 +12,14 @@ namespace AutomotrizBack.Entidades
         public string Productos { get; set; }
         public TipoProducto IdTipoProducto { get; set; }
         public int NumSerie { get; set; }
-        public float Precio { get; set; }
+        public decimal Precio { get; set; }
         public DateTime? FechaFab { get; set; }
         public int VidaUtil { get; set; }
-        public float Peso { get; set; }
+        public decimal Peso { get; set; }
         public UnidadPeso IdUnidadPeso { get; set; }
-        public float Largo { get; set; }
-        public float Ancho { get; set; }
-        public float Alto { get; set; }
+        public decimal Largo { get; set; }
+        public decimal Ancho { get; set; }
+        public decimal Alto { get; set; }
         public UnidadesMedida IdUnidadMedida { get; set; }
         public Tipo_material IdTipoMaterial { get; set; }
         public Pais IdPais { get; set; }
@@ -43,7 +43,7 @@ namespace AutomotrizBack.Entidades
             IdPais = new Pais();
             IdMarca = new Marcas();
         }
-        public ProductoAuto(int id, string pro, TipoProducto idTipoProducto, int numserie, float pre, DateTime fecfab, int vida, float peso, UnidadPeso idUnidadPeso, float largo, float ancho, float alto, UnidadesMedida idUnidadMedida, Tipo_material idTipoMaterial, Pais idPais, Marcas idMarca)
+        public ProductoAuto(int id, string pro, TipoProducto idTipoProducto, int numserie, decimal pre, DateTime fecfab, int vida, decimal peso, UnidadPeso idUnidadPeso, decimal largo, decimal ancho, decimal alto, UnidadesMedida idUnidadMedida, Tipo_material idTipoMaterial, Pais idPais, Marcas idMarca)
         {
             Id = id;
             Productos = pro;

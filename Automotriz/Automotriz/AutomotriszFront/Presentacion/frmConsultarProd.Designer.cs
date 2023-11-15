@@ -164,7 +164,7 @@
             // 
             // btnConsultar
             // 
-            btnConsultar.Location = new Point(789, 60);
+            btnConsultar.Location = new Point(789, 55);
             btnConsultar.Name = "btnConsultar";
             btnConsultar.Size = new Size(75, 32);
             btnConsultar.TabIndex = 32;
@@ -174,7 +174,7 @@
             // 
             // btnEliminar
             // 
-            btnEliminar.Location = new Point(789, 117);
+            btnEliminar.Location = new Point(789, 126);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(75, 32);
             btnEliminar.TabIndex = 33;

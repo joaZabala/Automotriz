@@ -16,7 +16,7 @@ namespace AutomotrizFront.Presentacion.Producto
     {
         IServicio servicio;
         List<ProductoAuto> producto;
-        int id_producto = 0; 
+        int id_producto = 0;
 
         public frmConsultarProd(FabricaServicioImp factory)
         {
@@ -152,8 +152,8 @@ namespace AutomotrizFront.Presentacion.Producto
                     modificar.ShowDialog();
                 }
             }
-            
-            
+
+
         }
     }
 }

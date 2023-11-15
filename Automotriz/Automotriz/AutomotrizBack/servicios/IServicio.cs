@@ -10,7 +10,7 @@ namespace AutomotrizBack.servicios
 {
     public interface IServicio
     {
-        ProductoAuto ProductoId(int id_producto);
+       ProductoAuto GetbyId(int id_producto);
         List<barrio> GetBarrios();
 
         List<TipoCliente> GetTipoCliente();
@@ -21,7 +21,7 @@ namespace AutomotrizBack.servicios
 
         bool NuevoCliente(Cliente cliente);
         bool NuevoProducto(ProductoAuto producto);
-
+        bool ModificarProducto(ProductoAuto producto);
         List<Cliente>GetClientes();
 
         List<Cliente> GetByParam(string nombre, int tipo);

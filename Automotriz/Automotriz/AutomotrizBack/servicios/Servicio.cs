@@ -111,6 +111,11 @@ namespace AutomotrizBack.servicios
             return UnidMedida.GetAll();
         }
 
+        public bool ModificarProducto(ProductoAuto producto)
+        {
+            return DaoProducto.ModificarProducto(producto);
+        }
+
         public bool NuevoCliente(Cliente cliente)
         {
             return Daocliente.Nuevo(cliente);
@@ -118,6 +123,13 @@ namespace AutomotrizBack.servicios
         public bool NuevoProducto(ProductoAuto producto)
         {
             return DaoProducto.Nuevo(producto);
+        }
+
+      
+
+        public ProductoAuto GetbyId(int id_producto)
+        {
+            return DaoProducto.GetbyId(id_producto);
         }
     }
 }

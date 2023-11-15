@@ -23,10 +23,6 @@ namespace AutomotrizBack.Entidades
             PrecioUnitario = pre;
             Cantidad = cant;
         }
-        public float CalcularSubTotal()
-        {
 
-            return Cantidad * Producto.Precio;
-        }
     }
 }

@@ -40,14 +40,6 @@ namespace AutomotrizBack.Entidades
         {
             Detalles.RemoveAt(index);
         }
-        public double CalcularTotal()
-        {
-            double total = 0;
-            foreach(DetalleFactura d in Detalles)
-            {
-                total += d.CalcularSubTotal();
-            }
-            return total;
-        }
+        
     }
 }

@@ -131,12 +131,12 @@ namespace AutomotrizFront.Presentacion
             UnidadPeso unidadPeso = (UnidadPeso)cboUnidPes.SelectedItem;
             string producto = txtProducto.Text;
             int NumSer = int.Parse(txtNum.Text);
-            float Precio = float.Parse(txtPrecio.Text);
-            float Alto = float.Parse(txtAlto.Text);
-            float Ancho = float.Parse(txtAncho.Text);
-            float Largo = float.Parse(txtLargo.Text);
+            decimal Precio = decimal.Parse(txtPrecio.Text);
+            decimal Alto = decimal.Parse(txtAlto.Text);
+            decimal Ancho = decimal.Parse(txtAncho.Text);
+            decimal Largo = decimal.Parse(txtLargo.Text);
             int vidaU = int.Parse(txtVida.Text);
-            float Peso = float.Parse(txtPeso.Text);
+            decimal Peso = decimal.Parse(txtPeso.Text);
             DateTime? fec_Fab = dtpFec_fab.Value;
 
             ProductoNvo.Productos = producto;

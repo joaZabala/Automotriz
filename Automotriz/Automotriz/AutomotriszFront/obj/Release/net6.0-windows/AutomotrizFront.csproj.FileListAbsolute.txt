@@ -1,0 +1,14 @@
+C:\Users\Sofi\Desktop\esta si loco\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Release\net6.0-windows\AutomotrizFront.csproj.AssemblyReference.cache
+C:\Users\Sofi\Desktop\esta si loco\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Release\net6.0-windows\AutomotriszFront.Presentacion.frmAltaCliente.resources
+C:\Users\Sofi\Desktop\esta si loco\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Release\net6.0-windows\AutomotriszFront.Presentacion.frmConsulta.resources
+C:\Users\Sofi\Desktop\esta si loco\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Release\net6.0-windows\AutomotrizFront.Presentacion.Producto.frmConsultarProd.resources
+C:\Users\Sofi\Desktop\esta si loco\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Release\net6.0-windows\AutomotrizFront.Presentacion.frmModificarProducto.resources
+C:\Users\Sofi\Desktop\esta si loco\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Release\net6.0-windows\AutomotrizFront.Presentacion.frmNuevoProducto.resources
+C:\Users\Sofi\Desktop\esta si loco\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Release\net6.0-windows\AutomotrizFront.FrmPrincipal.resources
+C:\Users\Sofi\Desktop\esta si loco\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Release\net6.0-windows\AutomotrizFront.Presentacion.Login.resources
+C:\Users\Sofi\Desktop\esta si loco\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Release\net6.0-windows\AutomotrizFront.Properties.Resources.resources
+C:\Users\Sofi\Desktop\esta si loco\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Release\net6.0-windows\AutomotrizFront.csproj.GenerateResource.cache
+C:\Users\Sofi\Desktop\esta si loco\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Release\net6.0-windows\AutomotrizFront.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sofi\Desktop\esta si loco\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Release\net6.0-windows\AutomotrizFront.AssemblyInfoInputs.cache
+C:\Users\Sofi\Desktop\esta si loco\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Release\net6.0-windows\AutomotrizFront.AssemblyInfo.cs
+C:\Users\Sofi\Desktop\esta si loco\Automotriz\Automotriz\Automotriz\AutomotriszFront\obj\Release\net6.0-windows\AutomotrizFront.csproj.CoreCompileInputs.cache
