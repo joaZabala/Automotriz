@@ -1513,7 +1513,6 @@ begin
 			and u.cantidad >= @cantidad
 		order by 2
 end
-exec sp_productos_en 
 go
 /*Se quiere conocer el porcentaje de compras por tipo de clientes que tiene la empresa, tanto por la cantidad de factura y
 por la cantidad de artículos vendidos:*/
