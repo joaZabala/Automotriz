@@ -1504,7 +1504,7 @@ begin
 		and u.cantidad >= @cantidad)=0)
 		print 'No Hay Productos En La Zona Buscada'
 	else
-		select FORMAT(p.fecha_fabricacion,'yyyy-MM') 'Año y mes de fabricacion', p.producto, u.cantidad, tu.ubicacion
+		select FORMAT(p.fecha_fabricacion,'yyyy-MM') 'Fecha de fabricacion', p.producto, u.cantidad, tu.ubicacion
 		from TIPO_UBICACION tu, UBICACIONES u, STOCK s, PRODUCTOS p
 		where tu.id = u.id_tipo_ubicacion
 			and s.id= u.id_stock
@@ -1513,7 +1513,6 @@ begin
 			and u.cantidad >= @cantidad
 		order by 2
 end
-exec sp_productos_en 
 go
 /*Se quiere conocer el porcentaje de compras por tipo de clientes que tiene la empresa, tanto por la cantidad de factura y
 por la cantidad de artículos vendidos:*/
