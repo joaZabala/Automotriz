@@ -1,6 +1,6 @@
-CREATE DATABASE AUTOMOTRIZ_V5
+CREATE DATABASE AUTOMOTRIZ_V5_5
 GO
-USE AUTOMOTRIZ_V5
+USE AUTOMOTRIZ_V5_5
 GO
 CREATE TABLE PAISES(
 id_pais int,
@@ -1428,7 +1428,7 @@ begin
 	SELECT a.descripcion 'AutoPlan más Elegido'
 	FROM AUTOPLANES a
 	WHERE year(a.fecha_inicio)=year(GETDATE()) 
-	and a.id_autoplan IN (SELECT TOP 1 ac.id_autoplan
+	and a.id_autoplan IN (SELECT TOP 5 ac.id_autoplan
 							FROM AUTOPLANES_CLIENTES ac
 							GROUP BY ac.id_autoplan
 							ORDER BY COUNT(ac.id_autoplan) DESC
@@ -1466,16 +1466,21 @@ go
 productos, con el fin de llevar a cabo un análisis exhaustivo de las preferencias de los clientes con respecto a las
 diversas marcas que ofrecemos:*/
 create procedure sp_marcas_populares
+@tipo_cliente int
 as
 begin
-	SELECT m.marca, SUM(df.cantidad) AS total_vendido
+	SELECT m.marca, SUM(df.cantidad) AS total_vendido, tc.tipo 'tipo de cliente'
 	FROM MARCAS m
 	JOIN PRODUCTOS p ON m.id = p.id_marca
 	JOIN DETALLE_FACTURAS df ON p.id_producto = df.cod_producto
+	Join FACTURAS f on f.nro_factura = df.nro_factura
+	join CLIENTES c on c.cod_cliente = f.cod_cliente
+	join TIPO_CLIENTES tc on tc.id_tipo = c.id_tipo_cliente 
 	where p.id_producto in (SELECT p.id_producto
 							from PRODUCTOS p, DETALLE_FACTURAS df
 							where df.cod_producto = p.id_producto )
-	GROUP BY m.marca
+							and @tipo_cliente = c.id_tipo_cliente
+	GROUP BY m.marca, tc.tipo
 	ORDER BY total_vendido DESC;
 end
 go
@@ -1508,7 +1513,7 @@ begin
 			and u.cantidad >= @cantidad
 		order by 2
 end
-
+exec sp_productos_en 
 go
 /*Se quiere conocer el porcentaje de compras por tipo de clientes que tiene la empresa, tanto por la cantidad de factura y
 por la cantidad de artículos vendidos:*/
@@ -1618,3 +1623,47 @@ JOIN PRODUCTOS P ON P.id_producto = DF.cod_producto
 WHERE TP.descripcion IN ('EMAIL','WHATSAPP')
 	AND DATEDIFF(YEAR,F.fecha,GETDATE()) IN (0,1)
 GROUP BY C.NOMBRE,CO.descripcion,TP.descripcion,P.producto;
+go
+
+create procedure sp_zonas
+as
+begin
+	select * 
+	from TIPO_UBICACION
+end
+go
+create PROCEDURE SP_MONTO_TOTAL_XFECHA
+@FECHA_DESDE DATETIME,
+@FECHA_HASTA DATETIME
+AS
+SELECT
+SUM(DF.cantidad * DF.pre_unitario)'TOTAL RECAUDADO' ,
+SUM(DF.cantidad * DF.pre_unitario)/COUNT(DISTINCT F.NRO_FACTURA)'PROMEDIO POR FACTURA',
+COUNT(DISTINCT F.NRO_FACTURA)'CANTIDAD DE FACTURAS'
+from DETALLE_FACTURAS df
+JOIN FACTURAS F ON F.nro_factura = DF.nro_factura
+WHERE fecha BETWEEN @FECHA_DESDE AND @FECHA_HASTA
+go
+
+CREATE PROCEDURE SP_MEJORES_CLIENTES
+ @FECHA DATE
+ AS BEGIN
+ SELECT TOP 10
+    C.nombre AS CLIENTE,
+    SUM(DF.CANTIDAD) AS CANTIDAD_PRODUCTOS,
+    SUM(DF.cantidad * DF.pre_unitario) AS SUB_TOTAL
+FROM
+    CLIENTES C
+    JOIN CONTACTOS CO ON CO.cod_cliente = C.cod_cliente
+    JOIN TIPO_CONTACTOS TP ON TP.id = CO.id_tipo_contacto
+    JOIN FACTURAS F ON F.cod_cliente = C.cod_cliente
+    JOIN DETALLE_FACTURAS DF ON DF.nro_factura = F.nro_factura
+    JOIN PRODUCTOS P ON P.id_producto = DF.cod_producto
+WHERE
+    TP.descripcion IN ('EMAIL', 'WHATSAPP')
+    AND F.FECHA BETWEEN '01/01/2020' AND GETDATE()
+GROUP BY
+    C.NOMBRE
+ORDER BY
+    CANTIDAD_PRODUCTOS DESC
+END
