@@ -1,6 +1,6 @@
-CREATE DATABASE AUTOMOTRIZ_V4_1
+CREATE DATABASE AUTOMOTRIZ_V5
 GO
-USE AUTOMOTRIZ_V4_1
+USE AUTOMOTRIZ_V5
 GO
 CREATE TABLE PAISES(
 id_pais int,
@@ -982,7 +982,7 @@ alter table clientes
 add Fecha_Baja datetime
 go
 
----- Consultas simples ----
+								------------------------------------- Consultas simples -------------------------------------
 create procedure SP_CONSULTAR_PRODUCTOS
 AS
 BEGIN
@@ -1066,7 +1066,7 @@ BEGIN
 END
 go
 
--------------- CLIENTES -----------------
+										------------------------------------- CLIENTES -------------------------------------
  CREATE PROCEDURE sp_insertar_clientes 
 @nombre varchar(75),
 @razonSocial varchar(75),
@@ -1156,7 +1156,26 @@ select*
  from CONTACTOS 
  where cod_cliente = @id
 go
-------------- PRODUCTOS ---------------
+CREATE PROCEDURE sp_modificar_contacto
+ @descripcion varchar(100),
+ @id_tipo_contacto int,
+ @cod_cliente int
+ AS
+ BEGIN
+	UPDATE CONTACTOS
+	SET descripcion = @descripcion,
+		id_tipo_contacto = @id_tipo_contacto
+	WHERE cod_cliente = @cod_cliente
+end
+go
+create procedure SP_CONSULTAR_CLIENTES_BY_ID
+@id int
+as 
+select*
+ from CLIENTES 
+ where cod_cliente = @id
+go
+									------------------------------------- PRODUCTOS -------------------------------------
 CREATE PROCEDURE SP_INSERTAR_PRODUCTOS
 @producto varchar(100),
 @id_tipo_producto int, @num_serie int,
@@ -1196,19 +1215,37 @@ BEGIN
 END
 go
 create PROCEDURE sp_ConsultarProductos_param
-    @NombreProducto VARCHAR(100),
+@NombreProducto VARCHAR(100),
     @Marca INT,
     @TipoProductoID INT,
     @TipoMaterialID INT
 AS
 BEGIN
     SELECT
-         P.*, TP.descripcion, TM.descripcion, M.marca
+         p.id_producto,
+		 p.producto,
+		 TP.descripcion,
+		 p.num_serie,
+		 p.precio,
+		 p.fecha_fabricacion,
+		 p.vida_util,
+		 p.peso,
+		 TUP.descripcion 'unidadPeso',
+		 p.largo,
+		 p.ancho,
+		 p.alto,
+		 TUM.descripcion 'unidadMedida',
+		 TM.descripcion 'TipoMaterial',
+		 PP.pais,
+		 M.marca
     FROM
         PRODUCTOS P
         INNER JOIN MARCAS M ON P.id_marca = M.id
         INNER JOIN TIPO_PRODUCTOS TP ON P.id_tipo_producto = TP.id
         INNER JOIN TIPO_MATERIALES TM ON P.id_tipo_material = TM.id
+		INNER JOIN TIPO_UNIDADES_PESO TUP ON TUP.id = P.id_unidad_peso
+		INNER JOIN TIPO_UNIDADES_MEDIDA TUM ON TUM.id = P.id_unidad_medida
+		INNER JOIN PAISES PP ON PP.id_pais = P.id_pais
     WHERE
         P.producto LIKE '%' + @NombreProducto + '%' 
         AND P.id_marca = @Marca
@@ -1216,7 +1253,59 @@ BEGIN
         AND P.id_tipo_material = @TipoMaterialID 
 END
 GO
-----------   FACTURAS   ------------------
+create procedure SP_MODIFICAR_PRODUCTO
+@id_producto int,
+@producto varchar(100),
+@id_tipo_producto int,
+@num_serie int,
+@precio double precision,
+@fecha_fabricacion date,
+@vida_util int, 
+@peso double precision,
+@id_unidad_peso int,
+@largo double precision,
+@ancho double precision,
+@alto double precision,
+@id_unidad_medida int,
+@id_tipo_material int,
+@id_pais int,
+@id_marca int
+AS 
+BEGIN
+Update PRODUCTOS
+SET 
+producto = @producto,
+id_tipo_producto = @id_tipo_producto,
+num_serie = @num_serie,
+precio = @precio,
+fecha_fabricacion = @fecha_fabricacion,
+vida_util = @vida_util,
+peso = @peso,
+id_unidad_peso = @id_unidad_peso,
+largo = @largo,
+ancho = @ancho,
+alto = @alto,
+id_unidad_medida =  @id_unidad_medida,
+id_tipo_material =@id_tipo_material,
+id_pais = @id_pais,
+id_marca =@id_marca
+WHERE id_producto = @id_producto
+end
+go
+create procedure SP_CONSULTAR_PRODUCTOS_ID
+@id  int
+as
+begin
+Select  P.*, TP.descripcion, TM.descripcion, M.marca
+    FROM
+        PRODUCTOS P
+        INNER JOIN MARCAS M ON P.id_marca = M.id
+        INNER JOIN TIPO_PRODUCTOS TP ON P.id_tipo_producto = TP.id
+        INNER JOIN TIPO_MATERIALES TM ON P.id_tipo_material = TM.id
+    WHERE @id = id_producto
+	end
+go
+										-------------------------------------   FACTURAS   -------------------------------------
 create procedure sp_insertar_factura
 @cliente int,
 @tipo_facturas int,
@@ -1241,7 +1330,7 @@ begin
 	values (@factura,@producto,@precio,@cantidad);
 end
 go
---------- ORDENES ------------
+										------------------------------------- ORDENES -------------------------------------
 create procedure sp_insert_orden
 @detalles varchar(150),
 @orden int output --para sacar el id de orden de pedidos
@@ -1265,7 +1354,7 @@ begin
 	values(@fecha,@orden,@producto,@cantidad,@precio); 
 end
 go
------------ TRIGGER   --------------------
+													------------------------------------- TRIGGER   -------------------------------------
 create trigger t_reduccion_de_stock
 on detalle_facturas
 for insert
@@ -1281,3 +1370,251 @@ begin
 	set cantidad_total = cantidad_total - @cantidad
 	where id_producto = @producto
 end
+go
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------LAB II-------------------------------------
+/*Crear un procedimiento almacenado para usuarios finales que muestre detalladamente los productos que estén en un
+rango de precios que se ellos especifiquen como parámetros al ejecutar el SP, en caso de que no exista productos entre
+esos precios se deberá mostrar un mensaje que avise de ello:*/
+CREATE PROCEDURE SP_MOSTRAR_PRODUCTOS
+@precio1 decimal(10,2),
+@precio2 decimal(10,2)
+AS
+BEGIN
+IF EXISTS (SELECT id_producto FROM PRODUCTOS WHERE precio between @precio1 and @precio2)
+	BEGIN
+
+		SELECT p.id_producto 'ID Producto',
+		p.producto 'Producto',
+		tp.descripcion 'Tipo Producto',
+		p.num_serie 'Número de Serie',
+		CONCAT('$', p.precio) 'Precio U$D',
+		p.fecha_fabricacion 'Fecha Fabricación',
+		p.vida_util 'Vida Útil en Años',
+		CONCAT(p.peso, ' en ',tup.descripcion) 'Peso',
+		p.largo 'Largo',
+		p.ancho 'Ancho',
+		p.alto 'Alto',
+		tum.descripcion 'Unidad de Medida',
+		tm.descripcion 'Tipo de Material',
+		pp.pais 'País Origen',
+		m.marca 'Marca'
+
+		FROM PRODUCTOS p
+		JOIN TIPO_PRODUCTOS tp on tp.id = p.id_tipo_producto
+		JOIN TIPO_UNIDADES_PESO tup on tup.id = p.id_unidad_peso
+		JOIN TIPO_UNIDADES_MEDIDA tum on tum.id = p.id_unidad_medida
+		JOIN TIPO_MATERIALES tm on tm.id = p.id_tipo_material
+		JOIN PAISES pp on pp.id_pais = p.id_pais
+		JOIN MARCAS m on m.id = p.id_marca
+		WHERE p.precio between @precio1 and @precio2
+
+	END
+ELSE
+	BEGIN
+		PRINT 'No se encontraron productos en ese rango de precio'
+	END
+END;
+
+go
+/*Crear una consulta que permita hallar el autoplan más elegido por los clientes y que su ejecución sea sostenible en el
+tiempo. Esto para que la empresa pueda identificar siempre en cualquier momento cuales son los planes más
+solicitados y de allí poder tomar decisiones:*/
+
+create procedure sp_Autoplan_popular
+as
+begin
+	SELECT a.descripcion 'AutoPlan más Elegido'
+	FROM AUTOPLANES a
+	WHERE year(a.fecha_inicio)=year(GETDATE()) 
+	and a.id_autoplan IN (SELECT TOP 1 ac.id_autoplan
+							FROM AUTOPLANES_CLIENTES ac
+							GROUP BY ac.id_autoplan
+							ORDER BY COUNT(ac.id_autoplan) DESC
+							)
+end
+go 
+/*Crear una consulta que permita traer todas las autopartes que fueron vendidas entre septiembre y noviembre del año
+pasado y dar: el promedio de cantidades vendidas y cantidad de facturas en las que aparecen. Esto es esencial para
+llevar a cabo un análisis detallado de las ventas durante este intervalo de tiempo específico. Este análisis nos permitirá
+identificar patrones de venta, preferencias de los clientes y posibles oportunidades de mejora en nuestra estrategia de
+comercialización y stock. De esta manera, estaremos mejor preparados para tomar decisiones y diseñar estrategias más
+efectivas para este periodo*/
+
+create procedure sp_autopart_vendida
+as
+begin
+	Select p.id_producto, p.producto, p.id_marca, m.marca, p.precio, p.id_tipo_producto, tp.descripcion, f.fecha, f.nro_factura, 
+			COUNT(f.nro_factura) 'cantidad de facturas en donde aparece', 
+			AVG(cantidad)'promedio de la cantidad vendida'
+	from TIPO_PRODUCTOS tp, PRODUCTOS p, MARCAS m, facturas f, DETALLE_FACTURAS df
+	WHERE tp.id = p.id_tipo_producto 
+		and m.id = p.id_marca 
+		and p.id_producto = df.cod_producto 
+		and f.nro_factura = df.nro_factura 
+		and MONTH (f.fecha) between 9 and 11 
+		and DATEDIFF(year, fecha, GETDATE()) = 1 
+		and tp.descripcion NOT IN (SELECT descripcion
+									FROM TIPO_PRODUCTOS
+									WHERE descripcion like '%automovil%')
+	group by p.id_producto, p.producto, p.id_marca, m.marca, p.precio, p.id_tipo_producto, tp.descripcion, f.fecha, f.nro_factura
+	order by p.producto
+end
+go
+/*Se requiere obtener información sobre las marcas más populares y ampliamente adquiridas en nuestro catálogo de
+productos, con el fin de llevar a cabo un análisis exhaustivo de las preferencias de los clientes con respecto a las
+diversas marcas que ofrecemos:*/
+create procedure sp_marcas_populares
+as
+begin
+	SELECT m.marca, SUM(df.cantidad) AS total_vendido
+	FROM MARCAS m
+	JOIN PRODUCTOS p ON m.id = p.id_marca
+	JOIN DETALLE_FACTURAS df ON p.id_producto = df.cod_producto
+	where p.id_producto in (SELECT p.id_producto
+							from PRODUCTOS p, DETALLE_FACTURAS df
+							where df.cod_producto = p.id_producto )
+	GROUP BY m.marca
+	ORDER BY total_vendido DESC;
+end
+go
+/*Crear un procedimiento que permita a los empleados de la compañía ver la cantidad de productos en la ubicación que
+colocan como parámetro junto con la cantidad mínima que consideren relevante y la fecha de fabricación de dicho
+producto.
+(Esto ayuda en caso de ver los productos más viejos, en dicha zona).
+Por defecto el parámetro de ubicación es "Zona de Carga y Descarga" ya que es la ubicación que menos producto le
+conviene a la empresa tener. La cantidad es 0 para mostrar todas las cantidades:*/
+create procedure sp_productos_en
+@ubica varchar(200) = 'Zona De Carga y Descarga',
+@cantidad int = 0
+as
+begin
+	if ((select count(*) 
+		from TIPO_UBICACION tu, UBICACIONES u, STOCK s, PRODUCTOS p 
+		where tu.id = u.id_tipo_ubicacion
+		and s.id= u.id_stock
+		and p.id_producto=s.id_producto
+		and tu.ubicacion like '%'+@ubica+'%'
+		and u.cantidad >= @cantidad)=0)
+		print 'No Hay Productos En La Zona Buscada'
+	else
+		select FORMAT(p.fecha_fabricacion,'yyyy-MM') 'Año y mes de fabricacion', p.producto, u.cantidad, tu.ubicacion
+		from TIPO_UBICACION tu, UBICACIONES u, STOCK s, PRODUCTOS p
+		where tu.id = u.id_tipo_ubicacion
+			and s.id= u.id_stock
+			and p.id_producto=s.id_producto
+			and tu.ubicacion like '%'+@ubica+'%'
+			and u.cantidad >= @cantidad
+		order by 2
+end
+
+go
+/*Se quiere conocer el porcentaje de compras por tipo de clientes que tiene la empresa, tanto por la cantidad de factura y
+por la cantidad de artículos vendidos:*/
+create procedure sp_porcentaje_x_t_clientes
+as
+begin
+		select tc.tipo 'Tipo de Cliente',
+		concat(count(f.nro_factura)* 100/ (select count(*) from FACTURAS),'%') 'Porcentaje de Compras', 
+		'Por Facturas' 'Tipo de Porcentaje'
+		from CLIENTES c, FACTURAS f, TIPO_CLIENTES tc
+		where c.id_tipo_cliente = tc.id_tipo
+		and f.cod_cliente = c.cod_cliente
+		group by tc.tipo
+	union
+		select tc.tipo,
+		concat(count(f.cod_cliente)* 100/ (select count(*) from DETALLE_FACTURAS),'%'), 
+		'Por Articulos Vendidos'
+		from CLIENTES c, FACTURAS f, TIPO_CLIENTES tc, DETALLE_FACTURAS df
+		where c.id_tipo_cliente = tc.id_tipo
+			and f.cod_cliente = c.cod_cliente
+			and df.nro_factura= f.nro_factura
+		group by tc.tipo
+		order by 3 desc
+end
+go
+/*Crear un procedimiento almacenado el cual obtenga:
+Todos los clientes que tengan una razón social conocida, si ese cliente compró algún producto (la fecha de compra va
+desde un año ingresado por el usuario por parámetro hasta la fecha actual). Además, se quiere mostrar todos los datos
+del cliente y el producto que compró (si lo hizo). Ordenar por cliente y rotule.
+Esto cumpliría el objetivo de saber que clientes no han comprado desde un año ingresado por parámetro hasta la fecha
+actual, para poder darlos de baja y se quiere saber que productos frecuenta comprar para así poder brindarle posibles
+descuentos.*/
+CREATE PROCEDURE SP_CLIENTES
+@ANIO INT
+AS
+BEGIN
+	SELECT C.nombre 'CLIENTE',C.razon_social 'RAZON SOCIAL',C.cuil_cuit 'CUIL/CUIT',
+	B.barrio 'BARRIO',C.direccion 'DIRECCIÓN',TC.tipo 'TIPO CLIENTE',
+	P.producto 'PRODUCTO'
+	FROM CLIENTES C
+	LEFT JOIN TIPO_CLIENTES TC ON TC.id_tipo = C.id_tipo_cliente
+	LEFT JOIN BARRIOS B ON B.id_barrio = C.id_barrio
+	LEFT JOIN FACTURAS F ON F.cod_cliente = C.cod_cliente
+	LEFT JOIN DETALLE_FACTURAS DF ON DF.nro_factura = F.nro_factura
+	LEFT JOIN PRODUCTOS P ON P.id_producto = DF.cod_producto
+	WHERE C.razon_social IS NOT NULL
+		AND YEAR(F.fecha) BETWEEN @ANIO AND YEAR(GETDATE())
+	ORDER BY 1
+END
+go
+
+
+											------------------------ Vistas -----------------------------------
+/*Crear una vista que permita ver el total recaudado, el promedio recaudado por factura y la cantidad de facturas
+registradas para los siguientes periodos de tiempo: en el primer semestre del año, el año actual, el año pasado y desde
+los inicios de la empresa hasta la actualidad.*/
+CREATE VIEW VW_TOTALES_RECAUDADO
+AS
+	SELECT SUM(DF.cantidad * DF.pre_unitario)'TOTAL RECAUDADO' ,
+		SUM(DF.cantidad * DF.pre_unitario)/COUNT(DISTINCT F.NRO_FACTURA)'PROMEDIO POR FACTURA',
+		COUNT(DISTINCT F.NRO_FACTURA)'CANTIDAD DE FACTURAS',
+		'DESDE EL INICIO' TIEMPO
+	from DETALLE_FACTURAS df
+	JOIN FACTURAS F ON F.nro_factura = DF.nro_factura
+UNION
+	SELECT SUM(DF.cantidad * DF.pre_unitario) ,
+		SUM(DF.cantidad * DF.pre_unitario)/COUNT(DISTINCT F.NRO_FACTURA),
+		COUNT(DISTINCT F.NRO_FACTURA),
+		'EN EL AÑO CORRIENTE' TIEMPO
+	from DETALLE_FACTURAS df
+	JOIN FACTURAS F ON F.nro_factura = DF.nro_factura
+	where DATEDIFF(YEAR, f.fecha ,getdate())=0
+UNION
+	SELECT SUM(DF.cantidad * DF.pre_unitario) ,
+		SUM(DF.cantidad * DF.pre_unitario)/COUNT(DISTINCT F.NRO_FACTURA),
+		COUNT(DISTINCT F.NRO_FACTURA),
+		'PRIMER SEMESTRE DEL AÑO' TIEMPO
+	from DETALLE_FACTURAS df
+	JOIN FACTURAS F ON F.nro_factura = DF.nro_factura
+	where YEAR(FECHA)=YEAR(GETDATE())
+		AND MONTH(FECHA) BETWEEN 1 AND 6
+UNION
+	SELECT SUM(DF.cantidad * DF.pre_unitario) ,
+		SUM(DF.cantidad * DF.pre_unitario)/COUNT(DISTINCT F.NRO_FACTURA),
+		COUNT(DISTINCT F.NRO_FACTURA),
+		'EL AÑO PASADO' TIEMPO
+	FROM FACTURAS F
+	JOIN DETALLE_FACTURAS DF ON DF.nro_factura = F.nro_factura
+	WHERE DATEDIFF(YEAR,FECHA,GETDATE())=1
+go
+/*Se necesita una lista de los clientes que más gastaron en los últimos dos años, de los clientes se quiere tener nombre
+completo del cliente, contacto, tipo contacto, producto que compro, cantidad de productos que compro y el importe.
+A los tipos de contactos, se necesita email y WhatsApp (si tuviese ambos), rotule. Utilizando la vista, muestre los 10
+clientes que más gastaron, cantidad de productos comprados, nombre del cliente completo, su contacto y tipo de
+contacto, para poder ofrecerles descuentos por ser los clientes que más invierten en la empresa.*/
+CREATE VIEW VISTA_MAYORES_CLIENTES
+AS
+SELECT DISTINCT C.nombre 'CLIENTE',CO.descripcion 'CONTACTO', TP.descripcion'TIPO CONTACTO',P.producto 'PRODUCTO' ,
+		SUM(DF.CANTIDAD)'CANTIDAD PRODUCTOS',
+		SUM(DF.cantidad*DF.pre_unitario)'SUB TOTAL'
+FROM CLIENTES C
+JOIN CONTACTOS CO ON CO.cod_cliente = C.cod_cliente
+JOIN TIPO_CONTACTOS TP ON TP.id = CO.id_tipo_contacto
+JOIN FACTURAS F ON F.cod_cliente = C.cod_cliente
+JOIN DETALLE_FACTURAS DF ON DF.nro_factura = F.nro_factura
+JOIN PRODUCTOS P ON P.id_producto = DF.cod_producto
+WHERE TP.descripcion IN ('EMAIL','WHATSAPP')
+	AND DATEDIFF(YEAR,F.fecha,GETDATE()) IN (0,1)
+GROUP BY C.NOMBRE,CO.descripcion,TP.descripcion,P.producto;
