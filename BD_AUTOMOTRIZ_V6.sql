@@ -1,6 +1,6 @@
-CREATE DATABASE AUTOMOTRIZ_V5_6
+CREATE DATABASE AUTOMOTRIZ_V6
 GO
-USE AUTOMOTRIZ_V5_6
+USE AUTOMOTRIZ_V6
 GO
 CREATE TABLE PAISES(
 id_pais int,
@@ -981,18 +981,22 @@ go
 alter table clientes
 add Fecha_Baja datetime
 go
-
+alter table PRODUCTOS
+add Fecha_Baja datetime
+go
 								------------------------------------- Consultas simples -------------------------------------
 create procedure SP_CONSULTAR_PRODUCTOS
 AS
 BEGIN
 	SELECT*FROM PRODUCTOS
+	where fecha_baja is null
 END
 go
 create procedure SP_CONSULTAR_CLIENTES
 AS
 BEGIN
 	SELECT*FROM clientes
+	where Fecha_Baja is null
 END
 go
 create procedure SP_CONSULTAR_TIPO_CLIENTES
@@ -1206,12 +1210,10 @@ create PROCEDURE sp_eliminarProducto
     @ProductoID INT
 AS
 BEGIN
-    
-    IF EXISTS (SELECT 1 FROM PRODUCTOS WHERE id_producto = @ProductoID)
-    BEGIN
-        
-        DELETE FROM PRODUCTOS WHERE id_producto = @ProductoID;
-    END
+    update PRODUCTOS
+	set fecha_baja=GETDATE()
+	where id_producto=@ProductoID
+ 
 END
 go
 create PROCEDURE sp_ConsultarProductos_param
@@ -1224,20 +1226,26 @@ BEGIN
     SELECT
          p.id_producto,
 		 p.producto,
-		 TP.descripcion,
+		 p.id_tipo_producto,
+		 
 		 p.num_serie,
 		 p.precio,
 		 p.fecha_fabricacion,
 		 p.vida_util,
 		 p.peso,
-		 TUP.descripcion 'unidadPeso',
+		 P.id_unidad_peso,
+		 
 		 p.largo,
 		 p.ancho,
 		 p.alto,
-		 TUM.descripcion 'unidadMedida',
-		 TM.descripcion 'TipoMaterial',
-		 PP.pais,
-		 M.marca
+		 P.id_unidad_medida,
+		 
+		 P.id_tipo_material,
+		 
+		 P.id_pais,
+		 
+		 P.id_marca
+		
     FROM
         PRODUCTOS P
         INNER JOIN MARCAS M ON P.id_marca = M.id
