@@ -88,7 +88,7 @@ la parte de la base de datos que usamos es la siguiente:
 ### SP usados
 
 ```
-								------------------------------------- Consultas simples -------------------------------------
+------------------------------------- Consultas simples -------------------------------------
 create procedure SP_CONSULTAR_PRODUCTOS
 AS
 BEGIN
@@ -174,7 +174,7 @@ BEGIN
 END
 go
 
-										------------------------------------- CLIENTES -------------------------------------
+------------------------------------- CLIENTES -------------------------------------
  CREATE PROCEDURE sp_insertar_clientes 
 @nombre varchar(75),
 @razonSocial varchar(75),
@@ -283,7 +283,7 @@ select*
  from CLIENTES 
  where cod_cliente = @id
 go
-									------------------------------------- PRODUCTOS -------------------------------------
+------------------------------------- PRODUCTOS -------------------------------------
 CREATE PROCEDURE SP_INSERTAR_PRODUCTOS
 @producto varchar(100),
 @id_tipo_producto int, @num_serie int,
@@ -417,7 +417,7 @@ Select  P.*, TP.descripcion, TM.descripcion, M.marca
     WHERE @id = id_producto
 	end
 go
-										-------------------------------------   FACTURAS   -------------------------------------
+-------------------------------------   FACTURAS   -------------------------------------
 create procedure sp_insertar_factura
 @cliente int,
 @tipo_facturas int,
@@ -442,7 +442,7 @@ begin
 	values (@factura,@producto,@precio,@cantidad);
 end
 go
-										------------------------------------- ORDENES -------------------------------------
+------------------------------------- ORDENES -------------------------------------
 create procedure sp_insert_orden
 @detalles varchar(150),
 @orden int output --para sacar el id de orden de pedidos
@@ -466,7 +466,7 @@ begin
 	values(@fecha,@orden,@producto,@cantidad,@precio); 
 end
 go
-													------------------------------------- TRIGGER   -------------------------------------
+------------------------------------- TRIGGER   -------------------------------------
 create trigger t_reduccion_de_stock
 on detalle_facturas
 for insert
@@ -485,7 +485,7 @@ end
 go
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-											-------------------------------------Consultas espesificas de reporte-------------------------------------
+-------------------------------------Consultas espesificas de reporte-------------------------------------
 /*Crear un procedimiento almacenado para usuarios finales que muestre detalladamente los productos que estén en un
 rango de precios que se ellos especifiquen como parámetros al ejecutar el SP, en caso de que no exista productos entre
 esos precios se deberá mostrar un mensaje que avise de ello:*/
@@ -677,7 +677,7 @@ END
 go
 
 
-											------------------------ Vistas -----------------------------------
+------------------------------------- Vistas -------------------------------------
 /*Crear una vista que permita ver el total recaudado, el promedio recaudado por factura y la cantidad de facturas
 registradas para los siguientes periodos de tiempo: en el primer semestre del año, el año actual, el año pasado y desde
 los inicios de la empresa hasta la actualidad.*/
