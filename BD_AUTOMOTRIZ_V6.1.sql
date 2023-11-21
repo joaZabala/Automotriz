@@ -1,6 +1,6 @@
-CREATE DATABASE AUTOMOTRIZ_V6
+CREATE DATABASE AUTOMOTRIZ_V6_1
 GO
-USE AUTOMOTRIZ_V6
+USE AUTOMOTRIZ_V6_1
 GO
 CREATE TABLE PAISES(
 id_pais int,
@@ -1338,6 +1338,31 @@ begin
 	values (@factura,@producto,@precio,@cantidad);
 end
 go
+CREATE PROCEDURE SP_VER_FACTURAS
+@fec_desde datetime,
+@fec_hasta datetime
+AS
+BEGIN
+	SELECT f.nro_factura,
+			f.fecha,
+			c.nombre
+	FROM FACTURAS f
+	JOIN CLIENTES c on c.cod_cliente = f.cod_cliente
+	WHERE f.fecha between @fec_desde and @fec_hasta
+end
+go
+create procedure SP_VER_DETALLE_FACTURA
+@nro_factura int
+AS
+BEGIN
+	SELECT	p.producto,
+			d.pre_unitario,
+			d.cantidad
+	FROM DETALLE_FACTURAS d
+	JOIN PRODUCTOS p on p.id_producto = d.cod_producto
+	WHERE d.nro_factura = @nro_factura
+end
+go
 										------------------------------------- ORDENES -------------------------------------
 create procedure sp_insert_orden
 @detalles varchar(150),
@@ -1381,7 +1406,7 @@ end
 go
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 
--------------------------------------LAB II-------------------------------------
+											-------------------------------------Consultas espesificas de reporte-------------------------------------
 /*Crear un procedimiento almacenado para usuarios finales que muestre detalladamente los productos que estén en un
 rango de precios que se ellos especifiquen como parámetros al ejecutar el SP, en caso de que no exista productos entre
 esos precios se deberá mostrar un mensaje que avise de ello:*/

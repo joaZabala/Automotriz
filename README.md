@@ -173,7 +173,6 @@ BEGIN
 	SELECT * FROM TIPO_FACTURA
 END
 go
-
 ------------------------------------- CLIENTES -------------------------------------
  CREATE PROCEDURE sp_insertar_clientes 
 @nombre varchar(75),
@@ -282,8 +281,7 @@ as
 select*
  from CLIENTES 
  where cod_cliente = @id
-go
-------------------------------------- PRODUCTOS -------------------------------------
+go------------------------------------- PRODUCTOS -------------------------------------
 CREATE PROCEDURE SP_INSERTAR_PRODUCTOS
 @producto varchar(100),
 @id_tipo_producto int, @num_serie int,
@@ -442,7 +440,31 @@ begin
 	values (@factura,@producto,@precio,@cantidad);
 end
 go
-------------------------------------- ORDENES -------------------------------------
+CREATE PROCEDURE SP_VER_FACTURAS
+@fec_desde datetime,
+@fec_hasta datetime
+AS
+BEGIN
+	SELECT f.nro_factura,
+			f.fecha,
+			c.nombre
+	FROM FACTURAS f
+	JOIN CLIENTES c on c.cod_cliente = f.cod_cliente
+	WHERE f.fecha between @fec_desde and @fec_hasta
+end
+go
+create procedure SP_VER_DETALLE_FACTURA
+@nro_factura int
+AS
+BEGIN
+	SELECT	p.producto,
+			d.pre_unitario,
+			d.cantidad
+	FROM DETALLE_FACTURAS d
+	JOIN PRODUCTOS p on p.id_producto = d.cod_producto
+	WHERE d.nro_factura = @nro_factura
+end
+go------------------------------------- ORDENES -------------------------------------
 create procedure sp_insert_orden
 @detalles varchar(150),
 @orden int output --para sacar el id de orden de pedidos
@@ -466,7 +488,7 @@ begin
 	values(@fecha,@orden,@producto,@cantidad,@precio); 
 end
 go
-------------------------------------- TRIGGER   -------------------------------------
+													------------------------------------- TRIGGER   -------------------------------------
 create trigger t_reduccion_de_stock
 on detalle_facturas
 for insert
@@ -484,7 +506,6 @@ begin
 end
 go
 ----------------------------------------------------------------------------------------------------------------------------------------------------
-
 -------------------------------------Consultas espesificas de reporte-------------------------------------
 /*Crear un procedimiento almacenado para usuarios finales que muestre detalladamente los productos que estén en un
 rango de precios que se ellos especifiquen como parámetros al ejecutar el SP, en caso de que no exista productos entre
@@ -676,8 +697,7 @@ BEGIN
 END
 go
 
-
-------------------------------------- Vistas -------------------------------------
+------------------------ Vistas -----------------------------------
 /*Crear una vista que permita ver el total recaudado, el promedio recaudado por factura y la cantidad de facturas
 registradas para los siguientes periodos de tiempo: en el primer semestre del año, el año actual, el año pasado y desde
 los inicios de la empresa hasta la actualidad.*/
