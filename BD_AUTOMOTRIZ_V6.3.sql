@@ -1,6 +1,6 @@
-CREATE DATABASE AUTOMOTRIZ_V6_1
+CREATE DATABASE AUTOMOTRIZ_V6_3
 GO
-USE AUTOMOTRIZ_V6_1
+USE AUTOMOTRIZ_V6_3
 GO
 CREATE TABLE PAISES(
 id_pais int,
@@ -1259,6 +1259,7 @@ BEGIN
         AND P.id_marca = @Marca
         AND P.id_tipo_producto = @TipoProductoID
         AND P.id_tipo_material = @TipoMaterialID 
+		and p.fecha_baja is null
 END
 GO
 create procedure SP_MODIFICAR_PRODUCTO
@@ -1458,7 +1459,7 @@ solicitados y de allí poder tomar decisiones:*/
 create procedure sp_Autoplan_popular
 as
 begin
-	SELECT a.descripcion 'AutoPlan más Elegido'
+	SELECT a.descripcion 'AutoPlan_mas_Elegido'
 	FROM AUTOPLANES a
 	WHERE year(a.fecha_inicio)=year(GETDATE()) 
 	and a.id_autoplan IN (SELECT TOP 5 ac.id_autoplan

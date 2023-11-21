@@ -281,7 +281,8 @@ as
 select*
  from CLIENTES 
  where cod_cliente = @id
-go------------------------------------- PRODUCTOS -------------------------------------
+go
+------------------------------------- PRODUCTOS -------------------------------------
 CREATE PROCEDURE SP_INSERTAR_PRODUCTOS
 @producto varchar(100),
 @id_tipo_producto int, @num_serie int,
@@ -361,6 +362,7 @@ BEGIN
         AND P.id_marca = @Marca
         AND P.id_tipo_producto = @TipoProductoID
         AND P.id_tipo_material = @TipoMaterialID 
+		and p.fecha_baja is null
 END
 GO
 create procedure SP_MODIFICAR_PRODUCTO
@@ -464,7 +466,8 @@ BEGIN
 	JOIN PRODUCTOS p on p.id_producto = d.cod_producto
 	WHERE d.nro_factura = @nro_factura
 end
-go------------------------------------- ORDENES -------------------------------------
+go
+------------------------------------- ORDENES -------------------------------------
 create procedure sp_insert_orden
 @detalles varchar(150),
 @orden int output --para sacar el id de orden de pedidos
