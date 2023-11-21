@@ -39,7 +39,7 @@ librerías, frameworks y herramientas usadas:
 ---
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/joaZabala/Automotriz.git
 ```
 ## Area de Control
 ---
