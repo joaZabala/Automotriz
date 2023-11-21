@@ -75,7 +75,7 @@ cosas que faltan y cosas completas
 	- [x] form productos
 	- [x] form facturas
 	- [x] form ordenes
-	- [ ] reportes
+	- [x] reportes
 ## Integración de Api
 ---
 explicacion de como la APi funciona y como esta integrada
