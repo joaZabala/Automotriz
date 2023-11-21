@@ -453,6 +453,7 @@ BEGIN
 	FROM FACTURAS f
 	JOIN CLIENTES c on c.cod_cliente = f.cod_cliente
 	WHERE f.fecha between @fec_desde and @fec_hasta
+	and f.fecha_baja is null
 end
 go
 create procedure SP_VER_DETALLE_FACTURA
@@ -466,6 +467,13 @@ BEGIN
 	JOIN PRODUCTOS p on p.id_producto = d.cod_producto
 	WHERE d.nro_factura = @nro_factura
 end
+go
+create procedure sp_eliminar_detalle_factura
+ @nro_factura int
+ as
+  update facturas 
+  set fecha_baja = getdate()
+  where nro_factura= @nro_factura
 go
 ------------------------------------- ORDENES -------------------------------------
 create procedure sp_insert_orden
@@ -491,7 +499,7 @@ begin
 	values(@fecha,@orden,@producto,@cantidad,@precio); 
 end
 go
-													------------------------------------- TRIGGER   -------------------------------------
+------------------------------------- TRIGGER   -------------------------------------
 create trigger t_reduccion_de_stock
 on detalle_facturas
 for insert

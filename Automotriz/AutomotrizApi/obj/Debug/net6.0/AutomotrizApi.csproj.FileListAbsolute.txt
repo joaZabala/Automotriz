@@ -1,0 +1,192 @@
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\appsettings.json
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.exe
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.deps.json
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.runtimeconfig.json
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.pdb
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets\msbuild.AutomotrizApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets\msbuild.build.AutomotrizApi.props
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AutomotrizApi.props
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AutomotrizApi.props
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\scopedcss\bundle\AutomotrizApi.styles.css
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.csproj.CopyComplete
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\refint\AutomotrizApi.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.pdb
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.genruntimeconfig.cache
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\ref\AutomotrizApi.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\appsettings.json
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.exe
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.deps.json
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.runtimeconfig.json
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.pdb
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizBack.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizBack.pdb
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets\msbuild.AutomotrizApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets\msbuild.build.AutomotrizApi.props
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AutomotrizApi.props
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AutomotrizApi.props
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\scopedcss\bundle\AutomotrizApi.styles.css
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.csproj.CopyComplete
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\refint\AutomotrizApi.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.pdb
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.genruntimeconfig.cache
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizApi\obj\Debug\net6.0\ref\AutomotrizApi.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\appsettings.json
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.exe
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.deps.json
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.runtimeconfig.json
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.pdb
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizBack.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizBack.pdb
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets\msbuild.AutomotrizApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets\msbuild.build.AutomotrizApi.props
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AutomotrizApi.props
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AutomotrizApi.props
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\scopedcss\bundle\AutomotrizApi.styles.css
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.csproj.CopyComplete
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\refint\AutomotrizApi.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.pdb
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.genruntimeconfig.cache
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\ref\AutomotrizApi.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\appsettings.json
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.exe
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.deps.json
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.runtimeconfig.json
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.pdb
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizBack.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizBack.pdb
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.csproj.AssemblyReference.cache
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.AssemblyInfoInputs.cache
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.AssemblyInfo.cs
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.csproj.CoreCompileInputs.cache
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets\msbuild.AutomotrizApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets\msbuild.build.AutomotrizApi.props
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AutomotrizApi.props
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AutomotrizApi.props
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\scopedcss\bundle\AutomotrizApi.styles.css
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.csproj.CopyComplete
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\refint\AutomotrizApi.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.pdb
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.genruntimeconfig.cache
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\ref\AutomotrizApi.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\appsettings.json
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.exe
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.deps.json
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.runtimeconfig.json
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizApi.pdb
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizBack.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\bin\Debug\net6.0\AutomotrizBack.pdb
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets\msbuild.AutomotrizApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets\msbuild.build.AutomotrizApi.props
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AutomotrizApi.props
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AutomotrizApi.props
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\scopedcss\bundle\AutomotrizApi.styles.css
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.csproj.CopyComplete
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\refint\AutomotrizApi.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.pdb
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\AutomotrizApi.genruntimeconfig.cache
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizApi\obj\Debug\net6.0\ref\AutomotrizApi.dll

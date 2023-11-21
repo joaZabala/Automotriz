@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Presentación\frmAltaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentación\FrmAutoplanes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentación\frmConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentación\FrmConsultaFac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentación\frmConsultarProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentación\FrmConsultarTotal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentación\frmContactoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentación\FrmDetalleFacturas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentación\FrmFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentación\frmMejorCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentación\FrmModificarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentación\frmNuevoProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentación\FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentación\frm_piezas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentación\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentación\MarcasPopulares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

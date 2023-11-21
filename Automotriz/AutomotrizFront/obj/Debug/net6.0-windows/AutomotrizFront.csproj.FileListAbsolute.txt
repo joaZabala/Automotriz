@@ -1,0 +1,488 @@
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.exe
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.deps.json
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.runtimeconfig.json
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.pdb
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.Common.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizBack.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizBack.pdb
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.AssemblyReference.cache
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotriszFront.Presentacion.frmAltaCliente.resources
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmAutoplanes.resources
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotriszFront.Presentacion.frmConsulta.resources
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmConsultaFac.resources
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.frmConsultarProd.resources
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmDetalleFacturas.resources
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.FrmFactura.resources
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.FrmModificarCliente.resources
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.frmNuevoProducto.resources
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.FrmPrincipal.resources
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.Login.resources
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.GenerateResource.cache
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.AssemblyInfoInputs.cache
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.AssemblyInfo.cs
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.CoreCompileInputs.cache
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.CopyComplete
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\refint\AutomotrizFront.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.pdb
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.genruntimeconfig.cache
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\ref\AutomotrizFront.dll
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.MarcasPopulares.resources
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmConsultarTotal.resources
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.frm_piezas.resources
+C:\Users\Tinon\OneDrive\Escritorio\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.frmMejorCliente.resources
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.exe
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.deps.json
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.runtimeconfig.json
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.pdb
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.Common.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.WinForms.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizBack.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizBack.pdb
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotriszFront.Presentacion.frmAltaCliente.resources
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmAutoplanes.resources
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotriszFront.Presentacion.frmConsulta.resources
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmConsultaFac.resources
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.frmConsultarProd.resources
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmConsultarTotal.resources
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmDetalleFacturas.resources
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.FrmFactura.resources
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.frmMejorCliente.resources
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.FrmModificarCliente.resources
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.frmNuevoProducto.resources
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.FrmPrincipal.resources
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.frm_piezas.resources
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.Login.resources
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.MarcasPopulares.resources
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.CopyComplete
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\refint\AutomotrizFront.dll
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.pdb
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.genruntimeconfig.cache
+C:\Users\lenovo\Desktop\APP AUTOMOTRIZ LABO\Automotriz\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\ref\AutomotrizFront.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.exe
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.deps.json
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.runtimeconfig.json
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.pdb
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.Common.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.WinForms.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizBack.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizBack.pdb
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotriszFront.Presentacion.frmAltaCliente.resources
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmAutoplanes.resources
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotriszFront.Presentacion.frmConsulta.resources
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmConsultaFac.resources
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.frmConsultarProd.resources
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmConsultarTotal.resources
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmDetalleFacturas.resources
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.FrmFactura.resources
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.frmMejorCliente.resources
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.FrmModificarCliente.resources
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.frmNuevoProducto.resources
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.FrmPrincipal.resources
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.frm_piezas.resources
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.Login.resources
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.MarcasPopulares.resources
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Properties.Resources.resources
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.CopyComplete
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\refint\AutomotrizFront.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.pdb
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.genruntimeconfig.cache
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\ref\AutomotrizFront.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.frmContactoCliente.resources
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.deps.json
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.runtimeconfig.json
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\appsettings.Development.json
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\appsettings.json
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.exe
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.OpenApi.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.dll
+C:\Users\lenovo\Desktop\APP LABO VALIDADO\App Lab\Proyecto\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.pdb
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\appsettings.Development.json
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\appsettings.json
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.deps.json
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.runtimeconfig.json
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.exe
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.exe
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.deps.json
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.runtimeconfig.json
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.pdb
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.OpenApi.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.Common.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.WinForms.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizBack.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.pdb
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizBack.pdb
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotriszFront.Presentacion.frmAltaCliente.resources
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmAutoplanes.resources
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotriszFront.Presentacion.frmConsulta.resources
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmConsultaFac.resources
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.frmConsultarProd.resources
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmConsultarTotal.resources
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.frmContactoCliente.resources
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmDetalleFacturas.resources
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.FrmFactura.resources
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.frmMejorCliente.resources
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.FrmModificarCliente.resources
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.frmNuevoProducto.resources
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.FrmPrincipal.resources
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.frm_piezas.resources
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.Login.resources
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.MarcasPopulares.resources
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Properties.Resources.resources
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.CopyComplete
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\refint\AutomotrizFront.dll
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.pdb
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.genruntimeconfig.cache
+C:\Users\lenovo\Desktop\automotriz nuevo\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\ref\AutomotrizFront.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\appsettings.Development.json
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\appsettings.json
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.deps.json
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.runtimeconfig.json
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.exe
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.exe
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.deps.json
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.runtimeconfig.json
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.pdb
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.OpenApi.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.Common.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizBack.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.pdb
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizBack.pdb
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.AssemblyReference.cache
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotriszFront.Presentacion.frmAltaCliente.resources
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmAutoplanes.resources
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotriszFront.Presentacion.frmConsulta.resources
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmConsultaFac.resources
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.frmConsultarProd.resources
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmConsultarTotal.resources
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.frmContactoCliente.resources
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmDetalleFacturas.resources
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.FrmFactura.resources
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.frmMejorCliente.resources
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.FrmModificarCliente.resources
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.frmNuevoProducto.resources
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.FrmPrincipal.resources
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.frm_piezas.resources
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.Login.resources
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.MarcasPopulares.resources
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Properties.Resources.resources
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.GenerateResource.cache
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.AssemblyInfoInputs.cache
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.AssemblyInfo.cs
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.CoreCompileInputs.cache
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.CopyComplete
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\refint\AutomotrizFront.dll
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.pdb
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.genruntimeconfig.cache
+C:\Users\Tinon\Downloads\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\ref\AutomotrizFront.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\appsettings.Development.json
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\appsettings.json
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.deps.json
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.runtimeconfig.json
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.exe
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.exe
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.deps.json
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.runtimeconfig.json
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizFront.pdb
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.OpenApi.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.Common.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Microsoft.ReportViewer.WinForms.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizBack.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizApi.pdb
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\bin\Debug\net6.0-windows\AutomotrizBack.pdb
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotriszFront.Presentacion.frmAltaCliente.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmAutoplanes.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotriszFront.Presentacion.frmConsulta.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmConsultaFac.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.frmConsultarProd.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmConsultarTotal.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.frmContactoCliente.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.FrmDetalleFacturas.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.FrmFactura.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.frmMejorCliente.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.FrmModificarCliente.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.frmNuevoProducto.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.FrmPrincipal.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.frm_piezas.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentacion.Login.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Presentación.MarcasPopulares.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.Properties.Resources.resources
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.csproj.CopyComplete
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\refint\AutomotrizFront.dll
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.pdb
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\AutomotrizFront.genruntimeconfig.cache
+C:\Users\lenovo\Desktop\Automotriz\Automotriz\Automotriz\Automotriz\AutomotrizFront\obj\Debug\net6.0-windows\ref\AutomotrizFront.dll
